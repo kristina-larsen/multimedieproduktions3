@@ -14,10 +14,9 @@ p {
 
 header {
   background-color: rgba(255,255,255, 0.5);
-  position: absolute;
+  position:relative;
   width: 100%;
-  clear: both;
-  height: 100px;
+  height: 40px;
 
   div {
 
@@ -26,7 +25,7 @@ header {
       img {
       width: 70px;
       height: auto;
-      margin: 2% 0% 2% 4%;
+      margin: 4.5% 0% 2% 4%;
      }
    }
  }
@@ -37,15 +36,22 @@ nav {
 }
 
 .mestsete {
-  /*background-color: #45C2D1;*/
+  background-color: #45C2D1;
   width: 100%;
   height: 200px;
   margin: 0;
-  /*padding-top: 15%;*/
   clear: both;
+  padding: 8px 0px 60px 0px;
+  margin-top: 16px;
 
   h1 {
     margin-left: 5%;
+    color: white;
+  }
+
+  video {
+    margin-left: 5%;
+    margin-top: 7px;
   }
 }
 }
