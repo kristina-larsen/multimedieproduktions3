@@ -13,7 +13,7 @@ p {
 }
 
 header {
-  background-color: rgba(255,255,255, 0.5);
+  background-color: white;
   position:relative;
   width: 100%;
   height: 40px;
@@ -34,6 +34,8 @@ nav {
   display: none;
  }
 }
+
+/* Videobibliotek mobil. */
 
 .mestsete {
   background-color: #45C2D1;
@@ -83,6 +85,24 @@ margin-top: 0px;
     }
    }
 
+/* Forside mobil. */
+
+.forsidetekstogbillede {
+  position: relative;
+  margin: 0;
+
+.forsidebillede {
+  width: 100%;
+  height: auto;
+
+
+.help {
+  position: absolute;
+}
+}
+}
+
+
 @media screen and (min-width: 766px){ /* Tablet-version */
 
 body {
@@ -105,8 +125,15 @@ body {
 }
 }
 
+
+/* Forside ipad. */
+.forsidebillede {
+  margin-top: 2%;
+}
+
 @media screen and (min-width: 992px){ /* Desktop-version */
 
+body {
   header {
     width: 100%;
 
@@ -115,11 +142,11 @@ body {
       a {
 
         img {
-        width: 90px;
+        width: 80px;
         height: auto;
         margin: 0;
         float: left;
-        padding: 9px 0px 0px 0px;
+        padding: 2.5% 0% 0% 3%;
        }
      }
 
@@ -164,4 +191,5 @@ nav {
    }
   }
  }
+}
 }
