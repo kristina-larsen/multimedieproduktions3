@@ -84,6 +84,25 @@ margin-top: 0px;
    }
 
 @media screen and (min-width: 766px){ /* Tablet-version */
+
+body {
+
+  header {
+    height: 90px;
+
+    div {
+
+      a {
+
+        img {
+        width: 130px;
+        height: auto;
+        margin: 4.5% 0% 2% 4%;
+       }
+     }
+   }
+ }
+}
 }
 
 @media screen and (min-width: 992px){ /* Desktop-version */
