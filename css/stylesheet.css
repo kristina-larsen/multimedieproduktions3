@@ -2,8 +2,8 @@
 body {
   margin: 0;
   padding: 0;
-  /* Videobibliotek mobil. */
   /* Selve slideshowet */
+  /* Forside mobil. */
 }
 body h1 {
   font-family: 'Raleway', sans-serif;
@@ -11,7 +11,7 @@ body h1 {
 }
 body p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 body header {
   background-color: white;
@@ -28,34 +28,22 @@ body header nav {
   display: none;
 }
 body .mestsete {
-  background-color: #45C2D1;
-  width: 100%;
-  height: 200px;
-  margin: 0;
-  clear: both;
-  padding: 8px 0px 60px 0px;
-  margin-top: 16px;
-}
-body .mestsete h1 {
-  margin-left: 5%;
-  color: white;
-}
-body .mestsete video {
-  margin-left: 5%;
-  margin-top: 7px;
-}
-body .mercoverlay {
-  height: 290px;
+  height: 270px;
   width: 100%;
   background-color: white;
   display: inline-flex;
   bottom: 0;
   overflow-wrap: break-word;
+  background-color: #45C2D1;
   /* Pilen til venstre */
   /* Pilen til højre */
   /* Selve slideshowet */
 }
-body .mercoverlay .control_prev {
+body .mestsete .overskriftvideoside {
+  position: absolute;
+  margin: 15px 55px;
+}
+body .mestsete .control_prev {
   margin-top: 110px;
   text-decoration: none;
   font-size: 60px;
@@ -64,7 +52,7 @@ body .mercoverlay .control_prev {
   z-index: 10;
   margin-left: 1%;
 }
-body .mercoverlay .control_next {
+body .mestsete .control_next {
   margin-top: 110px;
   text-decoration: none;
   font-size: 60px;
@@ -73,35 +61,33 @@ body .mercoverlay .control_next {
   z-index: 10;
   margin-left: 95%;
 }
-body .mercoverlay #slider {
+body .mestsete #slider {
   width: 95%;
-  height: 275px;
+  height: 230px;
   overflow: hidden;
-  margin: auto;
-  margin-top: 4px;
   position: absolute;
   clip: rect(10px, 1000px);
-  margin: 0% 2.5%;
+  margin: 40px 2.5% 0 2.5%;
   /* Styring af billederne i slideshowet */
   /* Billederne i slideshowet */
   /* Billederne til venstre i slideshowet */
 }
-body .mercoverlay #slider .slides {
+body .mestsete #slider .slides {
   display: block;
-  width: 5100px;
+  width: 6560px;
   max-height: 300px;
   padding: 0%;
 }
-body .mercoverlay #slider .slide {
+body .mestsete #slider .slide {
   float: left;
   list-style-type: none;
-  width: 250px;
-  height: 250px;
-  margin: 0 5px;
+  width: 380px;
+  height: auto;
+  margin: 0 15px;
   /* Skriften over billederne */
   /* Selve billederne */
 }
-body .mercoverlay #slider .slide h2 {
+body .mestsete #slider .slide .text6 {
   background-color: rgba(255, 255, 255, 0.7);
   width: 135px;
   height: 70px;
@@ -114,62 +100,136 @@ body .mercoverlay #slider .slide h2 {
   margin-top: -178px;
   color: #293952;
 }
-body .mercoverlay #slider .slide img {
+body .mestsete #slider .slide img {
   width: 100%;
   height: auto;
   position: relative;
 }
-body .mercoverlay #slider .left1 {
-  margin-left: -265px;
+body .mestsete #slider .left1 {
+  margin-left: -415px;
 }
-body .mercoverlay #slider .left2 {
-  margin-left: -530px;
+body .mestsete #slider .left2 {
+  margin-left: -830px;
 }
-body .mercoverlay #slider .left3 {
-  margin-left: -795px;
+body .mestsete #slider .left3 {
+  margin-left: -1245px;
 }
-body .mercoverlay #slider .left4 {
-  margin-left: -1060px;
+body .mestsete #slider .left4 {
+  margin-left: -1660px;
 }
-body .mercoverlay #slider .left5 {
-  margin-left: -1325px;
+body .mestsete #slider .left5 {
+  margin-left: -2075px;
 }
-
-.minliste, .kropsvægtstræning, .korrektionstræning, .opvarmningsprogrammer, .kettlebelltræning, .vægtstangstræning {
+body .fællesslider {
+  height: 270px;
   width: 100%;
-  height: 200px;
-  margin: 0;
-  clear: both;
-  padding: 8px 0px 60px 0px;
-  margin-top: 16px;
+  background-color: white;
+  display: inline-flex;
+  bottom: 0;
+  overflow-wrap: break-word;
+  /* Pilen til venstre */
+  /* Pilen til højre */
+  /* Selve slideshowet */
 }
-.minliste h1, .kropsvægtstræning h1, .korrektionstræning h1, .opvarmningsprogrammer h1, .kettlebelltræning h1, .vægtstangstræning h1 {
-  margin-left: 5%;
-  color: black;
-}
-.minliste video, .kropsvægtstræning video, .korrektionstræning video, .opvarmningsprogrammer video, .kettlebelltræning video, .vægtstangstræning video {
-  margin-left: 5%;
-  margin-top: 7px;
-}
-
-.kropsvægtstræning, .korrektionstræning, .opvarmningsprogrammer, .kettlebelltræning, .vægtstangstræning {
-  margin-top: 0px;
-}
-.kropsvægtstræning video, .korrektionstræning video, .opvarmningsprogrammer video, .kettlebelltræning video, .vægtstangstræning video {
-  margin-top: 0px;
-}
-
-/* Forside mobil. */
-.forsidetekstogbillede {
-  position: relative;
-  margin: 0;
-}
-.forsidetekstogbillede .forsidebillede {
-  width: 100%;
-  height: auto;
-}
-.forsidetekstogbillede .forsidebillede .help {
+body .fællesslider .overskriftvideoside {
   position: absolute;
+  margin: 15px 55px;
+}
+body .fællesslider .control_prev {
+  margin-top: 110px;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: Roboto;
+  color: black;
+  z-index: 10;
+  margin-left: 1%;
+}
+body .fællesslider .control_next {
+  margin-top: 110px;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: Roboto;
+  color: black;
+  z-index: 10;
+  margin-left: 95%;
+}
+body .fællesslider #slider {
+  width: 95%;
+  height: 230px;
+  overflow: hidden;
+  position: absolute;
+  clip: rect(10px, 1000px);
+  margin: 40px 2.5% 0 2.5%;
+  /* Styring af billederne i slideshowet */
+  /* Billederne i slideshowet */
+  /* Billederne til venstre i slideshowet */
+}
+body .fællesslider #slider .slides {
+  display: block;
+  width: 6560px;
+  max-height: 300px;
+  padding: 0%;
+}
+body .fællesslider #slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 380px;
+  height: auto;
+  margin: 0 15px;
+  /* Skriften over billederne */
+  /* Selve billederne */
+}
+body .fællesslider #slider .slide .text6 {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 135px;
+  height: 70px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 20px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  position: absolute;
+  margin-top: -178px;
+  color: #293952;
+}
+body .fællesslider #slider .slide img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+body .fællesslider #slider .left1 {
+  margin-left: -415px;
+}
+body .fællesslider #slider .left2 {
+  margin-left: -830px;
+}
+body .fællesslider #slider .left3 {
+  margin-left: -1245px;
+}
+body .fællesslider #slider .left4 {
+  margin-left: -1660px;
+}
+body .fællesslider #slider .left5 {
+  margin-left: -2075px;
+}
+body .forsidetekstogbillede {
+  position: relative;
+  margin: 0;
+}
+body .forsidetekstogbillede .forsidebillede {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+body .forsidetekstogbillede .help {
+  position: absolute;
+}
+body .trebokse {
+  text-align: center;
+  margin: 7% 6% 2% 6%;
+}
+body .trebokse .second, body .trebokse .third {
+  margin-top: 15%;
 }
 
 @media screen and (min-width: 766px) {

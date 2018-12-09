@@ -35,36 +35,43 @@ nav {
  }
 }
 
-/* Videobibliotek mobil. */
+ //Videobibliotek mobil.
 
-.mestsete {
-  background-color: #45C2D1;
-  width: 100%;
-  height: 200px;
-  margin: 0;
-  clear: both;
-  padding: 8px 0px 60px 0px;
-  margin-top: 16px;
-
-  h1 {
-    margin-left: 5%;
-    color: white;
-  }
-
-  video {
-    margin-left: 5%;
-    margin-top: 7px;
-  }
- }
+ // .mestsete {
+ //   background-color: #45C2D1;
+ //   width: 100%;
+ //   height: 200px;
+ //   margin: 0;
+ //   clear: both;
+ //   padding: 8px 0px 60px 0px;
+ //   margin-top: 16px;
+ //
+ //   h1 {
+ //     margin-left: 5%;
+ //     color: white;
+ //   }
+ //
+ //  video {
+ //    margin-left: 5%;
+ //    margin-top: 7px;
+ //  }
+ //  }
 
  /* Selve slideshowet */
-.mercoverlay {
-  height: 290px;
+.mestsete{
+  height: 270px;
   width: 100%;
   background-color: white;
   display: inline-flex;
   bottom: 0;
   overflow-wrap: break-word;
+  background-color: #45C2D1;
+
+  .overskriftvideoside{
+    position: absolute;
+    margin: 15px 55px;
+
+  }
 
       /* Pilen til venstre */
       .control_prev{
@@ -79,30 +86,31 @@ nav {
 
             /* Pilen til højre */
             .control_next{
-              margin-top: 110px;
-              text-decoration: none;
-              font-size: 60px;
-              font-family: Roboto;
-              color: black;
-              z-index: 10;
-              margin-left: 95%;
+            margin-top: 110px;
+            text-decoration: none;
+            font-size: 60px;
+            font-family: Roboto;
+            color: black;
+            z-index: 10;
+            margin-left: 95%;
             }
 
                 /* Selve slideshowet */
                 #slider {
                   width: 95%;
-                  height: 275px;
+                  height: 230px;
                   overflow: hidden;
-                  margin: auto;
-                  margin-top: 4px;
+                //  margin: auto;
+                  //margin-top: 4px;
                   position: absolute;
                   clip: rect(10px, 1000px);
-                  margin: 0% 2.5%;
+                  margin: 40px 2.5% 0 2.5%;;
+                  //overflow-x: visible;
 
                     /* Styring af billederne i slideshowet */
                     .slides {
                        display: block;
-                       width: 5100px;
+                       width: 6560px;
                        max-height: 300px;
                        padding: 0%;
                       }
@@ -111,12 +119,12 @@ nav {
           .slide {
             float: left;
             list-style-type: none;
-            width: 250px;
-            height: 250px;
-            margin: 0 5px;
+            width: 380px;
+            height: auto;
+            margin: 0 15px;
 
 /* Skriften over billederne */
-h2 {
+.text6 {
   background-color: rgba(255,255,255, 0.7);
   width: 135px;
   height: 70px;
@@ -140,56 +148,167 @@ h2 {
 
           /* Billederne til venstre i slideshowet */
           .left1 {
-            margin-left: -265px;
+            margin-left: -415px;
           }
 
                 .left2 {
-                  margin-left: -530px;
+                  margin-left: -830px;
                 }
 
                   .left3{
-                    margin-left: -795px;
+                    margin-left: -1245px;
                   }
 
             .left4 {
-              margin-left: -1060px;
+              margin-left: -1660px;
             }
 
         .left5 {
-          margin-left: -1325px;
+          margin-left: -2075px;
         }
       }
     }
 
+    .fællesslider{
+      height: 270px;
+      width: 100%;
+      background-color: white;
+      display: inline-flex;
+      bottom: 0;
+      overflow-wrap: break-word;
+      //background-color: #45C2D1;
+
+      .overskriftvideoside{
+        position: absolute;
+        margin: 15px 55px;
+
+      }
+
+          /* Pilen til venstre */
+          .control_prev{
+            margin-top: 110px;
+            text-decoration: none;
+            font-size: 60px;
+            font-family: Roboto;
+            color: black;
+            z-index: 10;
+            margin-left: 1%;
+          }
+
+                /* Pilen til højre */
+                .control_next{
+                margin-top: 110px;
+                text-decoration: none;
+                font-size: 60px;
+                font-family: Roboto;
+                color: black;
+                z-index: 10;
+                margin-left: 95%;
+                }
+
+                    /* Selve slideshowet */
+                    #slider {
+                      width: 95%;
+                      height: 230px;
+                      overflow: hidden;
+                    //  margin: auto;
+                      //margin-top: 4px;
+                      position: absolute;
+                      clip: rect(10px, 1000px);
+                      margin: 40px 2.5% 0 2.5%;;
+                      //overflow-x: visible;
+
+                        /* Styring af billederne i slideshowet */
+                        .slides {
+                           display: block;
+                           width: 6560px;
+                           max-height: 300px;
+                           padding: 0%;
+                          }
+
+              /* Billederne i slideshowet */
+              .slide {
+                float: left;
+                list-style-type: none;
+                width: 380px;
+                height: auto;
+                margin: 0 15px;
+
+    /* Skriften over billederne */
+    .text6 {
+      background-color: rgba(255,255,255, 0.7);
+      width: 135px;
+      height: 70px;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 10px;
+      font-size: 20px;
+      font-family: 'Quattrocento Sans', sans-serif;
+      position: absolute;
+      margin-top: -178px;
+      color: #293952;
+      }
+
+          /* Selve billederne */
+          img {
+            width: 100%;
+            height: auto;
+            position: relative;
+          }
+         }
+
+              /* Billederne til venstre i slideshowet */
+              .left1 {
+                margin-left: -415px;
+              }
+
+                    .left2 {
+                      margin-left: -830px;
+                    }
+
+                      .left3{
+                        margin-left: -1245px;
+                      }
+
+                .left4 {
+                  margin-left: -1660px;
+                }
+
+            .left5 {
+              margin-left: -2075px;
+            }
+          }
+        }
+
  //videobibliotek mobil slut
-}
+//}
 
-.minliste, .kropsvægtstræning, .korrektionstræning, .opvarmningsprogrammer, .kettlebelltræning, .vægtstangstræning {
-  width: 100%;
-  height: 200px;
-  margin: 0;
-  clear: both;
-  padding: 8px 0px 60px 0px;
-  margin-top: 16px;
-
-  h1 {
-    margin-left: 5%;
-    color: black;
-  }
-
-  video {
-    margin-left: 5%;
-    margin-top: 7px;
-  }
- }
-
-.kropsvægtstræning, .korrektionstræning, .opvarmningsprogrammer, .kettlebelltræning, .vægtstangstræning {
-margin-top: 0px;
-
-   video {
-     margin-top: 0px;
-    }
-   }
+// .minliste, .kropsvægtstræning, .korrektionstræning, .opvarmningsprogrammer, .kettlebelltræning, .vægtstangstræning {
+//   width: 100%;
+//   height: 200px;
+//   margin: 0;
+//   clear: both;
+//   padding: 8px 0px 60px 0px;
+//   margin-top: 16px;
+//
+//   h1 {
+//     margin-left: 5%;
+//     color: black;
+//   }
+//
+//   video {
+//     margin-left: 5%;
+//     margin-top: 7px;
+//   }
+//  }
+//
+// .kropsvægtstræning, .korrektionstræning, .opvarmningsprogrammer, .kettlebelltræning, .vægtstangstræning {
+// margin-top: 0px;
+//
+//    video {
+//      margin-top: 0px;
+//     }
+//    }
 
 /* Forside mobil. */
 
@@ -216,7 +335,7 @@ margin-top: 0px;
     margin-top: 15%;
   }
 }
-
+}
 
 @media screen and (min-width: 766px){ /* Tablet-version */
 

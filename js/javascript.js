@@ -1,7 +1,7 @@
 
 $( document ).ready(function() {
 
-  var width = 260;  // Størrelsen på billederne, i pixels
+  var width = 410;  // Størrelsen på billederne, i pixels
   var animationSpeed = 500;  // Hastigheden de rykker sig ved, i milisekunder
   var currentSlide = 1;
 
@@ -13,19 +13,19 @@ $( document ).ready(function() {
   $('.control_next').click(function () {
     $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function () {
       currentSlide++;
-        if (currentSlide === $slides.length-5) {
+        if (currentSlide === $slides.length-9) {
           currentSlide = 1;
           $slideContainer.css('margin-left', 0);
         }
       });
     });
     // Styre hvad der sker ved tryk på pilen til venstre
-  $('.control_prev').click(function () {
+  $('.control_prev, .control_prev2').click(function () {
     $slideContainer.animate({'margin-left': '+='+width}, animationSpeed, function () {
       currentSlide--;
-        if (currentSlide === -4) {
-          currentSlide = 2;
-          $slideContainer.css('margin-left', -1300);
+        if (currentSlide === -3) {
+          currentSlide = 1;
+          $slideContainer.css('margin-left', -1230);
         }
       });
     });
