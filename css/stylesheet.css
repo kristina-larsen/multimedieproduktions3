@@ -8,7 +8,7 @@ body {
     font-size: 20px; }
   body p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px; }
+    font-size: 17px; }
   body header {
     background-color: white;
     position: relative;
@@ -60,9 +60,16 @@ body {
   margin: 0; }
   .forsidetekstogbillede .forsidebillede {
     width: 100%;
-    height: auto; }
-    .forsidetekstogbillede .forsidebillede .help {
-      position: absolute; }
+    height: auto;
+    margin-top: 5%; }
+  .forsidetekstogbillede .help {
+    position: absolute; }
+
+.trebokse {
+  text-align: center;
+  margin: 7% 6% 2% 6%; }
+  .trebokse .second, .trebokse .third {
+    margin-top: 15%; }
 
 @media screen and (min-width: 766px) {
   /* Tablet-version */
