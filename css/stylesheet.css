@@ -2,47 +2,38 @@
 body {
   margin: 0;
   padding: 0;
-  /* Videobibliotek mobil. */
-}
-body h1 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-}
-body p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-}
-body header {
-  background-color: white;
-  position: relative;
-  width: 100%;
-  height: 40px;
-}
-body header div a img {
-  width: 70px;
-  height: auto;
-  margin: 4.5% 0% 2% 4%;
-}
-body header nav {
-  display: none;
-}
-body .mestsete {
-  background-color: #45C2D1;
-  width: 100%;
-  height: 200px;
-  margin: 0;
-  clear: both;
-  padding: 8px 0px 60px 0px;
-  margin-top: 16px;
-}
-body .mestsete h1 {
-  margin-left: 5%;
-  color: white;
-}
-body .mestsete video {
-  margin-left: 5%;
-  margin-top: 7px;
-}
+  /* Videobibliotek mobil. */ }
+  body h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px; }
+  body p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px; }
+  body header {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 40px; }
+    body header div a img {
+      width: 70px;
+      height: auto;
+      margin: 4.5% 0% 2% 4%; }
+    body header nav {
+      display: none; }
+  body .mestsete {
+    background-color: #45C2D1;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    clear: both;
+    padding: 8px 0px 60px 0px;
+    margin-top: 16px; }
+    body .mestsete h1 {
+      margin-left: 5%;
+      color: white; }
+    body .mestsete video {
+      margin-left: 5%;
+      margin-top: 7px; }
 
 .minliste, .kropsvægtstræning, .korrektionstræning, .opvarmningsprogrammer, .kettlebelltræning, .vægtstangstræning {
   width: 100%;
@@ -50,94 +41,82 @@ body .mestsete video {
   margin: 0;
   clear: both;
   padding: 8px 0px 60px 0px;
-  margin-top: 16px;
-}
-.minliste h1, .kropsvægtstræning h1, .korrektionstræning h1, .opvarmningsprogrammer h1, .kettlebelltræning h1, .vægtstangstræning h1 {
-  margin-left: 5%;
-  color: black;
-}
-.minliste video, .kropsvægtstræning video, .korrektionstræning video, .opvarmningsprogrammer video, .kettlebelltræning video, .vægtstangstræning video {
-  margin-left: 5%;
-  margin-top: 7px;
-}
+  margin-top: 16px; }
+  .minliste h1, .kropsvægtstræning h1, .korrektionstræning h1, .opvarmningsprogrammer h1, .kettlebelltræning h1, .vægtstangstræning h1 {
+    margin-left: 5%;
+    color: black; }
+  .minliste video, .kropsvægtstræning video, .korrektionstræning video, .opvarmningsprogrammer video, .kettlebelltræning video, .vægtstangstræning video {
+    margin-left: 5%;
+    margin-top: 7px; }
 
 .kropsvægtstræning, .korrektionstræning, .opvarmningsprogrammer, .kettlebelltræning, .vægtstangstræning {
-  margin-top: 0px;
-}
-.kropsvægtstræning video, .korrektionstræning video, .opvarmningsprogrammer video, .kettlebelltræning video, .vægtstangstræning video {
-  margin-top: 0px;
-}
+  margin-top: 0px; }
+  .kropsvægtstræning video, .korrektionstræning video, .opvarmningsprogrammer video, .kettlebelltræning video, .vægtstangstræning video {
+    margin-top: 0px; }
 
 /* Forside mobil. */
 .forsidetekstogbillede {
   position: relative;
-  margin: 0;
-}
-.forsidetekstogbillede .forsidebillede {
-  width: 100%;
-  height: auto;
-}
-.forsidetekstogbillede .forsidebillede .help {
-  position: absolute;
-}
+  margin: 0; }
+  .forsidetekstogbillede .forsidebillede {
+    width: 100%;
+    height: auto;
+    margin-top: 5%; }
+  .forsidetekstogbillede .help {
+    position: absolute; }
+
+.trebokse {
+  text-align: center;
+  margin: 7% 6% 2% 6%; }
+  .trebokse .second, .trebokse .third {
+    margin-top: 15%; }
 
 @media screen and (min-width: 766px) {
   /* Tablet-version */
   body header {
-    height: 90px;
-  }
-  body header div a img {
-    width: 130px;
-    height: auto;
-    margin: 4.5% 0% 2% 4%;
-  }
-}
+    height: 90px; }
+    body header div a img {
+      width: 130px;
+      height: auto;
+      margin: 4.5% 0% 2% 4%; } }
 /* Forside ipad. */
 .forsidebillede {
-  margin-top: 2%;
-}
+  margin-top: 2%; }
 
 @media screen and (min-width: 992px) {
   /* Desktop-version */
   body header {
-    width: 100%;
-  }
-  body header div a img {
-    width: 80px;
-    height: auto;
-    margin: 0;
-    float: left;
-    padding: 2.5% 0% 0% 3%;
-  }
-  body header div #mynav {
-    display: none;
-  }
-  body header nav {
-    float: right;
-    text-decoration: none;
-    display: inline-block !important;
-    margin: auto;
-  }
-  body header nav ul {
-    margin: auto;
-    margin: 35px 25px 0px 0px;
-  }
-  body header nav ul li {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    list-style-type: none;
-    display: inline-block;
-  }
-  body header nav ul a {
-    color: black;
-    text-decoration: none;
-    padding-left: 35px;
-  }
-  body header nav ul .active {
-    font-weight: bolder;
-    color: black;
-    /*border-bottom: 2px solid red;
-    padding-bottom: 7px;*/
-  }
-}
+    width: 100%; }
+    body header div a img {
+      width: 80px;
+      height: auto;
+      margin: 0;
+      float: left;
+      padding: 2.5% 0% 0% 3%; }
+    body header div #mynav {
+      display: none; }
+    body header nav {
+      float: right;
+      text-decoration: none;
+      display: inline-block !important;
+      margin: auto; }
+      body header nav ul {
+        margin: auto;
+        margin: 35px 25px 0px 0px; }
+        body header nav ul li {
+          text-decoration: none;
+          font-family: 'Raleway', sans-serif;
+          font-size: 18px;
+          list-style-type: none;
+          display: inline-block; }
+        body header nav ul a {
+          color: black;
+          text-decoration: none;
+          padding-left: 35px; }
+        body header nav ul .active {
+          font-weight: bolder;
+          color: black;
+          /*border-bottom: 2px solid red;
+          padding-bottom: 7px;*/ } }
+
+/*# sourceMappingURL=stylesheet.css.map */
