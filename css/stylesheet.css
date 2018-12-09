@@ -296,7 +296,18 @@ body {
     body header div a img {
       width: 130px;
       height: auto;
-      margin: 4.5% 0% 2% 4%; } }
+      margin: 4.5% 0% 2% 4%; }
+    body header .navi .overlayer a {
+      font-size: 28px; }
+    body header .navi .closebut {
+      font-size: 60px; }
+    body header span {
+      display: block;
+      font-size: 34px;
+      color: #293952;
+      cursor: pointer;
+      float: right;
+      margin: -10% 4% 0 0; } }
 /* Forside ipad. */
 .forsidebillede {
   margin-top: 2%; }
