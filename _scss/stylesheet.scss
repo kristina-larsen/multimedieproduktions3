@@ -17,6 +17,8 @@ header {
   position:relative;
   width: 100%;
   height: 40px;
+  clear: both;
+  height: auto;
 
   div {
 
@@ -33,6 +35,65 @@ header {
 nav {
   display: none;
  }
+
+div {
+  width: 100%;
+
+  a {
+    text-decoration: none;
+    color: #293952;
+}
+}
+
+.navi {
+  height: 58%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(255,255,255, 0.9);
+  overflow-x: hidden;
+  transition: 0.3s;
+  text-decoration: none;
+
+    .overlayer {
+      position: relative;
+      top: 2%;
+      text-align: left;
+
+         a {
+          padding: 8px;
+          margin-left: 7%;
+          margin-top: 20%;
+          text-decoration: none;
+          font-size: 22px;
+          color: #FF5252;
+          display: block;
+          transition: 0.3s;
+          border-bottom: 2px solid white;
+          font-family: 'Raleway', sans-serif;
+        }
+      }
+
+    .closebut {
+      position: absolute;
+      right: 3%;
+      padding: 0;
+      font-size: 40px;
+      text-decoration: none;
+      color: #293952;
+    }
+  }
+
+span {
+  display: block;
+  font-size: 25px;
+  color: #293952;
+  cursor: pointer;
+  float: right;
+  margin: -11% 4% 0 0;
+  }
 }
 
  //Videobibliotek mobil.
@@ -320,7 +381,7 @@ nav {
 .forsidebillede {
   width: 100%;
   height: auto;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .help {
