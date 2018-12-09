@@ -224,6 +224,19 @@ margin-top: 0px;
   }
 }
 
+.klausogtekst {
+  margin-top: 12%;
+
+  .klaus {
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    background-color: #E3E3E3;
+  }
+}
+
 
 @media screen and (min-width: 766px){ /* Tablet-version */
 
