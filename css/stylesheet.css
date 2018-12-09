@@ -148,6 +148,11 @@ body {
   margin: 7% 6% 2% 6%; }
   .trebokse .second, .trebokse .third {
     margin-top: 15%; }
+  .trebokse button {
+    background-color: #FF5252;
+    border: none;
+    padding: 5px 55px;
+    color: white; }
 
 @media screen and (min-width: 766px) {
   /* Tablet-version */
