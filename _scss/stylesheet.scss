@@ -312,6 +312,7 @@ nav {
 
 /* Forside mobil. */
 
+/* Billedet øverst med tekst ovenpå. */
 .forsidetekstogbillede {
   position: relative;
   margin: 0;
@@ -327,12 +328,16 @@ nav {
  }
 }
 
+/* De øverste bokse. */
 .trebokse {
   text-align: center;
-  margin: 7% 6% 2% 6%;
 
   .second, .third {
     margin-top: 15%;
+  }
+
+  p {
+  margin: 4% 6%;
   }
 
     button {
@@ -343,6 +348,7 @@ nav {
   }
 }
 
+/* Billedet af Klaus og teksten. */
 .klausogtekst {
   margin-top: 12%;
   width: 100%;
@@ -361,6 +367,7 @@ nav {
   }
 }
 
+/* Tekstbokse. */
 .tekstbokse {
   background-color: #FF5252;
   padding: 20px;
@@ -384,12 +391,18 @@ nav {
   }
  }
 
+/* Videobiblioteket. */
 .videobibliotekforside {
   background-color: #E3E3E3;
 
+  h1 {
+    padding-top: 6%;
+  }
+
   img {
-    width: 100%;
+    width: 90%;
     margin-top: 10px;
+    padding-bottom: 3%;
   }
 
   p {
