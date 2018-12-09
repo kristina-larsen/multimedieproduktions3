@@ -198,12 +198,36 @@ body {
       padding: 5px 55px;
       color: white; }
   body .klausogtekst {
-    margin-top: 12%; }
+    margin-top: 12%;
+    width: 100%; }
     body .klausogtekst .klaus {
       width: 100%;
       height: auto; }
     body .klausogtekst p {
       background-color: #E3E3E3; }
+  body .tekstbokse {
+    background-color: #FF5252;
+    padding: 20px; }
+    body .tekstbokse .tekstboks2 {
+      margin-top: 30px; }
+    body .tekstbokse h1 {
+      margin-top: 10px;
+      color: white; }
+    body .tekstbokse p {
+      color: white; }
+    body .tekstbokse button {
+      background-color: white;
+      color: black; }
+  body .videobibliotekforside {
+    background-color: #E3E3E3; }
+    body .videobibliotekforside img {
+      width: 100%;
+      margin-top: 10px; }
+    body .videobibliotekforside p {
+      margin: 0; }
+  body footer {
+    background-color: black;
+    height: 70px; }
 
 @media screen and (min-width: 766px) {
   /* Tablet-version */
