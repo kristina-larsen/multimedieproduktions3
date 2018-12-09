@@ -3,308 +3,254 @@ body {
   margin: 0;
   padding: 0;
   /* Selve slideshowet */
-  /* Forside mobil. */
-}
-body h1 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-}
-body p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
-}
-body header {
-  background-color: white;
-  position: relative;
-  width: 100%;
-  height: 40px;
-}
-body header div a img {
-  width: 70px;
-  height: auto;
-  margin: 4.5% 0% 2% 4%;
-}
-body header nav {
-  display: none;
-}
-body .mestsete {
-  height: 270px;
-  width: 100%;
-  background-color: white;
-  display: inline-flex;
-  bottom: 0;
-  overflow-wrap: break-word;
-  background-color: #45C2D1;
-  /* Pilen til venstre */
-  /* Pilen til højre */
-  /* Selve slideshowet */
-}
-body .mestsete .overskriftvideoside {
-  position: absolute;
-  margin: 15px 55px;
-}
-body .mestsete .control_prev {
-  margin-top: 110px;
-  text-decoration: none;
-  font-size: 60px;
-  font-family: Roboto;
-  color: black;
-  z-index: 10;
-  margin-left: 1%;
-}
-body .mestsete .control_next {
-  margin-top: 110px;
-  text-decoration: none;
-  font-size: 60px;
-  font-family: Roboto;
-  color: black;
-  z-index: 10;
-  margin-left: 95%;
-}
-body .mestsete #slider {
-  width: 95%;
-  height: 230px;
-  overflow: hidden;
-  position: absolute;
-  clip: rect(10px, 1000px);
-  margin: 40px 2.5% 0 2.5%;
-  /* Styring af billederne i slideshowet */
-  /* Billederne i slideshowet */
-  /* Billederne til venstre i slideshowet */
-}
-body .mestsete #slider .slides {
-  display: block;
-  width: 6560px;
-  max-height: 300px;
-  padding: 0%;
-}
-body .mestsete #slider .slide {
-  float: left;
-  list-style-type: none;
-  width: 380px;
-  height: auto;
-  margin: 0 15px;
-  /* Skriften over billederne */
-  /* Selve billederne */
-}
-body .mestsete #slider .slide .text6 {
-  background-color: rgba(255, 255, 255, 0.7);
-  width: 135px;
-  height: 70px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 10px;
-  font-size: 20px;
-  font-family: 'Quattrocento Sans', sans-serif;
-  position: absolute;
-  margin-top: -178px;
-  color: #293952;
-}
-body .mestsete #slider .slide img {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-body .mestsete #slider .left1 {
-  margin-left: -415px;
-}
-body .mestsete #slider .left2 {
-  margin-left: -830px;
-}
-body .mestsete #slider .left3 {
-  margin-left: -1245px;
-}
-body .mestsete #slider .left4 {
-  margin-left: -1660px;
-}
-body .mestsete #slider .left5 {
-  margin-left: -2075px;
-}
-body .fællesslider {
-  height: 270px;
-  width: 100%;
-  background-color: white;
-  display: inline-flex;
-  bottom: 0;
-  overflow-wrap: break-word;
-  /* Pilen til venstre */
-  /* Pilen til højre */
-  /* Selve slideshowet */
-}
-body .fællesslider .overskriftvideoside {
-  position: absolute;
-  margin: 15px 55px;
-}
-body .fællesslider .control_prev {
-  margin-top: 110px;
-  text-decoration: none;
-  font-size: 60px;
-  font-family: Roboto;
-  color: black;
-  z-index: 10;
-  margin-left: 1%;
-}
-body .fællesslider .control_next {
-  margin-top: 110px;
-  text-decoration: none;
-  font-size: 60px;
-  font-family: Roboto;
-  color: black;
-  z-index: 10;
-  margin-left: 95%;
-}
-body .fællesslider #slider {
-  width: 95%;
-  height: 230px;
-  overflow: hidden;
-  position: absolute;
-  clip: rect(10px, 1000px);
-  margin: 40px 2.5% 0 2.5%;
-  /* Styring af billederne i slideshowet */
-  /* Billederne i slideshowet */
-  /* Billederne til venstre i slideshowet */
-}
-body .fællesslider #slider .slides {
-  display: block;
-  width: 6560px;
-  max-height: 300px;
-  padding: 0%;
-}
-body .fællesslider #slider .slide {
-  float: left;
-  list-style-type: none;
-  width: 380px;
-  height: auto;
-  margin: 0 15px;
-  /* Skriften over billederne */
-  /* Selve billederne */
-}
-body .fællesslider #slider .slide .text6 {
-  background-color: rgba(255, 255, 255, 0.7);
-  width: 135px;
-  height: 70px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 10px;
-  font-size: 20px;
-  font-family: 'Quattrocento Sans', sans-serif;
-  position: absolute;
-  margin-top: -178px;
-  color: #293952;
-}
-body .fællesslider #slider .slide img {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-body .fællesslider #slider .left1 {
-  margin-left: -415px;
-}
-body .fællesslider #slider .left2 {
-  margin-left: -830px;
-}
-body .fællesslider #slider .left3 {
-  margin-left: -1245px;
-}
-body .fællesslider #slider .left4 {
-  margin-left: -1660px;
-}
-body .fællesslider #slider .left5 {
-  margin-left: -2075px;
-}
-body .forsidetekstogbillede {
-  position: relative;
-  margin: 0;
-}
-body .forsidetekstogbillede .forsidebillede {
-  width: 100%;
-  height: auto;
-  margin-top: 5%;
-}
-body .forsidetekstogbillede .help {
-  position: absolute;
-}
-body .trebokse {
-  text-align: center;
-  margin: 7% 6% 2% 6%;
-}
-body .trebokse .second, body .trebokse .third {
-  margin-top: 15%;
-}
-body .trebokse button {
-  background-color: #FF5252;
-  border: none;
-  padding: 5px 55px;
-  color: white;
-}
-body .klausogtekst {
-  margin-top: 12%;
-}
-body .klausogtekst .klaus {
-  width: 100%;
-  height: auto;
-}
-body .klausogtekst p {
-  background-color: #E3E3E3;
-}
+  /* Forside mobil. */ }
+  body h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px; }
+  body p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px; }
+  body header {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 40px; }
+    body header div a img {
+      width: 70px;
+      height: auto;
+      margin: 4.5% 0% 2% 4%; }
+    body header nav {
+      display: none; }
+  body .mestsete {
+    height: 270px;
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    bottom: 0;
+    overflow-wrap: break-word;
+    background-color: #45C2D1;
+    /* Pilen til venstre */
+    /* Pilen til højre */
+    /* Selve slideshowet */ }
+    body .mestsete .overskriftvideoside {
+      position: absolute;
+      margin: 15px 55px; }
+    body .mestsete .control_prev {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      margin-left: 1%; }
+    body .mestsete .control_next {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      margin-left: 95%; }
+    body .mestsete #slider {
+      width: 95%;
+      height: 230px;
+      overflow: hidden;
+      position: absolute;
+      clip: rect(10px, 1000px);
+      margin: 40px 2.5% 0 2.5%;
+      /* Styring af billederne i slideshowet */
+      /* Billederne i slideshowet */
+      /* Billederne til venstre i slideshowet */ }
+      body .mestsete #slider .slides {
+        display: block;
+        width: 6560px;
+        max-height: 300px;
+        padding: 0%; }
+      body .mestsete #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 380px;
+        height: auto;
+        margin: 0 15px;
+        /* Skriften over billederne */
+        /* Selve billederne */ }
+        body .mestsete #slider .slide .text6 {
+          background-color: rgba(255, 255, 255, 0.7);
+          width: 135px;
+          height: 70px;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 10px;
+          font-size: 20px;
+          font-family: 'Quattrocento Sans', sans-serif;
+          position: absolute;
+          margin-top: -178px;
+          color: #293952; }
+        body .mestsete #slider .slide img {
+          width: 100%;
+          height: auto;
+          position: relative; }
+      body .mestsete #slider .left1 {
+        margin-left: -415px; }
+      body .mestsete #slider .left2 {
+        margin-left: -830px; }
+      body .mestsete #slider .left3 {
+        margin-left: -1245px; }
+      body .mestsete #slider .left4 {
+        margin-left: -1660px; }
+      body .mestsete #slider .left5 {
+        margin-left: -2075px; }
+  body .fællesslider {
+    height: 270px;
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    bottom: 0;
+    overflow-wrap: break-word;
+    /* Pilen til venstre */
+    /* Pilen til højre */
+    /* Selve slideshowet */ }
+    body .fællesslider .overskriftvideoside {
+      position: absolute;
+      margin: 15px 55px; }
+    body .fællesslider .control_prev {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      margin-left: 1%; }
+    body .fællesslider .control_next {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      margin-left: 95%; }
+    body .fællesslider #slider {
+      width: 95%;
+      height: 230px;
+      overflow: hidden;
+      position: absolute;
+      clip: rect(10px, 1000px);
+      margin: 40px 2.5% 0 2.5%;
+      /* Styring af billederne i slideshowet */
+      /* Billederne i slideshowet */
+      /* Billederne til venstre i slideshowet */ }
+      body .fællesslider #slider .slides {
+        display: block;
+        width: 6560px;
+        max-height: 300px;
+        padding: 0%; }
+      body .fællesslider #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 380px;
+        height: auto;
+        margin: 0 15px;
+        /* Skriften over billederne */
+        /* Selve billederne */ }
+        body .fællesslider #slider .slide .text6 {
+          background-color: rgba(255, 255, 255, 0.7);
+          width: 135px;
+          height: 70px;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 10px;
+          font-size: 20px;
+          font-family: 'Quattrocento Sans', sans-serif;
+          position: absolute;
+          margin-top: -178px;
+          color: #293952; }
+        body .fællesslider #slider .slide img {
+          width: 100%;
+          height: auto;
+          position: relative; }
+      body .fællesslider #slider .left1 {
+        margin-left: -415px; }
+      body .fællesslider #slider .left2 {
+        margin-left: -830px; }
+      body .fællesslider #slider .left3 {
+        margin-left: -1245px; }
+      body .fællesslider #slider .left4 {
+        margin-left: -1660px; }
+      body .fællesslider #slider .left5 {
+        margin-left: -2075px; }
+  body .forsidetekstogbillede {
+    position: relative;
+    margin: 0; }
+    body .forsidetekstogbillede .forsidebillede {
+      width: 100%;
+      height: auto;
+      margin-top: 5%; }
+    body .forsidetekstogbillede .help {
+      position: absolute; }
+  body .trebokse {
+    text-align: center;
+    margin: 7% 6% 2% 6%; }
+    body .trebokse .second, body .trebokse .third {
+      margin-top: 15%; }
+    body .trebokse button {
+      background-color: #FF5252;
+      border: none;
+      padding: 5px 55px;
+      color: white; }
+  body .klausogtekst {
+    margin-top: 12%; }
+    body .klausogtekst .klaus {
+      width: 100%;
+      height: auto; }
+    body .klausogtekst p {
+      background-color: #E3E3E3; }
 
 @media screen and (min-width: 766px) {
   /* Tablet-version */
   body header {
-    height: 90px;
-  }
-  body header div a img {
-    width: 130px;
-    height: auto;
-    margin: 4.5% 0% 2% 4%;
-  }
-}
+    height: 90px; }
+    body header div a img {
+      width: 130px;
+      height: auto;
+      margin: 4.5% 0% 2% 4%; } }
 /* Forside ipad. */
 .forsidebillede {
-  margin-top: 2%;
-}
+  margin-top: 2%; }
 
 @media screen and (min-width: 992px) {
   /* Desktop-version */
   body header {
-    width: 100%;
-  }
-  body header div a img {
-    width: 80px;
-    height: auto;
-    margin: 0;
-    float: left;
-    padding: 2.5% 0% 0% 3%;
-  }
-  body header div #mynav {
-    display: none;
-  }
-  body header nav {
-    float: right;
-    text-decoration: none;
-    display: inline-block !important;
-    margin: auto;
-  }
-  body header nav ul {
-    margin: auto;
-    margin: 35px 25px 0px 0px;
-  }
-  body header nav ul li {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    list-style-type: none;
-    display: inline-block;
-  }
-  body header nav ul a {
-    color: black;
-    text-decoration: none;
-    padding-left: 35px;
-  }
-  body header nav ul .active {
-    font-weight: bolder;
-    color: black;
-    /*border-bottom: 2px solid red;
-    padding-bottom: 7px;*/
-  }
-}
+    width: 100%; }
+    body header div a img {
+      width: 80px;
+      height: auto;
+      margin: 0;
+      float: left;
+      padding: 2.5% 0% 0% 3%; }
+    body header div #mynav {
+      display: none; }
+    body header nav {
+      float: right;
+      text-decoration: none;
+      display: inline-block !important;
+      margin: auto; }
+      body header nav ul {
+        margin: auto;
+        margin: 35px 25px 0px 0px; }
+        body header nav ul li {
+          text-decoration: none;
+          font-family: 'Raleway', sans-serif;
+          font-size: 18px;
+          list-style-type: none;
+          display: inline-block; }
+        body header nav ul a {
+          color: black;
+          text-decoration: none;
+          padding-left: 35px; }
+        body header nav ul .active {
+          font-weight: bolder;
+          color: black;
+          /*border-bottom: 2px solid red;
+          padding-bottom: 7px;*/ } }
+
+/*# sourceMappingURL=stylesheet.css.map */
