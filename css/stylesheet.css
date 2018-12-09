@@ -231,6 +231,22 @@ body .trebokse {
 body .trebokse .second, body .trebokse .third {
   margin-top: 15%;
 }
+body .trebokse button {
+  background-color: #FF5252;
+  border: none;
+  padding: 5px 55px;
+  color: white;
+}
+body .klausogtekst {
+  margin-top: 12%;
+}
+body .klausogtekst .klaus {
+  width: 100%;
+  height: auto;
+}
+body .klausogtekst p {
+  background-color: #E3E3E3;
+}
 
 @media screen and (min-width: 766px) {
   /* Tablet-version */
