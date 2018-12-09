@@ -2,7 +2,8 @@
 body {
   margin: 0;
   padding: 0;
-  /* Videobibliotek mobil. */ }
+  /* Videobibliotek mobil. */
+  /* Selve slideshowet */ }
   body h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px; }
@@ -34,6 +35,83 @@ body {
     body .mestsete video {
       margin-left: 5%;
       margin-top: 7px; }
+  body .mercoverlay {
+    height: 290px;
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    bottom: 0;
+    overflow-wrap: break-word;
+    /* Pilen til venstre */
+    /* Pilen til højre */
+    /* Selve slideshowet */ }
+    body .mercoverlay .control_prev {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      margin-left: 1%; }
+    body .mercoverlay .control_next {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      margin-left: 95%; }
+    body .mercoverlay #slider {
+      width: 95%;
+      height: 275px;
+      overflow: hidden;
+      margin: auto;
+      margin-top: 4px;
+      position: absolute;
+      clip: rect(10px, 1000px);
+      margin: 0% 2.5%;
+      /* Styring af billederne i slideshowet */
+      /* Billederne i slideshowet */
+      /* Billederne til venstre i slideshowet */ }
+      body .mercoverlay #slider .slides {
+        display: block;
+        width: 5100px;
+        max-height: 300px;
+        padding: 0%; }
+      body .mercoverlay #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 250px;
+        height: 250px;
+        margin: 0 5px;
+        /* Skriften over billederne */
+        /* Selve billederne */ }
+        body .mercoverlay #slider .slide h2 {
+          background-color: rgba(255, 255, 255, 0.7);
+          width: 135px;
+          height: 70px;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 10px;
+          font-size: 20px;
+          font-family: 'Quattrocento Sans', sans-serif;
+          position: absolute;
+          margin-top: -178px;
+          color: #293952; }
+        body .mercoverlay #slider .slide img {
+          width: 100%;
+          height: auto;
+          position: relative; }
+      body .mercoverlay #slider .left1 {
+        margin-left: -265px; }
+      body .mercoverlay #slider .left2 {
+        margin-left: -530px; }
+      body .mercoverlay #slider .left3 {
+        margin-left: -795px; }
+      body .mercoverlay #slider .left4 {
+        margin-left: -1060px; }
+      body .mercoverlay #slider .left5 {
+        margin-left: -1325px; }
 
 .minliste, .kropsvægtstræning, .korrektionstræning, .opvarmningsprogrammer, .kettlebelltræning, .vægtstangstræning {
   width: 100%;
