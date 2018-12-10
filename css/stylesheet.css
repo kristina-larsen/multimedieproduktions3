@@ -8,7 +8,8 @@ body {
   /* De øverste bokse. */
   /* Billedet af Klaus og teksten. */
   /* Tekstbokse. */
-  /* Videobiblioteket på forsiden. */ }
+  /* Videobiblioteket på forsiden. */
+  /* Om Juviva mobil. */ }
   body h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px; }
@@ -345,6 +346,35 @@ body {
       margin: 0 14px 20px 14px;
       text-align: center;
       padding-bottom: 5%; }
+  body .omosklaus {
+    margin-top: 3%;
+    width: 100%; }
+    body .omosklaus .klausom {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0; }
+    body .omosklaus p {
+      background-color: white;
+      margin: 0;
+      padding: 7% 5%;
+      color: black;
+      margin-top: -5px;
+      text-align: center; }
+  body .collage {
+    display: none; }
+  body .tekstboksomjuviva {
+    background-color: #FF5252;
+    padding: 5px 5px; }
+  body h1 {
+    margin-top: 50px;
+    color: black;
+    text-align: center; }
+  body p {
+    color: black;
+    padding: 3px 20px;
+    text-align: center;
+    margin-bottom: 40px; }
   body footer {
     background-color: #2A2A2A;
     height: 70px; }
