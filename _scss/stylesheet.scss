@@ -500,7 +500,13 @@ span {
 
 .brugfor {
   text-align: center;
-  margin: 5px 10px;
+  background-color: #2A2A2A;
+  padding: 6% 0;
+
+  h1, p {
+    margin: 5px 10px;
+    color: white;
+  }
 
   button {
     background-color: #FF5252;
@@ -514,6 +520,7 @@ span {
 /* Videobiblioteket på forsiden. */
 .videobibliotekforside {
   background-color: #48C3D1;
+  margin-top: -13px;
 
   h1 {
     padding-top: 6%;
@@ -538,7 +545,7 @@ span {
  }
 
 footer {
-  background-color: black;
+  background-color: #2A2A2A;
   height: 70px;
  }
 }
@@ -672,7 +679,12 @@ body {
    }
 
 .brugfor {
-  margin-bottom: 6%;
+  margin-bottom: 0%;
+  margin-top: 5%;
+
+  button {
+    margin-top: 3%;
+  }
   }
  }
 }
@@ -808,11 +820,13 @@ nav {
     }
 
  .brugfor {
-   margin-bottom: 6%;
+   margin-bottom: 0%;
+   margin-top: 0;
  }
 
  /* Videobiblioteket på forsiden. */
  .videobibliotekforside {
+   margin-top: -2%;
 
    h1 {
      font-size: 30px;

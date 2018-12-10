@@ -316,7 +316,11 @@ body {
       border-radius: 50px; }
   body .brugfor {
     text-align: center;
-    margin: 5px 10px; }
+    background-color: #2A2A2A;
+    padding: 6% 0; }
+    body .brugfor h1, body .brugfor p {
+      margin: 5px 10px;
+      color: white; }
     body .brugfor button {
       background-color: #FF5252;
       border: none;
@@ -324,7 +328,8 @@ body {
       color: white;
       border-radius: 50px; }
   body .videobibliotekforside {
-    background-color: #48C3D1; }
+    background-color: #48C3D1;
+    margin-top: -13px; }
     body .videobibliotekforside h1 {
       padding-top: 6%;
       color: white;
@@ -341,7 +346,7 @@ body {
       text-align: center;
       padding-bottom: 5%; }
   body footer {
-    background-color: black;
+    background-color: #2A2A2A;
     height: 70px; }
 
 @media screen and (min-width: 766px) {
@@ -419,7 +424,10 @@ body {
       body .tekstbokse .tekstboks2 {
         margin-left: 3%; }
     body .brugfor {
-      margin-bottom: 6%; } }
+      margin-bottom: 0%;
+      margin-top: 5%; }
+      body .brugfor button {
+        margin-top: 3%; } }
 @media screen and (min-width: 992px) {
   /* Desktop-version */
   body {
@@ -493,13 +501,16 @@ body {
       body .tekstbokse .tekstboks2 {
         margin-left: 3%; }
     body .brugfor {
-      margin-bottom: 6%; }
-    body .videobibliotekforside h1 {
-      font-size: 30px; }
-    body .videobibliotekforside video {
-      width: 23.5%;
-      float: left;
-      margin-left: 1.2%;
-      margin-top: 3%; } }
+      margin-bottom: 0%;
+      margin-top: 0; }
+    body .videobibliotekforside {
+      margin-top: -2%; }
+      body .videobibliotekforside h1 {
+        font-size: 30px; }
+      body .videobibliotekforside video {
+        width: 23.5%;
+        float: left;
+        margin-left: 1.2%;
+        margin-top: 3%; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
