@@ -480,7 +480,7 @@ body {
     body .trebokse {
       height: 300px; }
       body .trebokse .second, body .trebokse .third, body .trebokse .first {
-        margin-top: 5%; }
+        margin-top: 0%; }
     body .klausogtekst p {
       height: 340px;
       padding-top: 23%; }
