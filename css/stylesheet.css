@@ -329,6 +329,7 @@ body {
       float: left; }
       body .trebokse .second, body .trebokse .third, body .trebokse .first {
         margin-top: 7%;
+        /* De her to fjernes hvis resten af siden ik skal fucke */
         width: 33%;
         display: block; }
       body .trebokse p {
