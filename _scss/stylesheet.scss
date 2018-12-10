@@ -382,15 +382,47 @@ span {
   width: 100%;
   height: auto;
   margin-top: 2%;
+  position: absolute;
 }
 
 .help {
   position: absolute;
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-left: 7%;
+  }
+
+  h2 {
+    font-size: 35px;
+    margin-top: 2px;
+    margin-left: 7%;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 23px;
+    margin-top: 2px;
+    margin-left: 7%;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  /*button {
+    background-color: #FF5252;
+    border: none;
+    padding: 5px 55px;
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+  }*/
  }
 }
 
 /* De øverste bokse. */
 .trebokse {
+  margin-top: 65%;
   text-align: center;
 
   .second, .third, .first {
@@ -469,6 +501,14 @@ span {
 .brugfor {
   text-align: center;
   margin: 5px 10px;
+
+  button {
+    background-color: #FF5252;
+    border: none;
+    padding: 5px 55px;
+    color: white;
+    border-radius: 50px;
+ }
 }
 
 /* Videobiblioteket på forsiden. */
@@ -550,8 +590,32 @@ body {
 
 .forsidetekstogbillede {
 
-.forsidebillede {
-  margin-top: 1%;
+  .forsidebillede {
+    margin-top: 1%;
+   }
+
+.help {
+
+  h1 {
+    font-size: 120px;
+    margin-bottom: 0;
+    margin-left: 10%;
+  }
+
+  h2 {
+    font-size: 100px;
+    margin-top: 2px;
+    margin-left: 10%;
+    border-bottom: 3px black;
+    border-bottom-style: inset;
+  }
+
+  h3 {
+    font-size: 50px;
+    margin-top: 2px;
+    margin-left: 10%;
+    font-family: 'Raleway', sans-serif;
+  }
  }
 }
 
@@ -561,7 +625,7 @@ body {
   height: 500px;
 
   .second, .third, .first {
-    margin-top: 7%;
+    margin-top: 3%;
     width: 33.2%;
     display: inline-block;
     float: left;
@@ -609,13 +673,14 @@ body {
 
 .brugfor {
   margin-bottom: 6%;
-}
+  }
  }
 }
 
 @media screen and (min-width: 992px){ /* Desktop-version */
 
 body {
+
   header {
     width: 100%;
 
@@ -673,5 +738,92 @@ nav {
    }
   }
  }
-}
+
+ /* Forside ipad. */
+
+ .forsidetekstogbillede {
+
+   .forsidebillede {
+     margin-top: 0%;
+    }
+
+ .help {
+
+   h1 {
+     font-size: 240px;
+     margin-top: 4%;
+     margin-left: 10%;
+   }
+
+   h2 {
+     font-size: 200px;
+     margin-top: 2px;
+     margin-left: 10%;
+     border-bottom: 4px black;
+     border-bottom-style: inset;
+   }
+
+   h3 {
+     font-size: 120px;
+     margin-top: 2px;
+     margin-left: 10%;
+   }
+  }
+ }
+
+ /* De øverste bokse. */
+ .trebokse {
+   height: 300px;
+
+   .second, .third, .first {
+     margin-top: 5%;
+    }
+   }
+
+ /* Billedet af Klaus og teksten. */
+   .klausogtekst {
+
+     .klaus {
+       }
+
+     p {
+       height: 340px;
+       padding-top: 23%;
+     }
+   }
+
+   /* Tekstbokse. */
+   .tekstbokse {
+     height: 570px;
+
+     .tekstboks2, .tekstboks1 {
+       width: 30%;
+       margin-left: 16%;
+       margin-top: 4%;
+     }
+
+       .tekstboks2 {
+         margin-left: 3%;
+       }
+    }
+
+ .brugfor {
+   margin-bottom: 6%;
+ }
+
+ /* Videobiblioteket på forsiden. */
+ .videobibliotekforside {
+
+   h1 {
+     font-size: 30px;
+   }
+
+video  {
+  width: 23.5%;
+  float: left;
+  margin-left: 1.2%;
+  margin-top: 3%;
+  }
+  }
+ }
 }
