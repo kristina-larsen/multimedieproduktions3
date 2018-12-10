@@ -416,7 +416,7 @@ span {
   width: 100%;
 
   .klaus {
-    width: 100% !important;
+    width: 100%;
     height: auto;
     padding: 0;
     margin: 0;
@@ -436,6 +436,7 @@ span {
 .tekstbokse {
   background-color: white;
   padding: 20px;
+  text-align: center;
 
   .tekstboks2, .tekstboks1 {
     margin-top: 30px;
@@ -451,14 +452,24 @@ span {
 
   p {
     color: black;
+    padding: 3px 20px;
   }
 
   button {
     background-color: #FF5252;
     color: white;
     margin-bottom: 50px;
+    border: none;
+    padding: 5px 55px;
+    color: white;
+    border-radius: 50px;
   }
  }
+
+.brugfor {
+  text-align: center;
+  margin: 5px 10px;
+}
 
 /* Videobiblioteket på forsiden. */
 .videobibliotekforside {
@@ -467,18 +478,22 @@ span {
   h1 {
     padding-top: 6%;
     color: white;
+    text-align: center;
   }
 
   img {
     width: 90%;
     margin-top: 10px;
     padding-bottom: 3%;
+    margin-left: 5%;
   }
 
   p {
     margin: 0;
     color: white;
     margin: 0 14px 20px 14px;
+    text-align: center;
+    padding-bottom: 5%;
   }
  }
 
@@ -543,33 +558,59 @@ body {
 /* De øverste bokse. */
 .trebokse {
   width: 100%;
-  height: 400px;
-  float: left;
+  height: 500px;
 
   .second, .third, .first {
     margin-top: 7%;
-
-    /* De her to fjernes hvis resten af siden ik skal fucke */
-    width: 33%;
-    display:block;
+    width: 33.2%;
+    display: inline-block;
+    float: left;
+    border-right: 1px black;
+    border-right-style: inset;
+   }
   }
 
-  p {
-  margin: 4% 6%;
+/* Billedet af Klaus og teksten. */
+  .klausogtekst {
+    width: 100%;
+    clear: both;
+    height: 450px;
+
+    .klaus {
+      width: 50%;
+      height: auto;
+      float: left;
+      }
+
+    p {
+      width: 40%;
+      float: right;
+      margin-top: 0;
+      height: 316.5px;
+    }
   }
 
-    button {
-      background-color: #FF5252;
-      border: none;
-      padding: 5px 55px;
-      color: white;
-      border-radius: 50px;
-  }
+  /* Tekstbokse. */
+  .tekstbokse {
+    width: 100%;
+    clear: both;
+    height: 570px;
+
+    .tekstboks2, .tekstboks1 {
+      width: 40%;
+      float: left;
+      margin-left: 6%;
+    }
+
+      .tekstboks2 {
+        margin-left: 3%;
+      }
+   }
+
+.brugfor {
+  margin-bottom: 6%;
 }
-
-
-
-}
+ }
 }
 
 @media screen and (min-width: 992px){ /* Desktop-version */
