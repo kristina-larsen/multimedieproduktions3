@@ -264,7 +264,8 @@ body {
       margin: 0;
       padding: 7% 5%;
       color: white;
-      margin-top: -5px; }
+      margin-top: -5px;
+      text-align: center; }
   body .tekstbokse {
     background-color: white;
     padding: 20px; }
