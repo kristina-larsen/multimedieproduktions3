@@ -8,6 +8,7 @@ body {
   /* De øverste bokse. */
   /* Billedet af Klaus og teksten. */
   /* Tekstbokse. */
+<<<<<<< HEAD
   /* Videobiblioteket på forsiden. */ }
   body h1 {
     font-family: 'Raleway', sans-serif;
@@ -299,82 +300,454 @@ body {
   body footer {
     background-color: black;
     height: 70px; }
+=======
+  /* Videobiblioteket på forsiden. */
+}
+body h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+body p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+body header {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  clear: both;
+  height: auto;
+}
+body header div a img {
+  width: 70px;
+  height: auto;
+  margin: 4.5% 0% 2% 4%;
+}
+body header nav {
+  display: none;
+}
+body header div {
+  width: 100%;
+}
+body header div a {
+  text-decoration: none;
+  color: #293952;
+}
+body header .navi {
+  height: 58%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow-x: hidden;
+  transition: 0.3s;
+  text-decoration: none;
+}
+body header .navi .overlayer {
+  position: relative;
+  top: 2%;
+  text-align: left;
+}
+body header .navi .overlayer a {
+  padding: 8px;
+  margin-left: 7%;
+  margin-top: 20%;
+  text-decoration: none;
+  font-size: 22px;
+  color: #FF5252;
+  display: block;
+  transition: 0.3s;
+  border-bottom: 2px solid white;
+  font-family: 'Raleway', sans-serif;
+}
+body header .navi .closebut {
+  position: absolute;
+  right: 3%;
+  padding: 0;
+  font-size: 40px;
+  text-decoration: none;
+  color: #293952;
+}
+body header span {
+  display: block;
+  font-size: 25px;
+  color: #293952;
+  cursor: pointer;
+  float: right;
+  margin: -11% 4% 0 0;
+}
+body .mestsete {
+  height: 270px;
+  width: 100%;
+  background-color: white;
+  display: inline-flex;
+  bottom: 0;
+  overflow-wrap: break-word;
+  background-color: #45C2D1;
+  /* Pilen til venstre */
+  /* Pilen til højre */
+  /* Selve slideshowet */
+}
+body .mestsete .overskriftvideoside {
+  position: absolute;
+  margin: 15px 55px;
+}
+body .mestsete .control_prev {
+  margin-top: 110px;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: Roboto;
+  color: black;
+  z-index: 10;
+  margin-left: 1%;
+}
+body .mestsete .control_next {
+  margin-top: 110px;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: Roboto;
+  color: black;
+  z-index: 10;
+  margin-left: 95%;
+}
+body .mestsete #slider {
+  width: 95%;
+  height: 230px;
+  overflow: hidden;
+  position: absolute;
+  clip: rect(10px, 1000px);
+  margin: 40px 2.5% 0 2.5%;
+  /* Styring af billederne i slideshowet */
+  /* Billederne i slideshowet */
+  /* Billederne til venstre i slideshowet */
+}
+body .mestsete #slider .slides {
+  display: block;
+  width: 6560px;
+  max-height: 300px;
+  padding: 0%;
+}
+body .mestsete #slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 380px;
+  height: auto;
+  margin: 0 15px;
+  /* Skriften over billederne */
+  /* Selve billederne */
+}
+body .mestsete #slider .slide .text6 {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 135px;
+  height: 70px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 20px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  position: absolute;
+  margin-top: -178px;
+  color: #293952;
+}
+body .mestsete #slider .slide img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+body .mestsete #slider .left1 {
+  margin-left: -415px;
+}
+body .mestsete #slider .left2 {
+  margin-left: -830px;
+}
+body .mestsete #slider .left3 {
+  margin-left: -1245px;
+}
+body .mestsete #slider .left4 {
+  margin-left: -1660px;
+}
+body .mestsete #slider .left5 {
+  margin-left: -2075px;
+}
+body .fællesslider {
+  height: 270px;
+  width: 100%;
+  background-color: white;
+  display: inline-flex;
+  bottom: 0;
+  overflow-wrap: break-word;
+  /* Pilen til venstre */
+  /* Pilen til højre */
+  /* Selve slideshowet */
+}
+body .fællesslider .overskriftvideoside {
+  position: absolute;
+  margin: 15px 55px;
+}
+body .fællesslider .control_prev {
+  margin-top: 110px;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: Roboto;
+  color: black;
+  z-index: 10;
+  margin-left: 1%;
+}
+body .fællesslider .control_next {
+  margin-top: 110px;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: Roboto;
+  color: black;
+  z-index: 10;
+  margin-left: 95%;
+}
+body .fællesslider #slider {
+  width: 95%;
+  height: 230px;
+  overflow: hidden;
+  position: absolute;
+  clip: rect(10px, 1000px);
+  margin: 40px 2.5% 0 2.5%;
+  /* Styring af billederne i slideshowet */
+  /* Billederne i slideshowet */
+  /* Billederne til venstre i slideshowet */
+}
+body .fællesslider #slider .slides {
+  display: block;
+  width: 6560px;
+  max-height: 300px;
+  padding: 0%;
+}
+body .fællesslider #slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 380px;
+  height: auto;
+  margin: 0 15px;
+  /* Skriften over billederne */
+  /* Selve billederne */
+}
+body .fællesslider #slider .slide .text6 {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 135px;
+  height: 70px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 20px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  position: absolute;
+  margin-top: -178px;
+  color: #293952;
+}
+body .fællesslider #slider .slide img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+body .fællesslider #slider .left1 {
+  margin-left: -415px;
+}
+body .fællesslider #slider .left2 {
+  margin-left: -830px;
+}
+body .fællesslider #slider .left3 {
+  margin-left: -1245px;
+}
+body .fællesslider #slider .left4 {
+  margin-left: -1660px;
+}
+body .fællesslider #slider .left5 {
+  margin-left: -2075px;
+}
+body .forsidetekstogbillede {
+  position: relative;
+  margin: 0;
+}
+body .forsidetekstogbillede .forsidebillede {
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+}
+body .forsidetekstogbillede .help {
+  position: absolute;
+}
+body .trebokse {
+  text-align: center;
+}
+body .trebokse .second, body .trebokse .third, body .trebokse .first {
+  margin-top: 15%;
+}
+body .trebokse p {
+  margin: 4% 6%;
+}
+body .trebokse button {
+  background-color: #FF5252;
+  border: none;
+  padding: 5px 55px;
+  color: white;
+  border-radius: 50px;
+}
+body .klausogtekst {
+  margin-top: 12%;
+  width: 100%;
+}
+body .klausogtekst .klaus {
+  width: 100% !important;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+body .klausogtekst p {
+  background-color: #2A2A2A;
+  margin: 0;
+  padding: 7% 5%;
+  color: white;
+  margin-top: -5px;
+}
+body .tekstbokse {
+  background-color: white;
+  padding: 20px;
+}
+body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
+  margin-top: 30px;
+  border: 1px;
+  border-style: groove;
+  border-color: black;
+}
+body .tekstbokse h1 {
+  margin-top: 50px;
+  color: black;
+}
+body .tekstbokse p {
+  color: black;
+}
+body .tekstbokse button {
+  background-color: #FF5252;
+  color: white;
+  margin-bottom: 50px;
+}
+body .videobibliotekforside {
+  background-color: #48C3D1;
+}
+body .videobibliotekforside h1 {
+  padding-top: 6%;
+  color: white;
+}
+body .videobibliotekforside img {
+  width: 90%;
+  margin-top: 10px;
+  padding-bottom: 3%;
+}
+body .videobibliotekforside p {
+  margin: 0;
+  color: white;
+  margin: 0 14px 20px 14px;
+}
+body footer {
+  background-color: black;
+  height: 70px;
+}
+>>>>>>> 1876fbae29e3984f8d66f682256d12860b55beba
 
 @media screen and (min-width: 766px) {
   /* Tablet-version */
   body {
     /* Forside ipad. */
-    /* De øverste bokse. */ }
-    body header {
-      height: 90px; }
-      body header div a img {
-        width: 130px;
-        height: auto;
-        margin: 4% 0% 2% 4%; }
-      body header .navi .overlayer a {
-        font-size: 28px; }
-      body header .navi .closebut {
-        font-size: 60px; }
-      body header span {
-        display: block;
-        font-size: 34px;
-        color: #293952;
-        cursor: pointer;
-        float: right;
-        margin: -9.5% 4% 0 0; }
-    body .forsidetekstogbillede .forsidebillede {
-      margin-top: 1%; }
-    body .trebokse {
-      width: 100%;
-      height: 400px;
-      float: left; }
-      body .trebokse .second, body .trebokse .third, body .trebokse .first {
-        margin-top: 7%;
-        /* De her to fjernes hvis resten af siden ik skal fucke */
-        width: 33%;
-        display: block; }
-      body .trebokse p {
-        margin: 4% 6%; }
-      body .trebokse button {
-        background-color: #FF5252;
-        border: none;
-        padding: 5px 55px;
-        color: white;
-        border-radius: 50px; } }
+    /* De øverste bokse. */
+  }
+  body header {
+    height: 90px;
+  }
+  body header div a img {
+    width: 130px;
+    height: auto;
+    margin: 4% 0% 2% 4%;
+  }
+  body header .navi .overlayer a {
+    font-size: 28px;
+  }
+  body header .navi .closebut {
+    font-size: 60px;
+  }
+  body header span {
+    display: block;
+    font-size: 34px;
+    color: #293952;
+    cursor: pointer;
+    float: right;
+    margin: -9.5% 4% 0 0;
+  }
+  body .forsidetekstogbillede .forsidebillede {
+    margin-top: 1%;
+  }
+  body .trebokse {
+    width: 100%;
+    height: 400px;
+    float: left;
+  }
+  body .trebokse .second, body .trebokse .third, body .trebokse .first {
+    margin-top: 7%;
+    /* De her to fjernes hvis resten af siden ik skal fucke */
+    width: 33%;
+    display: block;
+  }
+  body .trebokse p {
+    margin: 4% 6%;
+  }
+  body .trebokse button {
+    background-color: #FF5252;
+    border: none;
+    padding: 5px 55px;
+    color: white;
+    border-radius: 50px;
+  }
+}
 @media screen and (min-width: 992px) {
   /* Desktop-version */
   body header {
-    width: 100%; }
-    body header div a img {
-      width: 80px;
-      height: auto;
-      margin: 0;
-      float: left;
-      padding: 2.5% 0% 0% 3%; }
-    body header div #mynav {
-      display: none; }
-    body header nav {
-      float: right;
-      text-decoration: none;
-      display: inline-block !important;
-      margin: auto; }
-      body header nav ul {
-        margin: auto;
-        margin: 35px 25px 0px 0px; }
-        body header nav ul li {
-          text-decoration: none;
-          font-family: 'Raleway', sans-serif;
-          font-size: 18px;
-          list-style-type: none;
-          display: inline-block; }
-        body header nav ul a {
-          color: black;
-          text-decoration: none;
-          margin-left: 35px; }
-        body header nav ul .active {
-          font-weight: bolder;
-          color: black;
-          border-bottom: 2px solid #FF5252;
-          padding-bottom: 8px; } }
-
-/*# sourceMappingURL=stylesheet.css.map */
+    width: 100%;
+  }
+  body header div a img {
+    width: 80px;
+    height: auto;
+    margin: 0;
+    float: left;
+    padding: 2.5% 0% 0% 3%;
+  }
+  body header div #mynav {
+    display: none;
+  }
+  body header nav {
+    float: right;
+    text-decoration: none;
+    display: inline-block !important;
+    margin: auto;
+  }
+  body header nav ul {
+    margin: auto;
+    margin: 35px 25px 0px 0px;
+  }
+  body header nav ul li {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    list-style-type: none;
+    display: inline-block;
+  }
+  body header nav ul a {
+    color: black;
+    text-decoration: none;
+    margin-left: 35px;
+  }
+  body header nav ul .active {
+    font-weight: bolder;
+    color: black;
+    border-bottom: 2px solid #FF5252;
+    padding-bottom: 8px;
+  }
+}
