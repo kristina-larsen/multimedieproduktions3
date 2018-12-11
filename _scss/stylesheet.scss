@@ -382,15 +382,49 @@ span {
   width: 100%;
   height: auto;
   margin-top: 2%;
+  position: absolute;
 }
 
 .help {
   position: absolute;
+  text-align: left;
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-left: 7%;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 35px;
+    margin-top: 2px;
+    margin-left: 7%;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 23px;
+    margin-top: 2px;
+    margin-left: 7%;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  /*button {
+    background-color: #FF5252;
+    border: none;
+    padding: 5px 55px;
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+  }*/
  }
 }
 
 /* De øverste bokse. */
 .trebokse {
+  margin-top: 65%;
   text-align: center;
 
   .second, .third, .first {
@@ -416,7 +450,7 @@ span {
   width: 100%;
 
   .klaus {
-    width: 100% !important;
+    width: 100%;
     height: auto;
     padding: 0;
     margin: 0;
@@ -428,6 +462,7 @@ span {
     padding: 7% 5%;
     color: white;
     margin-top: -5px;
+    text-align: center;
   }
 }
 
@@ -435,6 +470,7 @@ span {
 .tekstbokse {
   background-color: white;
   padding: 20px;
+  text-align: center;
 
   .tekstboks2, .tekstboks1 {
     margin-top: 30px;
@@ -450,14 +486,38 @@ span {
 
   p {
     color: black;
+    padding: 3px 20px;
   }
 
   button {
     background-color: #FF5252;
     color: white;
     margin-bottom: 50px;
+    border: none;
+    padding: 5px 55px;
+    color: white;
+    border-radius: 50px;
   }
  }
+
+.brugfor {
+  text-align: center;
+  background-color: #2A2A2A;
+  padding: 6% 0;
+
+  h1, p {
+    margin: 5px 10px;
+    color: white;
+  }
+
+  button {
+    background-color: #FF5252;
+    border: none;
+    padding: 5px 55px;
+    color: white;
+    border-radius: 50px;
+ }
+}
 
 /* Videobiblioteket på forsiden. */
 .videobibliotekforside {
@@ -466,23 +526,72 @@ span {
   h1 {
     padding-top: 6%;
     color: white;
+    text-align: center;
+    margin-top: 0px;
   }
 
-  img {
+  video {
     width: 90%;
     margin-top: 10px;
     padding-bottom: 3%;
+    margin-left: 5%;
   }
 
   p {
     margin: 0;
     color: white;
-    margin: 0 14px 20px 14px;
+    text-align: center;
+    padding-bottom: 5%;
   }
  }
 
+/* Om Juviva mobil. */
+.omosklaus {
+  margin-top: 3%;
+  width: 100%;
+
+  .klausom {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+  p {
+    background-color: white;
+    margin: 0;
+    padding: 7% 5%;
+    color: black;
+    margin-top: -5px;
+    text-align: center;
+  }
+}
+
+.collage {
+  display: none;
+}
+
+.tekstboksomjuviva {
+  margin-top: 30px;
+  background-color: #FF5252;
+  padding: 5px 5px;
+}
+
+h1 {
+  margin-top: 50px;
+  color: black;
+  text-align: center;
+}
+
+p {
+  color: black;
+  padding: 3px 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 footer {
-  background-color: black;
+  background-color: #2A2A2A;
   height: 70px;
  }
 }
@@ -534,46 +643,104 @@ body {
 
 .forsidetekstogbillede {
 
-.forsidebillede {
-  margin-top: 1%;
+  .forsidebillede {
+    margin-top: 1%;
+   }
+
+.help {
+
+  h1 {
+    font-size: 120px;
+    margin-bottom: 0;
+    margin-left: 10%;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 100px;
+    margin-top: 2px;
+    margin-left: 10%;
+    border-bottom: 3px black;
+    border-bottom-style: inset;
+  }
+
+  h3 {
+    font-size: 50px;
+    margin-top: 2px;
+    margin-left: 10%;
+    font-family: 'Raleway', sans-serif;
+  }
  }
 }
 
 /* De øverste bokse. */
 .trebokse {
   width: 100%;
-  height: 400px;
-  float: left;
+  height: 700px;
 
   .second, .third, .first {
-    margin-top: 7%;
-
-    /* De her to fjernes hvis resten af siden ik skal fucke */
-    width: 33%;
-    display:block;
+    margin-top: 0;
+    width: 33.2%;
+    display: inline-block;
+    float: left;
+    border-right: 1px black;
+    border-right-style: inset;
+   }
   }
 
-  p {
-  margin: 4% 6%;
+/* Billedet af Klaus og teksten. */
+  .klausogtekst {
+    width: 100%;
+    clear: both;
+    height: 450px;
+    margin-top: 10px;
+
+    .klaus {
+      width: 50%;
+      height: auto;
+      float: left;
+      }
+
+    p {
+      width: 40%;
+      float: right;
+      margin-top: 0;
+      height: 316.5px;
+    }
   }
 
-    button {
-      background-color: #FF5252;
-      border: none;
-      padding: 5px 55px;
-      color: white;
-      border-radius: 50px;
+  /* Tekstbokse. */
+  .tekstbokse {
+    width: 100%;
+    clear: both;
+    height: 570px;
+
+    .tekstboks2, .tekstboks1 {
+      width: 40%;
+      float: left;
+      margin-left: 6%;
+    }
+
+      .tekstboks2 {
+        margin-left: 3%;
+      }
+   }
+
+.brugfor {
+  margin-bottom: 0%;
+  margin-top: 5%;
+
+  button {
+    margin-top: 3%;
   }
-}
-
-
-
-}
+  }
+ }
 }
 
 @media screen and (min-width: 992px){ /* Desktop-version */
 
 body {
+
   header {
     width: 100%;
 
@@ -631,5 +798,94 @@ nav {
    }
   }
  }
-}
+
+ /* Forside ipad. */
+
+ .forsidetekstogbillede {
+
+   .forsidebillede {
+     margin-top: 0%;
+    }
+
+ .help {
+
+   h1 {
+     font-size: 240px;
+     margin-top: 4%;
+     margin-left: 10%;
+   }
+
+   h2 {
+     font-size: 200px;
+     margin-top: 2px;
+     margin-left: 10%;
+     border-bottom: 4px black;
+     border-bottom-style: inset;
+   }
+
+   h3 {
+     font-size: 120px;
+     margin-top: 2px;
+     margin-left: 10%;
+   }
+  }
+ }
+
+ /* De øverste bokse. */
+ .trebokse {
+   height: 500px;
+
+   .second, .third, .first {
+     margin-top: 0%;
+    }
+   }
+
+ /* Billedet af Klaus og teksten. */
+   .klausogtekst {
+
+     .klaus {
+       }
+
+     p {
+       height: 340px;
+       padding-top: 23%;
+     }
+   }
+
+   /* Tekstbokse. */
+   .tekstbokse {
+     height: 570px;
+
+     .tekstboks2, .tekstboks1 {
+       width: 30%;
+       margin-left: 16%;
+       margin-top: 4%;
+     }
+
+       .tekstboks2 {
+         margin-left: 3%;
+       }
+    }
+
+ .brugfor {
+   margin-bottom: 0%;
+   margin-top: 0;
+ }
+
+ /* Videobiblioteket på forsiden. */
+ .videobibliotekforside {
+   margin-top: -2%;
+
+   h1 {
+     font-size: 30px;
+   }
+
+video  {
+  width: 23.5%;
+  float: left;
+  margin-left: 1.2%;
+  margin-top: 3%;
+  }
+  }
+ }
 }
