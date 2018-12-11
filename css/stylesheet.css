@@ -103,7 +103,7 @@ body .mestsete .overskriftvideoside {
   position: absolute;
   margin: 15px 55px;
 }
-body .mestsete .control_prev {
+body .mestsete .control_prev1 {
   margin-top: 110px;
   text-decoration: none;
   font-size: 60px;
@@ -112,16 +112,16 @@ body .mestsete .control_prev {
   z-index: 10;
   margin-left: 1%;
 }
-body .mestsete .control_next {
+body .mestsete .control_next1 {
   margin-top: 110px;
   text-decoration: none;
   font-size: 60px;
   font-family: Roboto;
   color: black;
   z-index: 10;
-  margin-left: 95%;
+  margin-left: 88%;
 }
-body .mestsete #slider {
+body .mestsete #slider1 {
   width: 95%;
   height: 230px;
   overflow: hidden;
@@ -132,13 +132,13 @@ body .mestsete #slider {
   /* Billederne i slideshowet */
   /* Billederne til venstre i slideshowet */
 }
-body .mestsete #slider .slides {
+body .mestsete #slider1 .slides1 {
   display: block;
   width: 6560px;
   max-height: 300px;
   padding: 0%;
 }
-body .mestsete #slider .slide {
+body .mestsete #slider1 .slide1 {
   float: left;
   list-style-type: none;
   width: 380px;
@@ -147,7 +147,7 @@ body .mestsete #slider .slide {
   /* Skriften over billederne */
   /* Selve billederne */
 }
-body .mestsete #slider .slide .text6 {
+body .mestsete #slider1 .slide1 .text6 {
   background-color: rgba(255, 255, 255, 0.7);
   width: 135px;
   height: 70px;
@@ -160,24 +160,24 @@ body .mestsete #slider .slide .text6 {
   margin-top: -178px;
   color: #293952;
 }
-body .mestsete #slider .slide img {
+body .mestsete #slider1 .slide1 img {
   width: 100%;
   height: auto;
   position: relative;
 }
-body .mestsete #slider .left1 {
+body .mestsete #slider1 .left1 {
   margin-left: -415px;
 }
-body .mestsete #slider .left2 {
+body .mestsete #slider1 .left2 {
   margin-left: -830px;
 }
-body .mestsete #slider .left3 {
+body .mestsete #slider1 .left3 {
   margin-left: -1245px;
 }
-body .mestsete #slider .left4 {
+body .mestsete #slider1 .left4 {
   margin-left: -1660px;
 }
-body .mestsete #slider .left5 {
+body .mestsete #slider1 .left5 {
   margin-left: -2075px;
 }
 body .fællesslider {
@@ -195,7 +195,7 @@ body .fællesslider .overskriftvideoside {
   position: absolute;
   margin: 15px 55px;
 }
-body .fællesslider .control_prev {
+body .fællesslider .control_prev2, body .fællesslider .control_prev3, body .fællesslider .control_prev4, body .fællesslider .control_prev5 {
   margin-top: 110px;
   text-decoration: none;
   font-size: 60px;
@@ -204,16 +204,16 @@ body .fællesslider .control_prev {
   z-index: 10;
   margin-left: 1%;
 }
-body .fællesslider .control_next {
+body .fællesslider .control_next2, body .fællesslider .control_next3, body .fællesslider .control_next4, body .fællesslider .control_next5 {
   margin-top: 110px;
   text-decoration: none;
   font-size: 60px;
   font-family: Roboto;
   color: black;
   z-index: 10;
-  margin-left: 95%;
+  margin-left: 88%;
 }
-body .fællesslider #slider {
+body .fællesslider #slider2, body .fællesslider #slider3, body .fællesslider #slider4, body .fællesslider #slider5 {
   width: 95%;
   height: 230px;
   overflow: hidden;
@@ -224,13 +224,13 @@ body .fællesslider #slider {
   /* Billederne i slideshowet */
   /* Billederne til venstre i slideshowet */
 }
-body .fællesslider #slider .slides {
+body .fællesslider #slider2 .slides2, body .fællesslider #slider2 .slides3, body .fællesslider #slider2 .slides4, body .fællesslider #slider2 .slides5, body .fællesslider #slider3 .slides2, body .fællesslider #slider3 .slides3, body .fællesslider #slider3 .slides4, body .fællesslider #slider3 .slides5, body .fællesslider #slider4 .slides2, body .fællesslider #slider4 .slides3, body .fællesslider #slider4 .slides4, body .fællesslider #slider4 .slides5, body .fællesslider #slider5 .slides2, body .fællesslider #slider5 .slides3, body .fællesslider #slider5 .slides4, body .fællesslider #slider5 .slides5 {
   display: block;
   width: 6560px;
   max-height: 300px;
   padding: 0%;
 }
-body .fællesslider #slider .slide {
+body .fællesslider #slider2 .slide2, body .fællesslider #slider2 .slide3, body .fællesslider #slider2 .slide4, body .fællesslider #slider2 .slide5, body .fællesslider #slider3 .slide2, body .fællesslider #slider3 .slide3, body .fællesslider #slider3 .slide4, body .fællesslider #slider3 .slide5, body .fællesslider #slider4 .slide2, body .fællesslider #slider4 .slide3, body .fællesslider #slider4 .slide4, body .fællesslider #slider4 .slide5, body .fællesslider #slider5 .slide2, body .fællesslider #slider5 .slide3, body .fællesslider #slider5 .slide4, body .fællesslider #slider5 .slide5 {
   float: left;
   list-style-type: none;
   width: 380px;
@@ -239,7 +239,7 @@ body .fællesslider #slider .slide {
   /* Skriften over billederne */
   /* Selve billederne */
 }
-body .fællesslider #slider .slide .text6 {
+body .fællesslider #slider2 .slide2 .text6, body .fællesslider #slider2 .slide3 .text6, body .fællesslider #slider2 .slide4 .text6, body .fællesslider #slider2 .slide5 .text6, body .fællesslider #slider3 .slide2 .text6, body .fællesslider #slider3 .slide3 .text6, body .fællesslider #slider3 .slide4 .text6, body .fællesslider #slider3 .slide5 .text6, body .fællesslider #slider4 .slide2 .text6, body .fællesslider #slider4 .slide3 .text6, body .fællesslider #slider4 .slide4 .text6, body .fællesslider #slider4 .slide5 .text6, body .fællesslider #slider5 .slide2 .text6, body .fællesslider #slider5 .slide3 .text6, body .fællesslider #slider5 .slide4 .text6, body .fællesslider #slider5 .slide5 .text6 {
   background-color: rgba(255, 255, 255, 0.7);
   width: 135px;
   height: 70px;
@@ -252,24 +252,24 @@ body .fællesslider #slider .slide .text6 {
   margin-top: -178px;
   color: #293952;
 }
-body .fællesslider #slider .slide img {
+body .fællesslider #slider2 .slide2 img, body .fællesslider #slider2 .slide3 img, body .fællesslider #slider2 .slide4 img, body .fællesslider #slider2 .slide5 img, body .fællesslider #slider3 .slide2 img, body .fællesslider #slider3 .slide3 img, body .fællesslider #slider3 .slide4 img, body .fællesslider #slider3 .slide5 img, body .fællesslider #slider4 .slide2 img, body .fællesslider #slider4 .slide3 img, body .fællesslider #slider4 .slide4 img, body .fællesslider #slider4 .slide5 img, body .fællesslider #slider5 .slide2 img, body .fællesslider #slider5 .slide3 img, body .fællesslider #slider5 .slide4 img, body .fællesslider #slider5 .slide5 img {
   width: 100%;
   height: auto;
   position: relative;
 }
-body .fællesslider #slider .left1 {
+body .fællesslider #slider2 .left1, body .fællesslider #slider3 .left1, body .fællesslider #slider4 .left1, body .fællesslider #slider5 .left1 {
   margin-left: -415px;
 }
-body .fællesslider #slider .left2 {
+body .fællesslider #slider2 .left2, body .fællesslider #slider3 .left2, body .fællesslider #slider4 .left2, body .fællesslider #slider5 .left2 {
   margin-left: -830px;
 }
-body .fællesslider #slider .left3 {
+body .fællesslider #slider2 .left3, body .fællesslider #slider3 .left3, body .fællesslider #slider4 .left3, body .fællesslider #slider5 .left3 {
   margin-left: -1245px;
 }
-body .fællesslider #slider .left4 {
+body .fællesslider #slider2 .left4, body .fællesslider #slider3 .left4, body .fællesslider #slider4 .left4, body .fællesslider #slider5 .left4 {
   margin-left: -1660px;
 }
-body .fællesslider #slider .left5 {
+body .fællesslider #slider2 .left5, body .fællesslider #slider3 .left5, body .fællesslider #slider4 .left5, body .fællesslider #slider5 .left5 {
   margin-left: -2075px;
 }
 body .forsidetekstogbillede {

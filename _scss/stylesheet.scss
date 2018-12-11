@@ -135,7 +135,7 @@ span {
   }
 
       /* Pilen til venstre */
-      .control_prev{
+      .control_prev1{
         margin-top: 110px;
         text-decoration: none;
         font-size: 60px;
@@ -146,18 +146,18 @@ span {
       }
 
             /* Pilen til højre */
-            .control_next{
+            .control_next1{
             margin-top: 110px;
             text-decoration: none;
             font-size: 60px;
             font-family: Roboto;
             color: black;
             z-index: 10;
-            margin-left: 95%;
+            margin-left: 88%;
             }
 
                 /* Selve slideshowet */
-                #slider {
+                #slider1 {
                   width: 95%;
                   height: 230px;
                   overflow: hidden;
@@ -169,7 +169,7 @@ span {
                   //overflow-x: visible;
 
                     /* Styring af billederne i slideshowet */
-                    .slides {
+                    .slides1 {
                        display: block;
                        width: 6560px;
                        max-height: 300px;
@@ -177,7 +177,7 @@ span {
                       }
 
           /* Billederne i slideshowet */
-          .slide {
+          .slide1 {
             float: left;
             list-style-type: none;
             width: 380px;
@@ -246,7 +246,7 @@ span {
       }
 
           /* Pilen til venstre */
-          .control_prev{
+          .control_prev2, .control_prev3, .control_prev4, .control_prev5{
             margin-top: 110px;
             text-decoration: none;
             font-size: 60px;
@@ -257,18 +257,18 @@ span {
           }
 
                 /* Pilen til højre */
-                .control_next{
+                .control_next2, .control_next3, .control_next4, .control_next5{
                 margin-top: 110px;
                 text-decoration: none;
                 font-size: 60px;
                 font-family: Roboto;
                 color: black;
                 z-index: 10;
-                margin-left: 95%;
+                margin-left: 88%;
                 }
 
                     /* Selve slideshowet */
-                    #slider {
+                    #slider2, #slider3, #slider4, #slider5 {
                       width: 95%;
                       height: 230px;
                       overflow: hidden;
@@ -280,7 +280,7 @@ span {
                       //overflow-x: visible;
 
                         /* Styring af billederne i slideshowet */
-                        .slides {
+                        .slides2, .slides3, .slides4, .slides5 {
                            display: block;
                            width: 6560px;
                            max-height: 300px;
@@ -288,7 +288,7 @@ span {
                           }
 
               /* Billederne i slideshowet */
-              .slide {
+              .slide2, .slide3, .slide4, .slide5  {
                 float: left;
                 list-style-type: none;
                 width: 380px;
@@ -340,36 +340,6 @@ span {
             }
           }
         }
-
- //videobibliotek mobil slut
-//}
-
-// .minliste, .kropsvægtstræning, .korrektionstræning, .opvarmningsprogrammer, .kettlebelltræning, .vægtstangstræning {
-//   width: 100%;
-//   height: 200px;
-//   margin: 0;
-//   clear: both;
-//   padding: 8px 0px 60px 0px;
-//   margin-top: 16px;
-//
-//   h1 {
-//     margin-left: 5%;
-//     color: black;
-//   }
-//
-//   video {
-//     margin-left: 5%;
-//     margin-top: 7px;
-//   }
-//  }
-//
-// .kropsvægtstræning, .korrektionstræning, .opvarmningsprogrammer, .kettlebelltræning, .vægtstangstræning {
-// margin-top: 0px;
-//
-//    video {
-//      margin-top: 0px;
-//     }
-//    }
 
 /* Forside mobil. */
 
