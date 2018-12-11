@@ -241,6 +241,7 @@ body {
       position: absolute; }
     body .forsidetekstogbillede .help {
       position: absolute;
+      text-align: left;
       /*button {
         background-color: #FF5252;
         border: none;
@@ -252,7 +253,8 @@ body {
       body .forsidetekstogbillede .help h1 {
         font-size: 50px;
         margin-bottom: 0;
-        margin-left: 7%; }
+        margin-left: 7%;
+        text-align: left; }
       body .forsidetekstogbillede .help h2 {
         font-size: 35px;
         margin-top: 2px;
@@ -329,12 +331,12 @@ body {
       color: white;
       border-radius: 50px; }
   body .videobibliotekforside {
-    background-color: #48C3D1;
-    margin-top: -13px; }
+    background-color: #48C3D1; }
     body .videobibliotekforside h1 {
       padding-top: 6%;
       color: white;
-      text-align: center; }
+      text-align: center;
+      margin-top: 0px; }
     body .videobibliotekforside video {
       width: 90%;
       margin-top: 10px;
@@ -343,7 +345,6 @@ body {
     body .videobibliotekforside p {
       margin: 0;
       color: white;
-      margin: 0 14px 20px 14px;
       text-align: center;
       padding-bottom: 5%; }
   body .omosklaus {
@@ -409,7 +410,8 @@ body {
     body .forsidetekstogbillede .help h1 {
       font-size: 120px;
       margin-bottom: 0;
-      margin-left: 10%; }
+      margin-left: 10%;
+      text-align: left; }
     body .forsidetekstogbillede .help h2 {
       font-size: 100px;
       margin-top: 2px;
@@ -423,9 +425,9 @@ body {
       font-family: 'Raleway', sans-serif; }
     body .trebokse {
       width: 100%;
-      height: 500px; }
+      height: 700px; }
       body .trebokse .second, body .trebokse .third, body .trebokse .first {
-        margin-top: 3%;
+        margin-top: 0;
         width: 33.2%;
         display: inline-block;
         float: left;
@@ -434,7 +436,8 @@ body {
     body .klausogtekst {
       width: 100%;
       clear: both;
-      height: 450px; }
+      height: 450px;
+      margin-top: 10px; }
       body .klausogtekst .klaus {
         width: 50%;
         height: auto;
@@ -517,7 +520,7 @@ body {
       margin-top: 2px;
       margin-left: 10%; }
     body .trebokse {
-      height: 300px; }
+      height: 500px; }
       body .trebokse .second, body .trebokse .third, body .trebokse .first {
         margin-top: 0%; }
     body .klausogtekst p {
