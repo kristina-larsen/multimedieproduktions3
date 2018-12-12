@@ -560,6 +560,55 @@ p {
   margin-bottom: 40px;
 }
 
+//login side
+.brugerwrap{
+  width: 60%;
+  margin: auto;
+
+  .login, .opretbruger{
+    width: 100%;
+    font-family: Raleway;
+    //float: left;
+    margin: 10px;
+
+
+
+    label{
+      margin-top: 5px;
+      width: 50px;
+      clear: both;
+
+      b{
+      width: 50px;
+      }
+    }
+
+    input{
+      margin: 10px 0px 20px;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid;
+      clear: both;
+    }
+
+    button{
+      text-align: center;
+      margin: 10px;
+      font-family: Raleway;
+      padding: 5px 20px;
+      border-radius: 30%;
+      border: none;
+      width: 65%;
+    }
+  }
+  .login{
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+  }
+  .opretbruger{
+    margin-top: 40px;
+  }
+}
 footer {
   background-color: #2A2A2A;
   height: 80px;
@@ -732,6 +781,46 @@ body {
     margin-top: 3%;
   }
   }
+
+  //login side
+  .brugerwrap{
+    width: 90%;
+
+
+    .login, .opretbruger{
+      width: 40%;
+      float: left;
+
+
+
+
+      label{
+
+
+        b{
+
+        }
+      }
+
+      input{
+
+      }
+
+      button{
+
+      }
+    }
+    .login{
+      padding-right: 6%;
+      border-right: 1px solid;
+      border-bottom: none;
+    }
+    .opretbruger{
+      margin-left: 6%;
+      margin-top: 10px;
+    }
+  }
+
  }
 }
 

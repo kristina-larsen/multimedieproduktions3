@@ -450,6 +450,46 @@ body p {
   text-align: center;
   margin-bottom: 40px;
 }
+body .brugerwrap {
+  width: 60%;
+  margin: auto;
+}
+body .brugerwrap .login, body .brugerwrap .opretbruger {
+  width: 100%;
+  font-family: Raleway;
+  margin: 10px;
+}
+body .brugerwrap .login label, body .brugerwrap .opretbruger label {
+  margin-top: 5px;
+  width: 50px;
+  clear: both;
+}
+body .brugerwrap .login label b, body .brugerwrap .opretbruger label b {
+  width: 50px;
+}
+body .brugerwrap .login input, body .brugerwrap .opretbruger input {
+  margin: 10px 0px 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  clear: both;
+}
+body .brugerwrap .login button, body .brugerwrap .opretbruger button {
+  text-align: center;
+  margin: 10px;
+  font-family: Raleway;
+  padding: 5px 20px;
+  border-radius: 30%;
+  border: none;
+  width: 65%;
+}
+body .brugerwrap .login {
+  padding-bottom: 30px;
+  border-bottom: 1px solid;
+}
+body .brugerwrap .opretbruger {
+  margin-top: 40px;
+}
 body footer {
   background-color: #2A2A2A;
   height: 80px;
@@ -580,6 +620,22 @@ body footer div div p {
   }
   body .brugfor button {
     margin-top: 3%;
+  }
+  body .brugerwrap {
+    width: 90%;
+  }
+  body .brugerwrap .login, body .brugerwrap .opretbruger {
+    width: 40%;
+    float: left;
+  }
+  body .brugerwrap .login {
+    padding-right: 6%;
+    border-right: 1px solid;
+    border-bottom: none;
+  }
+  body .brugerwrap .opretbruger {
+    margin-left: 6%;
+    margin-top: 10px;
   }
 }
 @media screen and (min-width: 992px) {
