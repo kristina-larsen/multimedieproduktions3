@@ -519,8 +519,7 @@ body {
     body .tekstbokse {
       width: 100%;
       clear: both;
-      height: 570px;
-      margin-left: 3.6%; }
+      height: 570px; }
       body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
         width: 40%;
         float: left;
