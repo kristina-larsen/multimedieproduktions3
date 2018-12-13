@@ -557,19 +557,22 @@ body {
         width: 33.3%;
         height: auto;
         float: left; }
-      body .collagemain .transparentbox {
+      body .collagemain .tekstboksomjuviva {
         width: 100%;
         height: 288px;
         background-color: rgba(0, 0, 0, 0.8);
-        position: absolute; }
-      body .collagemain .tekstboksomjuviva {
-        margin-top: 0px;
         position: absolute;
-        background-color: rgba(0, 0, 0, 0.8); }
-        body .collagemain .tekstboksomjuviva h1 {
-          color: white; }
-        body .collagemain .tekstboksomjuviva p {
-          color: white; } }
+        margin-top: 0;
+        padding: 0; }
+        body .collagemain .tekstboksomjuviva div {
+          background-color: red;
+          width: 50%;
+          height: 150px;
+          margin: auto; }
+          body .collagemain .tekstboksomjuviva div h1 {
+            color: white; }
+          body .collagemain .tekstboksomjuviva div p {
+            color: white; } }
 @media screen and (min-width: 992px) {
   /* Desktop-version */
   body {
