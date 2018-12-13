@@ -9,7 +9,8 @@ body {
   /* Billedet af Klaus og teksten. */
   /* Tekstbokse. */
   /* Videobiblioteket på forsiden. */
-  /* Om Juviva mobil. */ }
+  /* Om Juviva mobil. */
+  /* Billede og tekst Klaus. */ }
   body h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px; }
@@ -355,7 +356,7 @@ body {
         padding-bottom: 5%;
         list-style-type: none; }
   body .omosklaus {
-    margin-top: 3%;
+    margin-top: 2%;
     width: 100%; }
     body .omosklaus .klausom {
       width: 100%;
@@ -446,7 +447,8 @@ body {
     /* Forside ipad. */
     /* De øverste bokse. */
     /* Billedet af Klaus og teksten. */
-    /* Tekstbokse. */ }
+    /* Tekstbokse. */
+    /* Om Juviva ipad-version. */ }
     body header {
       height: 90px; }
       body header div a img {
@@ -534,7 +536,39 @@ body {
         border-bottom: none; }
       body .brugerwrap .opretbruger {
         margin-left: 6%;
-        margin-top: 10px; } }
+        margin-top: 10px; }
+    body .omosklaus {
+      width: 100%;
+      clear: both;
+      height: 382px; }
+      body .omosklaus .klausom {
+        width: 45%;
+        float: left; }
+      body .omosklaus h1 {
+        text-align: center;
+        margin-top: 0; }
+      body .omosklaus p {
+        width: 46%;
+        float: right;
+        margin-top: 0;
+        padding: 3% 4%; }
+    body .collagemain .collage {
+      display: inline-block;
+      height: 280px;
+      width: 100%;
+      position: relative; }
+      body .collagemain .collage .billede1, body .collagemain .collage .billede2, body .collagemain .collage .billede3, body .collagemain .collage .billede4, body .collagemain .collage .billede5, body .collagemain .collage .billede6 {
+        width: 33.3%;
+        position: relative;
+        height: auto;
+        float: left; }
+    body .collagemain .transparentbox {
+      width: 100%;
+      height: 100px;
+      background-color: rgba(0, 0, 0, 0.8);
+      position: absolute; }
+    body .collagemain .tekstboksomjuviva {
+      margin-top: 0px; } }
 @media screen and (min-width: 992px) {
   /* Desktop-version */
   body {
