@@ -2,7 +2,7 @@ body {
 margin: 0;
 padding: 0;
 
-h1 {
+h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
 }
@@ -330,6 +330,7 @@ span {
 .forsidetekstogbillede {
   position: relative;
   margin: 0;
+  clear: both;
 
 .forsidebillede {
   width: 100%;
@@ -363,16 +364,18 @@ span {
     margin-left: 7%;
     font-family: 'Raleway', sans-serif;
   }
-
-  /*button {
+}
+  button {
     background-color: #FF5252;
     border: none;
     padding: 5px 55px;
     color: white;
     border-radius: 50px;
     position: absolute;
-  }*/
- }
+    top: 380px;
+    left: 100px;
+  }
+
 }
 
 /* De øverste bokse. */
@@ -388,6 +391,7 @@ span {
   margin: 4% 6%;
   }
 
+
     button {
       background-color: #FF5252;
       border: none;
@@ -395,6 +399,7 @@ span {
       color: white;
       border-radius: 50px;
   }
+
 }
 
 /* Billedet af Klaus og teksten. */
@@ -506,6 +511,7 @@ span {
  }
 }
 
+
 /* Om Juviva mobil. */
 /* Billede og tekst Klaus. */
 .omosklaus {
@@ -605,6 +611,91 @@ p {
     margin-top: 40px;
   }
 }
+
+//online konsultation side
+main{
+
+
+  .imgkonsultation{
+    width: 100%;
+    position: relative;
+    clear: both;
+
+    img{
+      width: 100%;
+    }
+
+    .tekstkonsultation{
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      text-align: left;
+      width: 30%;
+
+      h1{
+        text-align: left;
+        color: black;
+        font-weight: bold;
+      }
+      h2{
+        text-align: left;
+        color: black;
+      }
+      h3{
+        text-align: left;
+        color: black;
+      }
+    }
+    button{
+      width: 70px;
+      background-color: red;
+      border: none;
+      border-radius: 25px;
+      padding: 2px;
+      text-align:center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      position: absolute;
+      bottom: 5%;
+      left: 5%;
+
+    }
+  }
+
+  .konsultationinfo{
+
+    .infotekst{
+
+      h2{
+        text-align: center;
+      }
+      .konsultationtekst{
+        color: black;
+      }
+    }
+    .knapkonsultation{
+      margin: auto;
+      width: 80px;
+
+      .knapwrap{
+
+      button{
+        width: 100%;
+        background-color: lightblue;
+        border: none;
+        border-radius: 25px;
+        padding: 2px;
+        text-align:center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+      }
+      }
+    }
+  }
+  //skiv her
+}//online konsultation slut her
+
 footer {
   background-color: #2A2A2A;
   height: 125px;
@@ -900,6 +991,80 @@ body {
   }
  }
 }
+
+//online konsultation side
+main{
+
+
+  .imgkonsultation{
+
+
+    img{
+
+    }
+
+    .tekstkonsultation{
+
+
+      h1{
+        font-size: 80px;
+        margin: 4px;
+      }
+      h2{
+        font-size: 60px;
+        margin: 4px;
+      }
+      h3{
+        font-size: 40px;
+        margin: 4px;
+      }
+    }
+    button{
+    width: 130px;
+    font-size: 20px;
+    left: 12%;
+    bottom: 3%;
+
+    }
+  }
+
+  .konsultationinfo{
+    float: left;
+    margin: auto;
+
+    .infotekst{
+      width: 48%;
+      float: left;
+      border-right: 1px solid;
+      padding-right: 4%;
+      margin: 10px 0 10px 10px;
+
+      h2{
+
+      }
+      .konsultationtekst{
+
+      }
+    }
+    .knapkonsultation{
+      width: 45%;
+      float: left;
+
+      .knapwrap{
+        width: 150px;
+        margin: auto;
+        margin-top: 130px;
+
+      button{
+        width: 150px;
+        padding: 5px;
+
+      }
+      }
+    }
+  }
+  //skiv her
+}//online konsultation slut her
 
  }
 }
