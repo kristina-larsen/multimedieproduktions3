@@ -9,516 +9,430 @@ body {
   /* Billedet af Klaus og teksten. */
   /* Tekstbokse. */
   /* Videobiblioteket på forsiden. */
-  /* Om Juviva mobil. */
-}
-body h1 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-}
-body p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
-}
-body header {
-  background-color: white;
-  position: relative;
-  width: 100%;
-  height: 40px;
-  clear: both;
-  height: auto;
-}
-body header div a img {
-  width: 70px;
-  height: auto;
-  margin: 4.5% 0% 2% 4%;
-}
-body header nav {
-  display: none;
-}
-body header div {
-  width: 100%;
-}
-body header div a {
-  text-decoration: none;
-  color: #293952;
-}
-body header .navi {
-  height: 58%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  overflow-x: hidden;
-  transition: 0.3s;
-  text-decoration: none;
-}
-body header .navi .overlayer {
-  position: relative;
-  top: 2%;
-  text-align: left;
-}
-body header .navi .overlayer a {
-  padding: 8px;
-  margin-left: 7%;
-  margin-top: 20%;
-  text-decoration: none;
-  font-size: 22px;
-  color: #FF5252;
-  display: block;
-  transition: 0.3s;
-  border-bottom: 2px solid white;
-  font-family: 'Raleway', sans-serif;
-}
-body header .navi .closebut {
-  position: absolute;
-  right: 3%;
-  padding: 0;
-  font-size: 40px;
-  text-decoration: none;
-  color: #293952;
-}
-body header span {
-  display: block;
-  font-size: 25px;
-  color: #293952;
-  cursor: pointer;
-  float: right;
-  margin: -11% 4% 0 0;
-}
-body .mestsete {
-  height: 270px;
-  width: 100%;
-  background-color: white;
-  display: inline-flex;
-  bottom: 0;
-  overflow-wrap: break-word;
-  background-color: #45C2D1;
-  /* Pilen til venstre */
-  /* Pilen til højre */
-  /* Selve slideshowet */
-}
-body .mestsete .overskriftvideoside {
-  position: absolute;
-  margin: 15px 55px;
-}
-body .mestsete .control_prev1 {
-  margin-top: 110px;
-  text-decoration: none;
-  font-size: 60px;
-  font-family: Roboto;
-  color: black;
-  z-index: 10;
-  margin-left: 1%;
-}
-body .mestsete .control_next1 {
-  margin-top: 110px;
-  text-decoration: none;
-  font-size: 60px;
-  font-family: Roboto;
-  color: black;
-  z-index: 10;
-  margin-left: 88%;
-}
-body .mestsete #slider1 {
-  width: 95%;
-  height: 230px;
-  overflow: hidden;
-  position: absolute;
-  clip: rect(10px, 1000px);
-  margin: 40px 2.5% 0 2.5%;
-  /* Styring af billederne i slideshowet */
-  /* Billederne i slideshowet */
-  /* Billederne til venstre i slideshowet */
-}
-body .mestsete #slider1 .slides1 {
-  display: block;
-  width: 6560px;
-  max-height: 300px;
-  padding: 0%;
-}
-body .mestsete #slider1 .slide1 {
-  float: left;
-  list-style-type: none;
-  width: 380px;
-  height: auto;
-  margin: 0 15px;
-  /* Skriften over billederne */
-  /* Selve billederne */
-}
-body .mestsete #slider1 .slide1 .text6 {
-  background-color: rgba(255, 255, 255, 0.7);
-  width: 135px;
-  height: 70px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 10px;
-  font-size: 20px;
-  font-family: 'Quattrocento Sans', sans-serif;
-  position: absolute;
-  margin-top: -178px;
-  color: #293952;
-}
-body .mestsete #slider1 .slide1 img {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-body .mestsete #slider1 .left1 {
-  margin-left: -415px;
-}
-body .mestsete #slider1 .left2 {
-  margin-left: -830px;
-}
-body .mestsete #slider1 .left3 {
-  margin-left: -1245px;
-}
-body .mestsete #slider1 .left4 {
-  margin-left: -1660px;
-}
-body .mestsete #slider1 .left5 {
-  margin-left: -2075px;
-}
-body .fællesslider {
-  height: 270px;
-  width: 100%;
-  background-color: white;
-  display: inline-flex;
-  bottom: 0;
-  overflow-wrap: break-word;
-  /* Pilen til venstre */
-  /* Pilen til højre */
-  /* Selve slideshowet */
-}
-body .fællesslider .overskriftvideoside {
-  position: absolute;
-  margin: 15px 55px;
-}
-body .fællesslider .control_prev2, body .fællesslider .control_prev3, body .fællesslider .control_prev4, body .fællesslider .control_prev5 {
-  margin-top: 110px;
-  text-decoration: none;
-  font-size: 60px;
-  font-family: Roboto;
-  color: black;
-  z-index: 10;
-  margin-left: 1%;
-}
-body .fællesslider .control_next2, body .fællesslider .control_next3, body .fællesslider .control_next4, body .fællesslider .control_next5 {
-  margin-top: 110px;
-  text-decoration: none;
-  font-size: 60px;
-  font-family: Roboto;
-  color: black;
-  z-index: 10;
-  margin-left: 88%;
-}
-body .fællesslider #slider2, body .fællesslider #slider3, body .fællesslider #slider4, body .fællesslider #slider5 {
-  width: 95%;
-  height: 230px;
-  overflow: hidden;
-  position: absolute;
-  clip: rect(10px, 1000px);
-  margin: 40px 2.5% 0 2.5%;
-  /* Styring af billederne i slideshowet */
-  /* Billederne i slideshowet */
-  /* Billederne til venstre i slideshowet */
-}
-body .fællesslider #slider2 .slides2, body .fællesslider #slider2 .slides3, body .fællesslider #slider2 .slides4, body .fællesslider #slider2 .slides5, body .fællesslider #slider3 .slides2, body .fællesslider #slider3 .slides3, body .fællesslider #slider3 .slides4, body .fællesslider #slider3 .slides5, body .fællesslider #slider4 .slides2, body .fællesslider #slider4 .slides3, body .fællesslider #slider4 .slides4, body .fællesslider #slider4 .slides5, body .fællesslider #slider5 .slides2, body .fællesslider #slider5 .slides3, body .fællesslider #slider5 .slides4, body .fællesslider #slider5 .slides5 {
-  display: block;
-  width: 6560px;
-  max-height: 300px;
-  padding: 0%;
-}
-body .fællesslider #slider2 .slide2, body .fællesslider #slider2 .slide3, body .fællesslider #slider2 .slide4, body .fællesslider #slider2 .slide5, body .fællesslider #slider3 .slide2, body .fællesslider #slider3 .slide3, body .fællesslider #slider3 .slide4, body .fællesslider #slider3 .slide5, body .fællesslider #slider4 .slide2, body .fællesslider #slider4 .slide3, body .fællesslider #slider4 .slide4, body .fællesslider #slider4 .slide5, body .fællesslider #slider5 .slide2, body .fællesslider #slider5 .slide3, body .fællesslider #slider5 .slide4, body .fællesslider #slider5 .slide5 {
-  float: left;
-  list-style-type: none;
-  width: 380px;
-  height: auto;
-  margin: 0 15px;
-  /* Skriften over billederne */
-  /* Selve billederne */
-}
-body .fællesslider #slider2 .slide2 .text6, body .fællesslider #slider2 .slide3 .text6, body .fællesslider #slider2 .slide4 .text6, body .fællesslider #slider2 .slide5 .text6, body .fællesslider #slider3 .slide2 .text6, body .fællesslider #slider3 .slide3 .text6, body .fællesslider #slider3 .slide4 .text6, body .fællesslider #slider3 .slide5 .text6, body .fællesslider #slider4 .slide2 .text6, body .fællesslider #slider4 .slide3 .text6, body .fællesslider #slider4 .slide4 .text6, body .fællesslider #slider4 .slide5 .text6, body .fællesslider #slider5 .slide2 .text6, body .fællesslider #slider5 .slide3 .text6, body .fællesslider #slider5 .slide4 .text6, body .fællesslider #slider5 .slide5 .text6 {
-  background-color: rgba(255, 255, 255, 0.7);
-  width: 135px;
-  height: 70px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 10px;
-  font-size: 20px;
-  font-family: 'Quattrocento Sans', sans-serif;
-  position: absolute;
-  margin-top: -178px;
-  color: #293952;
-}
-body .fællesslider #slider2 .slide2 img, body .fællesslider #slider2 .slide3 img, body .fællesslider #slider2 .slide4 img, body .fællesslider #slider2 .slide5 img, body .fællesslider #slider3 .slide2 img, body .fællesslider #slider3 .slide3 img, body .fællesslider #slider3 .slide4 img, body .fællesslider #slider3 .slide5 img, body .fællesslider #slider4 .slide2 img, body .fællesslider #slider4 .slide3 img, body .fællesslider #slider4 .slide4 img, body .fællesslider #slider4 .slide5 img, body .fællesslider #slider5 .slide2 img, body .fællesslider #slider5 .slide3 img, body .fællesslider #slider5 .slide4 img, body .fællesslider #slider5 .slide5 img {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-body .fællesslider #slider2 .left1, body .fællesslider #slider3 .left1, body .fællesslider #slider4 .left1, body .fællesslider #slider5 .left1 {
-  margin-left: -415px;
-}
-body .fællesslider #slider2 .left2, body .fællesslider #slider3 .left2, body .fællesslider #slider4 .left2, body .fællesslider #slider5 .left2 {
-  margin-left: -830px;
-}
-body .fællesslider #slider2 .left3, body .fællesslider #slider3 .left3, body .fællesslider #slider4 .left3, body .fællesslider #slider5 .left3 {
-  margin-left: -1245px;
-}
-body .fællesslider #slider2 .left4, body .fællesslider #slider3 .left4, body .fællesslider #slider4 .left4, body .fællesslider #slider5 .left4 {
-  margin-left: -1660px;
-}
-body .fællesslider #slider2 .left5, body .fællesslider #slider3 .left5, body .fællesslider #slider4 .left5, body .fællesslider #slider5 .left5 {
-  margin-left: -2075px;
-}
-body .forsidetekstogbillede {
-  position: relative;
-  margin: 0;
-}
-body .forsidetekstogbillede .forsidebillede {
-  width: 100%;
-  height: auto;
-  margin-top: 2%;
-  position: absolute;
-}
-body .forsidetekstogbillede .help {
-  position: absolute;
-  text-align: left;
-  /*button {
+  /* Om Juviva mobil. */ }
+  body h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px; }
+  body p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px; }
+  body header {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    clear: both;
+    height: auto; }
+    body header div a img {
+      width: 70px;
+      height: auto;
+      margin: 4.5% 0% 2% 4%; }
+    body header nav {
+      display: none; }
+    body header div {
+      width: 100%; }
+      body header div a {
+        text-decoration: none;
+        color: #293952; }
+    body header .navi {
+      height: 58%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.9);
+      overflow-x: hidden;
+      transition: 0.3s;
+      text-decoration: none; }
+      body header .navi .overlayer {
+        position: relative;
+        top: 2%;
+        text-align: left; }
+        body header .navi .overlayer a {
+          padding: 8px;
+          margin-left: 7%;
+          margin-top: 20%;
+          text-decoration: none;
+          font-size: 22px;
+          color: #FF5252;
+          display: block;
+          transition: 0.3s;
+          border-bottom: 2px solid white;
+          font-family: 'Raleway', sans-serif; }
+      body header .navi .closebut {
+        position: absolute;
+        right: 3%;
+        padding: 0;
+        font-size: 40px;
+        text-decoration: none;
+        color: #293952; }
+    body header span {
+      display: block;
+      font-size: 25px;
+      color: #293952;
+      cursor: pointer;
+      float: right;
+      margin: -11% 4% 0 0; }
+  body .mestsete {
+    height: 270px;
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    bottom: 0;
+    overflow-wrap: break-word;
+    background-color: #45C2D1;
+    /* Pilen til venstre */
+    /* Pilen til højre */
+    /* Selve slideshowet */ }
+    body .mestsete .overskriftvideoside {
+      position: absolute;
+      margin: 15px 55px; }
+    body .mestsete .control_prev1 {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      margin-left: 1%; }
+    body .mestsete .control_next1 {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      margin-left: 88%; }
+    body .mestsete #slider1 {
+      width: 95%;
+      height: 230px;
+      overflow: hidden;
+      position: absolute;
+      clip: rect(10px, 1000px);
+      margin: 40px 2.5% 0 2.5%;
+      /* Styring af billederne i slideshowet */
+      /* Billederne i slideshowet */
+      /* Billederne til venstre i slideshowet */ }
+      body .mestsete #slider1 .slides1 {
+        display: block;
+        width: 6560px;
+        max-height: 300px;
+        padding: 0%; }
+      body .mestsete #slider1 .slide1 {
+        float: left;
+        list-style-type: none;
+        width: 380px;
+        height: auto;
+        margin: 0 15px;
+        /* Skriften over billederne */
+        /* Selve billederne */ }
+        body .mestsete #slider1 .slide1 .text6 {
+          background-color: rgba(255, 255, 255, 0.7);
+          width: 135px;
+          height: 70px;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 10px;
+          font-size: 20px;
+          font-family: 'Quattrocento Sans', sans-serif;
+          position: absolute;
+          margin-top: -178px;
+          color: #293952; }
+        body .mestsete #slider1 .slide1 img {
+          width: 100%;
+          height: auto;
+          position: relative; }
+      body .mestsete #slider1 .left1 {
+        margin-left: -415px; }
+      body .mestsete #slider1 .left2 {
+        margin-left: -830px; }
+      body .mestsete #slider1 .left3 {
+        margin-left: -1245px; }
+      body .mestsete #slider1 .left4 {
+        margin-left: -1660px; }
+      body .mestsete #slider1 .left5 {
+        margin-left: -2075px; }
+  body .fællesslider {
+    height: 270px;
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    bottom: 0;
+    overflow-wrap: break-word;
+    /* Pilen til venstre */
+    /* Pilen til højre */
+    /* Selve slideshowet */ }
+    body .fællesslider .overskriftvideoside {
+      position: absolute;
+      margin: 15px 55px; }
+    body .fællesslider .control_prev2, body .fællesslider .control_prev3, body .fællesslider .control_prev4, body .fællesslider .control_prev5 {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      margin-left: 1%; }
+    body .fællesslider .control_next2, body .fællesslider .control_next3, body .fællesslider .control_next4, body .fællesslider .control_next5 {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      margin-left: 88%; }
+    body .fællesslider #slider2, body .fællesslider #slider3, body .fællesslider #slider4, body .fællesslider #slider5 {
+      width: 95%;
+      height: 230px;
+      overflow: hidden;
+      position: absolute;
+      clip: rect(10px, 1000px);
+      margin: 40px 2.5% 0 2.5%;
+      /* Styring af billederne i slideshowet */
+      /* Billederne i slideshowet */
+      /* Billederne til venstre i slideshowet */ }
+      body .fællesslider #slider2 .slides2, body .fællesslider #slider2 .slides3, body .fællesslider #slider2 .slides4, body .fællesslider #slider2 .slides5, body .fællesslider #slider3 .slides2, body .fællesslider #slider3 .slides3, body .fællesslider #slider3 .slides4, body .fællesslider #slider3 .slides5, body .fællesslider #slider4 .slides2, body .fællesslider #slider4 .slides3, body .fællesslider #slider4 .slides4, body .fællesslider #slider4 .slides5, body .fællesslider #slider5 .slides2, body .fællesslider #slider5 .slides3, body .fællesslider #slider5 .slides4, body .fællesslider #slider5 .slides5 {
+        display: block;
+        width: 6560px;
+        max-height: 300px;
+        padding: 0%; }
+      body .fællesslider #slider2 .slide2, body .fællesslider #slider2 .slide3, body .fællesslider #slider2 .slide4, body .fællesslider #slider2 .slide5, body .fællesslider #slider3 .slide2, body .fællesslider #slider3 .slide3, body .fællesslider #slider3 .slide4, body .fællesslider #slider3 .slide5, body .fællesslider #slider4 .slide2, body .fællesslider #slider4 .slide3, body .fællesslider #slider4 .slide4, body .fællesslider #slider4 .slide5, body .fællesslider #slider5 .slide2, body .fællesslider #slider5 .slide3, body .fællesslider #slider5 .slide4, body .fællesslider #slider5 .slide5 {
+        float: left;
+        list-style-type: none;
+        width: 380px;
+        height: auto;
+        margin: 0 15px;
+        /* Skriften over billederne */
+        /* Selve billederne */ }
+        body .fællesslider #slider2 .slide2 .text6, body .fællesslider #slider2 .slide3 .text6, body .fællesslider #slider2 .slide4 .text6, body .fællesslider #slider2 .slide5 .text6, body .fællesslider #slider3 .slide2 .text6, body .fællesslider #slider3 .slide3 .text6, body .fællesslider #slider3 .slide4 .text6, body .fællesslider #slider3 .slide5 .text6, body .fællesslider #slider4 .slide2 .text6, body .fællesslider #slider4 .slide3 .text6, body .fællesslider #slider4 .slide4 .text6, body .fællesslider #slider4 .slide5 .text6, body .fællesslider #slider5 .slide2 .text6, body .fællesslider #slider5 .slide3 .text6, body .fællesslider #slider5 .slide4 .text6, body .fællesslider #slider5 .slide5 .text6 {
+          background-color: rgba(255, 255, 255, 0.7);
+          width: 135px;
+          height: 70px;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 10px;
+          font-size: 20px;
+          font-family: 'Quattrocento Sans', sans-serif;
+          position: absolute;
+          margin-top: -178px;
+          color: #293952; }
+        body .fællesslider #slider2 .slide2 img, body .fællesslider #slider2 .slide3 img, body .fællesslider #slider2 .slide4 img, body .fællesslider #slider2 .slide5 img, body .fællesslider #slider3 .slide2 img, body .fællesslider #slider3 .slide3 img, body .fællesslider #slider3 .slide4 img, body .fællesslider #slider3 .slide5 img, body .fællesslider #slider4 .slide2 img, body .fællesslider #slider4 .slide3 img, body .fællesslider #slider4 .slide4 img, body .fællesslider #slider4 .slide5 img, body .fællesslider #slider5 .slide2 img, body .fællesslider #slider5 .slide3 img, body .fællesslider #slider5 .slide4 img, body .fællesslider #slider5 .slide5 img {
+          width: 100%;
+          height: auto;
+          position: relative; }
+      body .fællesslider #slider2 .left1, body .fællesslider #slider3 .left1, body .fællesslider #slider4 .left1, body .fællesslider #slider5 .left1 {
+        margin-left: -415px; }
+      body .fællesslider #slider2 .left2, body .fællesslider #slider3 .left2, body .fællesslider #slider4 .left2, body .fællesslider #slider5 .left2 {
+        margin-left: -830px; }
+      body .fællesslider #slider2 .left3, body .fællesslider #slider3 .left3, body .fællesslider #slider4 .left3, body .fællesslider #slider5 .left3 {
+        margin-left: -1245px; }
+      body .fællesslider #slider2 .left4, body .fællesslider #slider3 .left4, body .fællesslider #slider4 .left4, body .fællesslider #slider5 .left4 {
+        margin-left: -1660px; }
+      body .fællesslider #slider2 .left5, body .fællesslider #slider3 .left5, body .fællesslider #slider4 .left5, body .fællesslider #slider5 .left5 {
+        margin-left: -2075px; }
+  body .forsidetekstogbillede {
+    position: relative;
+    margin: 0; }
+    body .forsidetekstogbillede .forsidebillede {
+      width: 100%;
+      height: auto;
+      margin-top: 2%;
+      position: absolute; }
+    body .forsidetekstogbillede .help {
+      position: absolute;
+      text-align: left;
+      /*button {
+        background-color: #FF5252;
+        border: none;
+        padding: 5px 55px;
+        color: white;
+        border-radius: 50px;
+        position: absolute;
+      }*/ }
+      body .forsidetekstogbillede .help h1 {
+        font-size: 50px;
+        margin-bottom: 0;
+        margin-left: 7%;
+        text-align: left; }
+      body .forsidetekstogbillede .help h2 {
+        font-size: 35px;
+        margin-top: 2px;
+        margin-left: 7%;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 0; }
+      body .forsidetekstogbillede .help h3 {
+        font-size: 23px;
+        margin-top: 2px;
+        margin-left: 7%;
+        font-family: 'Raleway', sans-serif; }
+  body .trebokse {
+    margin-top: 65%;
+    text-align: center; }
+    body .trebokse .second, body .trebokse .third, body .trebokse .first {
+      margin-top: 15%; }
+    body .trebokse p {
+      margin: 4% 6%; }
+    body .trebokse button {
+      background-color: #FF5252;
+      border: none;
+      padding: 5px 55px;
+      color: white;
+      border-radius: 50px; }
+  body .klausogtekst {
+    margin-top: 12%;
+    width: 100%; }
+    body .klausogtekst .klaus {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0; }
+    body .klausogtekst p {
+      background-color: #2A2A2A;
+      margin: 0;
+      padding: 7% 5%;
+      color: white;
+      margin-top: -5px;
+      text-align: center; }
+  body .tekstbokse {
+    background-color: white;
+    text-align: center;
+    width: 100%; }
+    body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
+      margin-top: 30px;
+      border: 1px;
+      border-style: groove;
+      border-color: black; }
+    body .tekstbokse h1 {
+      margin-top: 50px;
+      color: black; }
+    body .tekstbokse p {
+      color: black;
+      padding: 3px 20px; }
+    body .tekstbokse button {
+      background-color: #FF5252;
+      color: white;
+      margin-bottom: 50px;
+      border: none;
+      padding: 5px 55px;
+      color: white;
+      border-radius: 50px; }
+  body .brugfor {
+    text-align: center;
+    background-color: #2A2A2A;
+    padding: 6% 0; }
+    body .brugfor h1, body .brugfor p {
+      margin: 5px 10px;
+      color: white; }
+    body .brugfor button {
+      background-color: #FF5252;
+      border: none;
+      padding: 5px 55px;
+      color: white;
+      border-radius: 50px; }
+  body .videobibliotekforside {
+    background-color: #48C3D1; }
+    body .videobibliotekforside h1 {
+      padding-top: 6%;
+      color: white;
+      text-align: center;
+      margin-top: 0px; }
+    body .videobibliotekforside video {
+      width: 90%;
+      margin-top: 10px;
+      padding-bottom: 3%;
+      margin-left: 5%; }
+    body .videobibliotekforside p {
+      margin: 0;
+      color: white;
+      text-align: center;
+      padding-bottom: 5%; }
+  body .omosklaus {
+    margin-top: 3%;
+    width: 100%; }
+    body .omosklaus .klausom {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0; }
+    body .omosklaus p {
+      background-color: white;
+      margin: 0;
+      padding: 7% 5%;
+      color: black;
+      margin-top: -5px;
+      text-align: center; }
+  body .collage {
+    display: none; }
+  body .tekstboksomjuviva {
+    margin-top: 30px;
     background-color: #FF5252;
-    border: none;
-    padding: 5px 55px;
-    color: white;
-    border-radius: 50px;
-    position: absolute;
-  }*/
-}
-body .forsidetekstogbillede .help h1 {
-  font-size: 50px;
-  margin-bottom: 0;
-  margin-left: 7%;
-  text-align: left;
-}
-body .forsidetekstogbillede .help h2 {
-  font-size: 35px;
-  margin-top: 2px;
-  margin-left: 7%;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 0;
-}
-body .forsidetekstogbillede .help h3 {
-  font-size: 23px;
-  margin-top: 2px;
-  margin-left: 7%;
-  font-family: 'Raleway', sans-serif;
-}
-body .trebokse {
-  margin-top: 65%;
-  text-align: center;
-}
-body .trebokse .second, body .trebokse .third, body .trebokse .first {
-  margin-top: 15%;
-}
-body .trebokse p {
-  margin: 4% 6%;
-}
-body .trebokse button {
-  background-color: #FF5252;
-  border: none;
-  padding: 5px 55px;
-  color: white;
-  border-radius: 50px;
-}
-body .klausogtekst {
-  margin-top: 12%;
-  width: 100%;
-}
-body .klausogtekst .klaus {
-  width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 0;
-}
-body .klausogtekst p {
-  background-color: #2A2A2A;
-  margin: 0;
-  padding: 7% 5%;
-  color: white;
-  margin-top: -5px;
-  text-align: center;
-}
-body .tekstbokse {
-  background-color: white;
-  padding: 20px;
-  text-align: center;
-}
-body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
-  margin-top: 30px;
-  border: 1px;
-  border-style: groove;
-  border-color: black;
-}
-body .tekstbokse h1 {
-  margin-top: 50px;
-  color: black;
-}
-body .tekstbokse p {
-  color: black;
-  padding: 3px 20px;
-}
-body .tekstbokse button {
-  background-color: #FF5252;
-  color: white;
-  margin-bottom: 50px;
-  border: none;
-  padding: 5px 55px;
-  color: white;
-  border-radius: 50px;
-}
-body .brugfor {
-  text-align: center;
-  background-color: #2A2A2A;
-  padding: 6% 0;
-}
-body .brugfor h1, body .brugfor p {
-  margin: 5px 10px;
-  color: white;
-}
-body .brugfor button {
-  background-color: #FF5252;
-  border: none;
-  padding: 5px 55px;
-  color: white;
-  border-radius: 50px;
-}
-body .videobibliotekforside {
-  background-color: #48C3D1;
-}
-body .videobibliotekforside h1 {
-  padding-top: 6%;
-  color: white;
-  text-align: center;
-  margin-top: 0px;
-}
-body .videobibliotekforside video {
-  width: 90%;
-  margin-top: 10px;
-  padding-bottom: 3%;
-  margin-left: 5%;
-}
-body .videobibliotekforside p {
-  margin: 0;
-  color: white;
-  text-align: center;
-  padding-bottom: 5%;
-}
-body .omosklaus {
-  margin-top: 3%;
-  width: 100%;
-}
-body .omosklaus .klausom {
-  width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 0;
-}
-body .omosklaus p {
-  background-color: white;
-  margin: 0;
-  padding: 7% 5%;
-  color: black;
-  margin-top: -5px;
-  text-align: center;
-}
-body .collage {
-  display: none;
-}
-body .tekstboksomjuviva {
-  margin-top: 30px;
-  background-color: #FF5252;
-  padding: 5px 5px;
-}
-body h1 {
-  margin-top: 50px;
-  color: black;
-  text-align: center;
-}
-body p {
-  color: black;
-  padding: 3px 20px;
-  text-align: center;
-  margin-bottom: 40px;
-}
-body .brugerwrap {
-  width: 60%;
-  margin: auto;
-}
-body .brugerwrap .login, body .brugerwrap .opretbruger {
-  width: 100%;
-  font-family: Raleway;
-  margin: 10px;
-}
-body .brugerwrap .login label, body .brugerwrap .opretbruger label {
-  margin-top: 5px;
-  width: 50px;
-  clear: both;
-}
-body .brugerwrap .login label b, body .brugerwrap .opretbruger label b {
-  width: 50px;
-}
-body .brugerwrap .login input, body .brugerwrap .opretbruger input {
-  margin: 10px 0px 20px;
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid;
-  clear: both;
-}
-body .brugerwrap .login button, body .brugerwrap .opretbruger button {
-  text-align: center;
-  margin: 10px;
-  font-family: Raleway;
-  padding: 5px 20px;
-  border-radius: 30%;
-  border: none;
-  width: 65%;
-}
-body .brugerwrap .login {
-  padding-bottom: 30px;
-  border-bottom: 1px solid;
-}
-body .brugerwrap .opretbruger {
-  margin-top: 40px;
-}
-body footer {
-  background-color: #2A2A2A;
-  height: 80px;
-  clear: both;
-  margin-top: 20px;
-}
-body footer div {
-  margin: auto;
-  width: 70%;
-  padding: 10px;
-}
-body footer div p {
-  font-size: 12px;
-  padding: 2px;
-  margin-bottom: 0;
-  margin-top: 5px;
-  color: white;
-}
-body footer div div {
-  width: 100%;
-  text-align: center;
-}
-body footer div div p {
-  display: inline-block;
-  font-size: 12px;
-  padding: 5px;
-  margin-bottom: 0;
-  color: white;
-}
+    padding: 5px 5px; }
+  body h1 {
+    margin-top: 50px;
+    color: black;
+    text-align: center; }
+  body p {
+    color: black;
+    padding: 3px 20px;
+    text-align: center;
+    margin-bottom: 40px; }
+  body .brugerwrap {
+    width: 60%;
+    margin: auto; }
+    body .brugerwrap .login, body .brugerwrap .opretbruger {
+      width: 100%;
+      font-family: Raleway;
+      margin: 10px; }
+      body .brugerwrap .login label, body .brugerwrap .opretbruger label {
+        margin-top: 5px;
+        width: 50px;
+        clear: both; }
+        body .brugerwrap .login label b, body .brugerwrap .opretbruger label b {
+          width: 50px; }
+      body .brugerwrap .login input, body .brugerwrap .opretbruger input {
+        margin: 10px 0px 20px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid;
+        clear: both; }
+      body .brugerwrap .login button, body .brugerwrap .opretbruger button {
+        text-align: center;
+        margin: 10px;
+        font-family: Raleway;
+        padding: 5px 20px;
+        border-radius: 30%;
+        border: none;
+        width: 65%; }
+    body .brugerwrap .login {
+      padding-bottom: 30px;
+      border-bottom: 1px solid; }
+    body .brugerwrap .opretbruger {
+      margin-top: 40px; }
+  body footer {
+    background-color: #2A2A2A;
+    height: 80px;
+    clear: both;
+    margin-top: 20px; }
+    body footer div {
+      margin: auto;
+      width: 70%;
+      padding: 10px; }
+      body footer div p {
+        font-size: 12px;
+        padding: 2px;
+        margin-bottom: 0;
+        margin-top: 5px;
+        color: white; }
+      body footer div div {
+        width: 100%;
+        text-align: center; }
+        body footer div div p {
+          display: inline-block;
+          font-size: 12px;
+          padding: 5px;
+          margin-bottom: 0;
+          color: white; }
 
 @media screen and (min-width: 766px) {
   /* Tablet-version */
@@ -526,118 +440,93 @@ body footer div div p {
     /* Forside ipad. */
     /* De øverste bokse. */
     /* Billedet af Klaus og teksten. */
-    /* Tekstbokse. */
-  }
-  body header {
-    height: 90px;
-  }
-  body header div a img {
-    width: 130px;
-    height: auto;
-    margin: 4% 0% 2% 4%;
-  }
-  body header .navi .overlayer a {
-    font-size: 28px;
-  }
-  body header .navi .closebut {
-    font-size: 60px;
-  }
-  body header span {
-    display: block;
-    font-size: 34px;
-    color: #293952;
-    cursor: pointer;
-    float: right;
-    margin: -9.5% 4% 0 0;
-  }
-  body .forsidetekstogbillede .forsidebillede {
-    margin-top: 1%;
-  }
-  body .forsidetekstogbillede .help h1 {
-    font-size: 120px;
-    margin-bottom: 0;
-    margin-left: 10%;
-    text-align: left;
-  }
-  body .forsidetekstogbillede .help h2 {
-    font-size: 100px;
-    margin-top: 2px;
-    margin-left: 10%;
-    border-bottom: 3px black;
-    border-bottom-style: inset;
-  }
-  body .forsidetekstogbillede .help h3 {
-    font-size: 50px;
-    margin-top: 2px;
-    margin-left: 10%;
-    font-family: 'Raleway', sans-serif;
-  }
-  body .trebokse {
-    width: 100%;
-    height: 700px;
-  }
-  body .trebokse .second, body .trebokse .third, body .trebokse .first {
-    margin-top: 0;
-    width: 33.2%;
-    display: inline-block;
-    float: left;
-    border-right: 1px black;
-    border-right-style: inset;
-  }
-  body .klausogtekst {
-    width: 100%;
-    clear: both;
-    height: 450px;
-    margin-top: 10px;
-  }
-  body .klausogtekst .klaus {
-    width: 50%;
-    height: auto;
-    float: left;
-  }
-  body .klausogtekst p {
-    width: 40%;
-    float: right;
-    margin-top: 0;
-    height: 316.5px;
-  }
-  body .tekstbokse {
-    width: 100%;
-    clear: both;
-    height: 570px;
-  }
-  body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
-    width: 40%;
-    float: left;
-    margin-left: 6%;
-  }
-  body .tekstbokse .tekstboks2 {
-    margin-left: 3%;
-  }
-  body .brugfor {
-    margin-bottom: 0%;
-    margin-top: 5%;
-  }
-  body .brugfor button {
-    margin-top: 3%;
-  }
-  body .brugerwrap {
-    width: 90%;
-  }
-  body .brugerwrap .login, body .brugerwrap .opretbruger {
-    width: 40%;
-    float: left;
-  }
-  body .brugerwrap .login {
-    padding-right: 6%;
-    border-right: 1px solid;
-    border-bottom: none;
-  }
-  body .brugerwrap .opretbruger {
-    margin-left: 6%;
-    margin-top: 10px;
-  }
-}
+    /* Tekstbokse. */ }
+    body header {
+      height: 90px; }
+      body header div a img {
+        width: 130px;
+        height: auto;
+        margin: 4% 0% 2% 4%; }
+      body header .navi .overlayer a {
+        font-size: 28px; }
+      body header .navi .closebut {
+        font-size: 60px; }
+      body header span {
+        display: block;
+        font-size: 34px;
+        color: #293952;
+        cursor: pointer;
+        float: right;
+        margin: -9.5% 4% 0 0; }
+    body .forsidetekstogbillede .forsidebillede {
+      margin-top: 1%; }
+    body .forsidetekstogbillede .help h1 {
+      font-size: 120px;
+      margin-bottom: 0;
+      margin-left: 10%;
+      text-align: left; }
+    body .forsidetekstogbillede .help h2 {
+      font-size: 100px;
+      margin-top: 2px;
+      margin-left: 10%;
+      border-bottom: 3px black;
+      border-bottom-style: inset; }
+    body .forsidetekstogbillede .help h3 {
+      font-size: 50px;
+      margin-top: 2px;
+      margin-left: 10%;
+      font-family: 'Raleway', sans-serif; }
+    body .trebokse {
+      width: 100%;
+      height: 700px; }
+      body .trebokse .second, body .trebokse .third, body .trebokse .first {
+        margin-top: 0;
+        width: 33.2%;
+        display: inline-block;
+        float: left;
+        border-right: 1px black;
+        border-right-style: inset; }
+    body .klausogtekst {
+      width: 100%;
+      clear: both;
+      height: 450px;
+      margin-top: 10px; }
+      body .klausogtekst .klaus {
+        width: 50%;
+        height: auto;
+        float: left; }
+      body .klausogtekst p {
+        width: 40%;
+        float: right;
+        margin-top: 0;
+        height: 316.5px; }
+    body .tekstbokse {
+      width: 100%;
+      clear: both;
+      height: 570px; }
+      body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
+        width: 40%;
+        float: left;
+        margin-left: 6%; }
+      body .tekstbokse .tekstboks2 {
+        margin-left: 3%; }
+    body .brugfor {
+      margin-bottom: 0%;
+      margin-top: 5%; }
+      body .brugfor button {
+        margin-top: 3%; }
+    body .brugerwrap {
+      width: 90%; }
+      body .brugerwrap .login, body .brugerwrap .opretbruger {
+        width: 40%;
+        float: left; }
+      body .brugerwrap .login {
+        padding-right: 6%;
+        border-right: 1px solid;
+        border-bottom: none; }
+      body .brugerwrap .opretbruger {
+        margin-left: 6%;
+        margin-top: 10px; } }
 @media screen and (min-width: 992px) {
   /* Desktop-version */
   body {
@@ -645,104 +534,83 @@ body footer div div p {
     /* De øverste bokse. */
     /* Billedet af Klaus og teksten. */
     /* Tekstbokse. */
-    /* Videobiblioteket på forsiden. */
-  }
-  body header {
-    width: 100%;
-  }
-  body header div a img {
-    width: 80px;
-    height: auto;
-    margin: 0;
-    float: left;
-    padding: 2.5% 0% 0% 3%;
-  }
-  body header div #mynav {
-    display: none;
-  }
-  body header nav {
-    float: right;
-    text-decoration: none;
-    display: inline-block !important;
-    margin: auto;
-  }
-  body header nav ul {
-    margin: auto;
-    margin: 35px 25px 0px 0px;
-  }
-  body header nav ul li {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    list-style-type: none;
-    display: inline-block;
-  }
-  body header nav ul a {
-    color: black;
-    text-decoration: none;
-    margin-left: 35px;
-  }
-  body header nav ul .active {
-    font-weight: bolder;
-    color: black;
-    border-bottom: 2px solid #FF5252;
-    padding-bottom: 8px;
-  }
-  body .forsidetekstogbillede .forsidebillede {
-    margin-top: 0%;
-  }
-  body .forsidetekstogbillede .help h1 {
-    font-size: 240px;
-    margin-top: 4%;
-    margin-left: 10%;
-  }
-  body .forsidetekstogbillede .help h2 {
-    font-size: 200px;
-    margin-top: 2px;
-    margin-left: 10%;
-    border-bottom: 4px black;
-    border-bottom-style: inset;
-  }
-  body .forsidetekstogbillede .help h3 {
-    font-size: 120px;
-    margin-top: 2px;
-    margin-left: 10%;
-  }
-  body .trebokse {
-    height: 500px;
-  }
-  body .trebokse .second, body .trebokse .third, body .trebokse .first {
-    margin-top: 0%;
-  }
-  body .klausogtekst p {
-    height: 340px;
-    padding-top: 23%;
-  }
-  body .tekstbokse {
-    height: 570px;
-  }
-  body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
-    width: 30%;
-    margin-left: 16%;
-    margin-top: 4%;
-  }
-  body .tekstbokse .tekstboks2 {
-    margin-left: 3%;
-  }
-  body .brugfor {
-    margin-bottom: 0%;
-    margin-top: 0;
-  }
-  body .videobibliotekforside {
-    margin-top: -2%;
-  }
-  body .videobibliotekforside h1 {
-    font-size: 30px;
-  }
-  body .videobibliotekforside video {
-    width: 23.5%;
-    float: left;
-    margin-left: 1.2%;
-    margin-top: 3%;
-  }
-}
+    /* Videobiblioteket på forsiden. */ }
+    body header {
+      width: 100%; }
+      body header div a img {
+        width: 80px;
+        height: auto;
+        margin: 0;
+        float: left;
+        padding: 2.5% 0% 0% 3%; }
+      body header div #mynav {
+        display: none; }
+      body header nav {
+        float: right;
+        text-decoration: none;
+        display: inline-block !important;
+        margin: auto; }
+        body header nav ul {
+          margin: auto;
+          margin: 35px 25px 0px 0px; }
+          body header nav ul li {
+            text-decoration: none;
+            font-family: 'Raleway', sans-serif;
+            font-size: 18px;
+            list-style-type: none;
+            display: inline-block; }
+          body header nav ul a {
+            color: black;
+            text-decoration: none;
+            margin-left: 35px; }
+          body header nav ul .active {
+            font-weight: bolder;
+            color: black;
+            border-bottom: 2px solid #FF5252;
+            padding-bottom: 8px; }
+    body .forsidetekstogbillede .forsidebillede {
+      margin-top: 0%; }
+    body .forsidetekstogbillede .help h1 {
+      font-size: 240px;
+      margin-top: 4%;
+      margin-left: 10%; }
+    body .forsidetekstogbillede .help h2 {
+      font-size: 200px;
+      margin-top: 2px;
+      margin-left: 10%;
+      border-bottom: 4px black;
+      border-bottom-style: inset; }
+    body .forsidetekstogbillede .help h3 {
+      font-size: 120px;
+      margin-top: 2px;
+      margin-left: 10%; }
+    body .trebokse {
+      height: 500px; }
+      body .trebokse .second, body .trebokse .third, body .trebokse .first {
+        margin-top: 0%; }
+    body .klausogtekst p {
+      height: 340px;
+      padding-top: 23%; }
+    body .tekstbokse {
+      height: 570px;
+      width: 100%; }
+      body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
+        width: 30%;
+        margin-left: 16%;
+        margin-top: 4%; }
+      body .tekstbokse .tekstboks2 {
+        margin-left: 3%; }
+    body .brugfor {
+      margin-bottom: 0%;
+      margin-top: 0; }
+    body .videobibliotekforside {
+      margin-top: -2%; }
+      body .videobibliotekforside h1 {
+        font-size: 30px; }
+      body .videobibliotekforside video {
+        width: 23.5%;
+        float: left;
+        margin-left: 1.2%;
+        margin-top: 3%; } }
+
+/*# sourceMappingURL=stylesheet.css.map */
