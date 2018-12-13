@@ -10,6 +10,7 @@ h1 {
 p {
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
+  list-style-type: none;
 }
 
 header {
@@ -421,7 +422,7 @@ span {
   width: 100%;
 
   .tekstboks2, .tekstboks1 {
-    margin-top: 30px;
+    margin: 30px 20px 20px 20px;
     border: 1px;
     border-style:groove;
     border-color: black;
@@ -485,13 +486,19 @@ span {
     margin-left: 5%;
   }
 
+  a {
+    list-style-type: none;
+    text-decoration: none;
+
   p {
     margin: 0;
     color: white;
     text-align: center;
     padding-bottom: 5%;
+    list-style-type: none;
   }
  }
+}
 
 /* Om Juviva mobil. */
 .omosklaus {
@@ -589,9 +596,8 @@ p {
 }
 footer {
   background-color: #2A2A2A;
-  height: 80px;
+  height: 100px;
   clear: both;
-  margin-top: 20px;
 
   div{
     margin: auto;
@@ -743,6 +749,7 @@ body {
     width: 100%;
     clear: both;
     height: 570px;
+    margin-left: 1%;
 
     .tekstboks2, .tekstboks1 {
       width: 40%;
@@ -948,7 +955,13 @@ nav {
 
    h1 {
      font-size: 30px;
+     list-style-type: none;
    }
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+ }
 
 video  {
   width: 23.5%;

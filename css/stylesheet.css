@@ -15,7 +15,8 @@ body {
     font-size: 20px; }
   body p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px; }
+    font-size: 17px;
+    list-style-type: none; }
   body header {
     background-color: white;
     position: relative;
@@ -299,7 +300,7 @@ body {
     text-align: center;
     width: 100%; }
     body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
-      margin-top: 30px;
+      margin: 30px 20px 20px 20px;
       border: 1px;
       border-style: groove;
       border-color: black; }
@@ -342,11 +343,15 @@ body {
       margin-top: 10px;
       padding-bottom: 3%;
       margin-left: 5%; }
-    body .videobibliotekforside p {
-      margin: 0;
-      color: white;
-      text-align: center;
-      padding-bottom: 5%; }
+    body .videobibliotekforside a {
+      list-style-type: none;
+      text-decoration: none; }
+      body .videobibliotekforside a p {
+        margin: 0;
+        color: white;
+        text-align: center;
+        padding-bottom: 5%;
+        list-style-type: none; }
   body .omosklaus {
     margin-top: 3%;
     width: 100%; }
@@ -411,9 +416,8 @@ body {
       margin-top: 40px; }
   body footer {
     background-color: #2A2A2A;
-    height: 80px;
-    clear: both;
-    margin-top: 20px; }
+    height: 100px;
+    clear: both; }
     body footer div {
       margin: auto;
       width: 70%;
@@ -505,7 +509,8 @@ body {
     body .tekstbokse {
       width: 100%;
       clear: both;
-      height: 570px; }
+      height: 570px;
+      margin-left: 1%; }
       body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
         width: 40%;
         float: left;
@@ -608,7 +613,11 @@ body {
     body .videobibliotekforside {
       margin-top: -2%; }
       body .videobibliotekforside h1 {
-        font-size: 30px; }
+        font-size: 30px;
+        list-style-type: none; }
+      body .videobibliotekforside a {
+        list-style-type: none;
+        text-decoration: none; }
       body .videobibliotekforside video {
         width: 23.5%;
         float: left;
