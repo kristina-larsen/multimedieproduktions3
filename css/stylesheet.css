@@ -272,15 +272,16 @@ body {
         font-family: 'Raleway', sans-serif; }
   body .trebokse {
     margin-top: 65%;
-    text-align: center; }
-    body .trebokse .second, body .trebokse .third, body .trebokse .first {
-      margin-top: 15%; }
+    text-align: center;
+    /*.second, .third, .first {
+      margin-top: 15%;
+    }*/ }
     body .trebokse p {
       margin: 4% 6%; }
     body .trebokse button {
       background-color: #FF5252;
       border: none;
-      padding: 5px 55px;
+      padding: 6px 30px;
       color: white;
       border-radius: 50px; }
   body .klausogtekst {
@@ -297,7 +298,8 @@ body {
       padding: 7% 5%;
       color: white;
       margin-top: -5px;
-      text-align: center; }
+      text-align: center;
+      font-style: italic; }
   body .tekstbokse {
     background-color: white;
     text-align: center;
@@ -318,7 +320,7 @@ body {
       color: white;
       margin-bottom: 50px;
       border: none;
-      padding: 5px 55px;
+      padding: 5px 35px;
       color: white;
       border-radius: 50px; }
   body .brugfor {
@@ -331,9 +333,10 @@ body {
     body .brugfor button {
       background-color: #FF5252;
       border: none;
-      padding: 5px 55px;
+      padding: 5px 30px;
       color: white;
-      border-radius: 50px; }
+      border-radius: 50px;
+      margin-top: 3%; }
   body .videobibliotekforside {
     background-color: #48C3D1; }
     body .videobibliotekforside h1 {
@@ -419,7 +422,7 @@ body {
       margin-top: 40px; }
   body footer {
     background-color: #2A2A2A;
-    height: 100px;
+    height: 125px;
     clear: both; }
     body footer div {
       margin: auto;
@@ -429,14 +432,15 @@ body {
         font-size: 12px;
         padding: 2px;
         margin-bottom: 0;
-        margin-top: 5px;
-        color: white; }
+        margin-top: 20px;
+        color: white;
+        text-align: center; }
       body footer div div {
         width: 100%;
         text-align: center; }
         body footer div div p {
           display: inline-block;
-          font-size: 12px;
+          font-size: 11px;
           padding: 5px;
           margin-bottom: 0;
           color: white; }
@@ -517,12 +521,17 @@ body {
         margin-top: 0;
         height: 316.5px; }
     body .tekstbokse {
-      width: 100%;
+      width: 80%;
       clear: both;
-      height: 570px; }
+      height: 370px;
+      margin-left: 12.7%; }
       body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
         width: 40%;
         float: left; }
+      body .tekstbokse .tekstboks1 {
+        padding-right: 1.5%; }
+      body .tekstbokse button {
+        margin-top: 10%; }
     body .brugfor {
       margin-bottom: 0%;
       margin-top: 5%; }
@@ -635,18 +644,25 @@ body {
       margin-top: 2px;
       margin-left: 10%; }
     body .trebokse {
-      height: 500px; }
+      height: 370px;
+      width: 100%; }
       body .trebokse .second, body .trebokse .third, body .trebokse .first {
+        width: 25%;
         margin-top: 0%; }
+      body .trebokse .first button {
+        margin-top: 10%; }
+      body .trebokse .second button {
+        margin-top: 29%; }
+      body .trebokse .third button {
+        margin-top: 29%; }
     body .klausogtekst p {
       height: 340px;
       padding-top: 23%; }
     body .tekstbokse {
-      height: 570px;
-      width: 100%; }
+      height: 410px;
+      width: 70%; }
       body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
         width: 30%;
-        margin-left: 17%;
         margin-top: 4%; }
       body .tekstbokse .tekstboks2 {
         margin-left: 3%; }
