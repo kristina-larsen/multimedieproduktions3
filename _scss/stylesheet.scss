@@ -840,19 +840,19 @@ body {
 
 .collagemain {
 
-.collage {
-  display: inline-block;
-  height: 280px;
-  width: 100%;
-  position: relative;
+// .collage {
+//   display: inline-block;
+//   height: 280px;
+//   width: 100%;
+//   position: relative;
 
   .billede1, .billede2, .billede3, .billede4, .billede5, .billede6 {
     width: 33.3%;
-    position: relative;
+    //position: relative;
     height: auto;
     float: left;
   }
-}
+//}
 
   .transparentbox {
     width: 100%;
@@ -863,6 +863,16 @@ body {
 
 .tekstboksomjuviva {
   margin-top: 0px;
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+
+  h1{
+    color: white;
+  }
+
+  p{
+      color: white;
+  }
 }
 }
 
