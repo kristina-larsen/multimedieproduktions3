@@ -47,7 +47,7 @@ div {
 }
 
 .navi {
-  height: 58%;
+  height: 68%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -74,6 +74,10 @@ div {
           transition: 0.3s;
           border-bottom: 2px solid white;
           font-family: 'Raleway', sans-serif;
+        }
+
+          .active {
+            border-left: 3px solid #FF5252;
         }
       }
 
@@ -749,12 +753,11 @@ body {
     width: 100%;
     clear: both;
     height: 570px;
-    margin-left: 1%;
 
     .tekstboks2, .tekstboks1 {
       width: 40%;
       float: left;
-      margin-left: 6%;
+      margin-left: 7%;
     }
 
       .tekstboks2 {
@@ -935,7 +938,7 @@ nav {
 
      .tekstboks2, .tekstboks1 {
        width: 30%;
-       margin-left: 16%;
+       margin-left: 17%;
        margin-top: 4%;
      }
 
