@@ -521,9 +521,8 @@ body {
       clear: both;
       height: 570px; }
       body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
-        width: 40%;
-        float: left;
-        padding-left: 0.3%; }
+        width: 35%;
+        float: left; }
     body .brugfor {
       margin-bottom: 0%;
       margin-top: 5%; }
