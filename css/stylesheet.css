@@ -373,18 +373,20 @@ body {
       color: black;
       margin-top: -5px;
       text-align: center; }
-  body .collage {
+    body .omosklaus h1 {
+      color: black; }
+  body .billede1, body .billede2, body .billede3, body .billede4, body .billede5, body .billede6 {
     display: none; }
   body .tekstboksomjuviva {
     margin-top: 30px;
     background-color: #FF5252;
     padding: 5px 5px; }
   body h1 {
-    margin-top: 50px;
-    color: black;
+    margin-top: 30px;
+    color: white;
     text-align: center; }
   body p {
-    color: black;
+    color: white;
     padding: 3px 20px;
     text-align: center;
     margin-bottom: 40px; }
@@ -569,7 +571,8 @@ body {
       body .collagemain .billede1, body .collagemain .billede2, body .collagemain .billede3, body .collagemain .billede4, body .collagemain .billede5, body .collagemain .billede6 {
         width: 33.3%;
         height: auto;
-        float: left; }
+        float: left;
+        display: block; }
       body .collagemain .tekstboksomjuviva {
         width: 100%;
         height: 288px;
@@ -578,14 +581,16 @@ body {
         margin-top: 0;
         padding: 0; }
         body .collagemain .tekstboksomjuviva div {
-          background-color: red;
-          width: 50%;
-          height: 150px;
+          background-color: #FF5252;
+          width: 47%;
+          height: 233px;
           margin: auto; }
           body .collagemain .tekstboksomjuviva div h1 {
-            color: white; }
+            color: white;
+            padding-top: 8%; }
           body .collagemain .tekstboksomjuviva div p {
-            color: white; } }
+            color: white;
+            padding: 0 4%; } }
 @media screen and (min-width: 992px) {
   /* Desktop-version */
   body {
