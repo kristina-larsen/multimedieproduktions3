@@ -552,23 +552,36 @@ body {
         float: right;
         margin-top: 0;
         padding: 3% 4%; }
-    body .collagemain .collage {
-      display: inline-block;
-      height: 280px;
-      width: 100%;
+    body .collagemain {
       position: relative; }
-      body .collagemain .collage .billede1, body .collagemain .collage .billede2, body .collagemain .collage .billede3, body .collagemain .collage .billede4, body .collagemain .collage .billede5, body .collagemain .collage .billede6 {
-        width: 33.3%;
-        position: relative;
-        height: auto;
-        float: left; }
-    body .collagemain .transparentbox {
-      width: 100%;
-      height: 100px;
-      background-color: rgba(0, 0, 0, 0.8);
-      position: absolute; }
-    body .collagemain .tekstboksomjuviva {
-      margin-top: 0px; } }
+      body .collagemain .collage {
+        display: inline-block;
+        width: 100%;
+        position: absolute; }
+        body .collagemain .collage .billede1, body .collagemain .collage .billede2, body .collagemain .collage .billede3, body .collagemain .collage .billede4, body .collagemain .collage .billede5, body .collagemain .collage .billede6 {
+          width: 33.3%;
+          position: relative;
+          height: auto;
+          float: left; }
+      body .collagemain .transparentbox {
+        width: 100%;
+        height: 288px;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute; }
+      body .collagemain .tekstboksomjuviva {
+        margin-top: 0px;
+        clear: both;
+        position: absolute;
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 45px; }
+        body .collagemain .tekstboksomjuviva h1 {
+          margin-top: 3%;
+          color: white; }
+        body .collagemain .tekstboksomjuviva p {
+          padding: 0 6%;
+          margin-bottom: 10px;
+          color: white; } }
 @media screen and (min-width: 992px) {
   /* Desktop-version */
   body {
