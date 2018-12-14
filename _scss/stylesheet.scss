@@ -414,15 +414,17 @@ span {
     margin: 0;
 }
 
+.boksomklaus {
+   background-color: #2A2A2A;
+   height: 100%;
+
   p {
-    background-color: #2A2A2A;
-    margin: 0;
     padding: 7% 5%;
     color: white;
-    margin-top: -5px;
     text-align: center;
     font-style: italic;
   }
+ }
 }
 
 /* Tekstbokse. */
@@ -847,6 +849,7 @@ body {
     clear: both;
     height: 450px;
     margin-top: 10px;
+    display: flex;
 
     .klaus {
       width: 50%;
@@ -854,13 +857,16 @@ body {
       float: left;
       }
 
+ .boksomklaus {
+   float: left;
+   height: 100%;
+
     p {
-      width: 40%;
-      float: right;
+      width: 80%;
       margin-top: 0;
-      height: 316.5px;
     }
   }
+}
 
   /* Tekstbokse. */
   .tekstbokse {
@@ -1169,8 +1175,9 @@ nav {
    width: 100%;
 
    .second, .third, .first {
-     width: 25%;
+     width: 30%;
      margin-top: 0%;
+     margin: 1.64%;
     }
 
    .first {
@@ -1197,23 +1204,28 @@ nav {
 
  /* Billedet af Klaus og teksten. */
    .klausogtekst {
+     height: auto;
 
      .klaus {
        }
 
+  div {
+    background-color: black;
+
      p {
-       height: 340px;
        padding-top: 23%;
      }
    }
+ }
 
    /* Tekstbokse. */
    .tekstbokse {
      height: 410px;
-     width: 70%;
+     width: 675px;
+     margin: auto;
 
      .tekstboks2, .tekstboks1 {
-       width: 30%;
+       width: 290px;
        margin-top: 4%;
      }
 
