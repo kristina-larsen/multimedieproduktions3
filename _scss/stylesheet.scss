@@ -1241,10 +1241,6 @@ main{
 
 body {
 
-  // h1 {
-  //   font-size: 25px;
-  // }
-
   header {
     width: 100%;
 
@@ -1308,7 +1304,7 @@ nav {
  .forsidetekstogbillede {
 
    .forsidebillede {
-     margin-top: 0%;
+     margin-top: 0.3%;
     }
 
  .help {
@@ -1337,7 +1333,7 @@ nav {
   button {
     top: 630px;
     margin-left: -45px;
-
+    font-size: 20px;
   }
  }
 
@@ -1360,6 +1356,7 @@ nav {
 
       button {
         margin-top: 50px;
+        font-size: 20px;
       }
     }
 
@@ -1367,6 +1364,7 @@ nav {
 
       button {
         margin-top: 94px;
+        font-size: 20px;
       }
     }
 
@@ -1374,6 +1372,7 @@ nav {
 
       button {
         margin-top: 94px;
+        font-size: 20px;
       }
     }
    }
@@ -1408,6 +1407,10 @@ nav {
 
        .tekstboks2 {
          margin-left: 3%;
+       }
+
+       button {
+         font-size: 20px;
        }
     }
 
