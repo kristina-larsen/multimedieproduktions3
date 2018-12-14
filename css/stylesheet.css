@@ -11,13 +11,6 @@ body {
   /* Videobiblioteket på forsiden. */
   /* Om Juviva mobil. */
   /* Billedet af Klaus og teksten. */ }
-  body h1, body h2, body h3 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px; }
-  body p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    list-style-type: none; }
   body header {
     background-color: white;
     position: relative;
@@ -239,7 +232,7 @@ body {
     position: relative;
     margin: 0;
     clear: both;
-    margin-bottom: 70%; }
+    margin-bottom: 60%; }
     body .forsidetekstogbillede .forsidebillede {
       width: 100%;
       height: auto;
@@ -253,20 +246,22 @@ body {
         margin-bottom: 0;
         margin-left: 7%;
         text-align: left;
-        color: white; }
+        color: #48C3D1;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 0; }
       body .forsidetekstogbillede .help h2 {
         font-size: 35px;
         margin-top: 2px;
         margin-left: 7%;
         font-family: 'Raleway', sans-serif;
         margin-bottom: 0;
-        color: white; }
+        color: #48C3D1; }
       body .forsidetekstogbillede .help h3 {
         font-size: 20px;
         margin-top: 2px;
         margin-left: 7%;
         font-family: 'Raleway', sans-serif;
-        color: white;
+        color: #48C3D1;
         margin-bottom: 0;
         padding-bottom: 0; }
     body .forsidetekstogbillede button {
@@ -278,7 +273,8 @@ body {
       top: 165px;
       left: 100px;
       color: white;
-      margin-left: -90px; }
+      margin-left: -90px;
+      font-family: 'Raleway', sans-serif; }
       body .forsidetekstogbillede button a {
         text-decoration: none;
         list-style-type: none;
@@ -287,10 +283,15 @@ body {
     text-align: center; }
     body .trebokse .first h1, body .trebokse .second h1, body .trebokse .third h1 {
       margin-top: 30px;
-      color: black; }
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
     body .trebokse .first p, body .trebokse .second p, body .trebokse .third p {
       margin: 4% 6%;
-      color: black; }
+      color: black;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+      list-style-type: none; }
     body .trebokse button {
       background-color: #FF5252;
       border: none;
@@ -318,8 +319,10 @@ body {
       body .klausogtekst .boksomklaus p {
         margin: 0;
         padding: 6% 13%;
-        font-size: 14px;
-        font-style: italic; }
+        font-style: italic;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        list-style-type: none; }
   body .tekstbokse {
     background-color: white;
     text-align: center;
@@ -331,10 +334,15 @@ body {
       border-color: black; }
     body .tekstbokse h1 {
       margin-top: 50px;
-      color: black; }
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
     body .tekstbokse p {
       color: black;
-      padding: 3px 20px; }
+      padding: 3px 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+      list-style-type: none; }
     body .tekstbokse button {
       background-color: #FF5252;
       color: white;
@@ -346,10 +354,16 @@ body {
   body .brugfor {
     text-align: center;
     background-color: #2A2A2A;
-    padding: 6% 0; }
-    body .brugfor h1, body .brugfor p {
+    padding: 0% 0% 5% 0%; }
+    body .brugfor h1 {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
+    body .brugfor p {
       margin: 5px 10px;
-      color: white; }
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      list-style-type: none; }
     body .brugfor button {
       background-color: #FF5252;
       border: none;
@@ -363,7 +377,9 @@ body {
       padding-top: 6%;
       color: white;
       text-align: center;
-      margin-top: 0px; }
+      margin-top: 0px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
     body .videobibliotekforside a {
       list-style-type: none;
       text-decoration: none; }
@@ -380,12 +396,16 @@ body {
         position: absolute;
         margin-top: -145px;
         margin-left: 19px;
-        padding: 25px 40px; }
+        padding: 25px 40px;
+        font-family: 'Montserrat', sans-serif;
+        list-style-type: none; }
     body .videobibliotekforside p {
       margin: 0;
       color: white;
       text-align: center;
       padding-bottom: 5%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
       list-style-type: none; }
   body .omosklaus {
     width: 100%;
@@ -399,13 +419,17 @@ body {
       margin-top: -4px; }
       body .omosklaus .tekstbokstopom h1 {
         padding: 9% 13% 0% 13%;
-        color: black; }
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px; }
       body .omosklaus .tekstbokstopom p {
         margin: 0;
         padding: 1% 13% 13% 13%;
         font-size: 13px;
         font-style: italic;
-        color: black; }
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        list-style-type: none; }
   body .billede1, body .billede2, body .billede3, body .billede4, body .billede5, body .billede6 {
     display: none; }
   body .tekstboksomjuviva {
@@ -415,13 +439,17 @@ body {
   body h1 {
     padding-top: 25px;
     color: white;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px; }
   body p {
     color: white;
     padding: 3px 20px;
     text-align: center;
     margin-bottom: 40px;
-    font-size: 13px; }
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none; }
   body .brugerwrap {
     width: 60%;
     margin: auto; }
@@ -518,7 +546,8 @@ body {
         margin-bottom: 0;
         margin-top: 20px;
         color: white;
-        text-align: center; }
+        text-align: center;
+        font-family: 'Montserrat', sans-serif; }
       body footer div div {
         width: 100%;
         text-align: center; }
@@ -527,7 +556,9 @@ body {
           font-size: 11px;
           padding: 5px;
           margin-bottom: 0;
-          color: white; }
+          color: white;
+          font-family: 'Montserrat', sans-serif;
+          list-style-type: none; }
 
 @media screen and (min-width: 766px) {
   /* Tablet-version */
@@ -619,7 +650,7 @@ body {
         margin-top: 0; }
         body .klausogtekst .boksomklaus p {
           color: white;
-          padding: 108px 60px 0px 60px; }
+          padding: 60px 60px 0px 60px; }
     body .tekstbokse {
       width: 80%;
       clear: both;
@@ -635,7 +666,9 @@ body {
         margin-top: 10%; }
     body .brugfor {
       margin-bottom: 0%;
-      margin-top: 5%; }
+      margin-top: 9%; }
+      body .brugfor h1 {
+        padding-top: 7%; }
       body .brugfor button {
         margin-top: 3%; }
     body .videobibliotekforside {
@@ -696,11 +729,12 @@ body {
       body .omosklaus .tekstboksom {
         margin-left: 0px;
         width: 100%;
-        padding: 0;
-        margin-top: 0; }
+        padding: 0; }
+        body .omosklaus .tekstboksom h1 {
+          padding-top: 90px; }
         body .omosklaus .tekstboksom p {
           color: white;
-          padding: 108px 60px 0px 60px; }
+          padding: 198px 60px 0px 60px; }
     body .collagemain {
       position: relative; }
       body .collagemain .billede1, body .collagemain .billede2, body .collagemain .billede3, body .collagemain .billede4, body .collagemain .billede5, body .collagemain .billede6 {
@@ -718,7 +752,7 @@ body {
         body .collagemain .tekstboksomjuviva div {
           background-color: #FF5252;
           width: 47%;
-          height: 200px;
+          height: 180px;
           margin: auto;
           margin-top: 50px; }
           body .collagemain .tekstboksomjuviva div h1 {
@@ -768,9 +802,8 @@ body {
     /* Billedet af Klaus og teksten. */
     /* Tekstbokse. */
     /* Videobiblioteket på forsiden. */
-    /* Om Juviva desktop-version. */ }
-    body h1 {
-      font-size: 25px; }
+    /* Om Juviva ipad-version. */
+    /* Billedet af Klaus og teksten. */ }
     body header {
       width: 100%; }
       body header div a img {
@@ -830,6 +863,8 @@ body {
         width: 30%;
         margin-top: 0%;
         margin: 1.64%; }
+        body .trebokse .second h1, body .trebokse .third h1, body .trebokse .first h1 {
+          font-size: 25px; }
       body .trebokse .first button {
         margin-top: 50px; }
       body .trebokse .second button {
@@ -847,13 +882,19 @@ body {
       body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
         width: 290px;
         margin-top: 4%; }
+        body .tekstbokse .tekstboks2 h1, body .tekstbokse .tekstboks1 h1 {
+          font-size: 25px; }
       body .tekstbokse .tekstboks2 {
         margin-left: 3%; }
     body .brugfor {
       margin-bottom: 0%;
       margin-top: 0; }
+      body .brugfor h1 {
+        font-size: 30px; }
     body .videobibliotekforside {
       padding-left: 12px; }
+      body .videobibliotekforside h1 {
+        font-size: 30px; }
       body .videobibliotekforside a .videoforside, body .videobibliotekforside a .videoforside2, body .videobibliotekforside a .videoforside3, body .videobibliotekforside a .videoforside4 {
         width: 24.3%;
         margin-top: 3%; }
@@ -883,22 +924,39 @@ body {
         text-align: center;
         padding-bottom: 5%;
         list-style-type: none; }
-    body .omosklaus {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      flex-shrink: 1; }
-      body .omosklaus .klausom {
-        width: 40%;
-        height: 40%;
-        margin-top: 0; }
-      body .omosklaus .tekstbokstopom {
-        margin-left: 0px;
+    body .omosklaus .klausom {
+      width: 40%;
+      height: 40%; }
+    body .omosklaus .tekstboksom h1 {
+      padding-top: 90px; }
+    body .omosklaus .tekstboksom p {
+      color: white;
+      padding: 198px 60px 0px 60px; }
+    body .collagemain {
+      position: relative; }
+      body .collagemain .billede1, body .collagemain .billede2, body .collagemain .billede3, body .collagemain .billede4, body .collagemain .billede5, body .collagemain .billede6 {
+        width: 33.3%;
+        height: auto;
+        float: left;
+        display: block; }
+      body .collagemain .tekstboksomjuviva {
         width: 100%;
-        padding: 0;
-        margin-top: 0; }
-        body .omosklaus .tekstbokstopom p {
-          color: white;
-          padding: 108px 60px 0px 60px; } }
+        height: 288px;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        margin-top: 0;
+        padding: 0; }
+        body .collagemain .tekstboksomjuviva div {
+          background-color: #FF5252;
+          width: 47%;
+          height: 180px;
+          margin: auto;
+          margin-top: 50px; }
+          body .collagemain .tekstboksomjuviva div h1 {
+            color: white; }
+          body .collagemain .tekstboksomjuviva div p {
+            color: white;
+            padding: 0 4%;
+            padding-bottom: 0; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
