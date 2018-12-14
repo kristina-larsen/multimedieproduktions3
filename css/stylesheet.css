@@ -238,7 +238,8 @@ body {
   body .forsidetekstogbillede {
     position: relative;
     margin: 0;
-    clear: both; }
+    clear: both;
+    margin-bottom: 70%; }
     body .forsidetekstogbillede .forsidebillede {
       width: 100%;
       height: auto;
@@ -251,56 +252,73 @@ body {
         font-size: 50px;
         margin-bottom: 0;
         margin-left: 7%;
-        text-align: left; }
+        text-align: left;
+        color: white; }
       body .forsidetekstogbillede .help h2 {
         font-size: 35px;
         margin-top: 2px;
         margin-left: 7%;
         font-family: 'Raleway', sans-serif;
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        color: white; }
       body .forsidetekstogbillede .help h3 {
-        font-size: 23px;
+        font-size: 20px;
         margin-top: 2px;
         margin-left: 7%;
-        font-family: 'Raleway', sans-serif; }
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        margin-bottom: 0;
+        padding-bottom: 0; }
     body .forsidetekstogbillede button {
       background-color: #FF5252;
       border: none;
-      padding: 5px 55px;
-      color: white;
+      padding: 6px 30px;
       border-radius: 50px;
       position: absolute;
-      top: 380px;
-      left: 100px; }
+      top: 165px;
+      left: 100px;
+      color: white;
+      margin-left: -90px; }
+      body .forsidetekstogbillede button a {
+        text-decoration: none;
+        list-style-type: none;
+        color: white; }
   body .trebokse {
-    margin-top: 65%;
-    text-align: center;
-    /*.second, .third, .first {
-      margin-top: 15%;
-    }*/ }
-    body .trebokse p {
-      margin: 4% 6%; }
+    text-align: center; }
+    body .trebokse .first h1, body .trebokse .second h1, body .trebokse .third h1 {
+      margin-top: 30px;
+      color: black; }
+    body .trebokse .first p, body .trebokse .second p, body .trebokse .third p {
+      margin: 4% 6%;
+      color: black; }
     body .trebokse button {
       background-color: #FF5252;
       border: none;
       padding: 6px 30px;
       color: white;
-      border-radius: 50px; }
+      border-radius: 50px;
+      margin-bottom: 30px;
+      font-family: 'Raleway', sans-serif; }
+    body .trebokse hr {
+      background-color: #FF5252;
+      width: 300px;
+      height: 2px;
+      border-style: groove;
+      border: none; }
   body .klausogtekst {
-    margin-top: 12%;
-    width: 100%; }
+    width: 100%;
+    height: auto; }
     body .klausogtekst .klaus {
       width: 100%;
       height: auto;
-      padding: 0;
-      margin: 0; }
+      margin-top: 20px; }
     body .klausogtekst .boksomklaus {
       background-color: #2A2A2A;
-      height: 100%; }
+      margin-top: -4px; }
       body .klausogtekst .boksomklaus p {
-        padding: 7% 5%;
-        color: white;
-        text-align: center;
+        margin: 0;
+        padding: 6% 13%;
+        font-size: 14px;
         font-style: italic; }
   body .tekstbokse {
     background-color: white;
@@ -346,37 +364,28 @@ body {
       color: white;
       text-align: center;
       margin-top: 0px; }
-    body .videobibliotekforside video {
-      width: 90%;
-      margin-top: 10px;
-      padding-bottom: 3%;
-      margin-left: 5%; }
     body .videobibliotekforside a {
       list-style-type: none;
       text-decoration: none; }
-      body .videobibliotekforside a p {
-        margin: 0;
-        color: white;
-        text-align: center;
-        padding-bottom: 5%;
-        list-style-type: none; }
-  body .omosklaus {
-    margin-top: 2%;
-    width: 100%; }
-    body .omosklaus .klausom {
-      width: 100%;
-      height: auto;
-      padding: 0;
-      margin: 0; }
-    body .omosklaus p {
-      background-color: white;
+      body .videobibliotekforside a .videoforside, body .videobibliotekforside a .videoforside2, body .videobibliotekforside a .videoforside3, body .videobibliotekforside a .videoforside4 {
+        width: 90%;
+        margin-top: 10px;
+        padding-bottom: 3%;
+        margin-left: 5%;
+        position: relative; }
+      body .videobibliotekforside a h2 {
+        color: black;
+        background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        margin-top: -145px;
+        margin-left: 19px;
+        padding: 25px 40px; }
+    body .videobibliotekforside p {
       margin: 0;
-      padding: 7% 5%;
-      color: black;
-      margin-top: -5px;
-      text-align: center; }
-    body .omosklaus h1 {
-      color: black; }
+      color: white;
+      text-align: center;
+      padding-bottom: 5%;
+      list-style-type: none; }
   body .billede1, body .billede2, body .billede3, body .billede4, body .billede5, body .billede6 {
     display: none; }
   body .tekstboksomjuviva {
@@ -562,25 +571,27 @@ body {
         margin: 0; }
     body .klausogtekst {
       width: 100%;
-      clear: both;
-      height: 450px;
-      margin-top: 10px;
-      display: flex; }
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 1; }
       body .klausogtekst .klaus {
         width: 50%;
-        height: auto;
-        float: left; }
+        height: 50%;
+        margin-top: 0; }
       body .klausogtekst .boksomklaus {
-        float: left;
-        height: 100%; }
+        margin-left: 0px;
+        width: 100%;
+        padding: 0;
+        margin-top: 0; }
         body .klausogtekst .boksomklaus p {
-          width: 80%;
-          margin-top: 0; }
+          color: white;
+          padding: 55px 60px 0px 60px; }
     body .tekstbokse {
       width: 80%;
       clear: both;
       height: 370px;
-      margin-left: 12.7%; }
+      margin-left: 12.7%;
+      margin-top: 25px; }
       body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
         width: 40%;
         float: left; }
@@ -605,21 +616,6 @@ body {
       body .brugerwrap .opretbruger {
         margin-left: 6%;
         margin-top: 10px; }
-    body .omosklaus {
-      width: 100%;
-      clear: both;
-      height: 382px; }
-      body .omosklaus .klausom {
-        width: 45%;
-        float: left; }
-      body .omosklaus h1 {
-        text-align: center;
-        margin-top: 0; }
-      body .omosklaus p {
-        width: 46%;
-        float: right;
-        margin-top: 0;
-        padding: 3% 4%; }
     body .collagemain {
       position: relative; }
       body .collagemain .billede1, body .collagemain .billede2, body .collagemain .billede3, body .collagemain .billede4, body .collagemain .billede5, body .collagemain .billede6 {
@@ -748,12 +744,6 @@ body {
         margin-top: 29%; }
       body .trebokse .third button {
         margin-top: 29%; }
-    body .klausogtekst {
-      height: auto; }
-      body .klausogtekst div {
-        background-color: black; }
-        body .klausogtekst div p {
-          padding-top: 23%; }
     body .tekstbokse {
       height: 410px;
       width: 675px;

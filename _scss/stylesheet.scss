@@ -331,6 +331,7 @@ span {
   position: relative;
   margin: 0;
   clear: both;
+  margin-bottom: 70%;
 
 .forsidebillede {
   width: 100%;
@@ -348,6 +349,7 @@ span {
     margin-bottom: 0;
     margin-left: 7%;
     text-align: left;
+    color: white;
   }
 
   h2 {
@@ -356,41 +358,55 @@ span {
     margin-left: 7%;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 0;
+    color: white;
   }
 
   h3 {
-    font-size: 23px;
+    font-size: 20px;
     margin-top: 2px;
     margin-left: 7%;
     font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
+
   button {
     background-color: #FF5252;
     border: none;
-    padding: 5px 55px;
-    color: white;
+    padding: 6px 30px;
     border-radius: 50px;
     position: absolute;
-    top: 380px;
+    top: 165px;
     left: 100px;
-  }
+    color: white;
+    margin-left: -90px;
 
+    a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+  }
+ }
 }
 
 /* De øverste bokse. */
 .trebokse {
-  margin-top: 65%;
   text-align: center;
 
-  /*.second, .third, .first {
-    margin-top: 15%;
-  }*/
+.first, .second, .third {
+
+  h1 {
+    margin-top: 30px;
+    color: black;
+  }
 
   p {
   margin: 4% 6%;
+  color: black;
   }
-
+}
 
     button {
       background-color: #FF5252;
@@ -398,30 +414,38 @@ span {
       padding: 6px 30px;
       color: white;
       border-radius: 50px;
+      margin-bottom: 30px;
+      font-family: 'Raleway', sans-serif;
   }
 
+  hr {
+    background-color: #FF5252;
+    width: 300px;
+    height: 2px;
+    border-style: groove;
+    border: none;
+  }
 }
 
 /* Billedet af Klaus og teksten. */
 .klausogtekst {
-  margin-top: 12%;
   width: 100%;
+  height: auto;
 
   .klaus {
     width: 100%;
     height: auto;
-    padding: 0;
-    margin: 0;
+    margin-top: 20px;
 }
 
 .boksomklaus {
-   background-color: #2A2A2A;
-   height: 100%;
+  background-color: #2A2A2A;
+  margin-top: -4px;
 
   p {
-    padding: 7% 5%;
-    color: white;
-    text-align: center;
+    margin: 0;
+    padding: 6% 13%;
+    font-size: 14px;
     font-style: italic;
   }
  }
@@ -492,16 +516,27 @@ span {
     margin-top: 0px;
   }
 
-  video {
+a {
+  list-style-type: none;
+  text-decoration: none;
+
+  .videoforside, .videoforside2, .videoforside3, .videoforside4 {
     width: 90%;
     margin-top: 10px;
     padding-bottom: 3%;
     margin-left: 5%;
+    position: relative;
   }
 
-  a {
-    list-style-type: none;
-    text-decoration: none;
+    h2 {
+      color: black;
+      background-color: rgba(255,255,255, 0.5);
+      position: absolute;
+      margin-top: -145px;
+      margin-left: 19px;
+      padding: 25px 40px;
+    }
+  }
 
   p {
     margin: 0;
@@ -511,33 +546,32 @@ span {
     list-style-type: none;
   }
  }
-}
 
 
 /* Om Juviva mobil. */
 /* Billede og tekst Klaus. */
 .omosklaus {
-  margin-top: 2%;
-  width: 100%;
+  // margin-top: 2%;
+  // width: 100%;
 
   .klausom {
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0;
+    // width: 100%;
+    // height: auto;
+    // padding: 0;
+    // margin: 0;
 }
 
   p {
-    background-color: white;
-    margin: 0;
-    padding: 7% 5%;
-    color: black;
-    margin-top: -5px;
-    text-align: center;
+    // background-color: white;
+    // margin: 0;
+    // padding: 7% 5%;
+    // color: black;
+    // margin-top: -5px;
+    // text-align: center;
   }
 
   h1 {
-    color: black;
+    // color: black;
   }
 }
 
@@ -846,24 +880,25 @@ body {
 /* Billedet af Klaus og teksten. */
   .klausogtekst {
     width: 100%;
-    clear: both;
-    height: 450px;
-    margin-top: 10px;
     display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
 
     .klaus {
       width: 50%;
-      height: auto;
-      float: left;
+      height: 50%;
+      margin-top: 0;
       }
 
  .boksomklaus {
-   float: left;
-   height: 100%;
+    margin-left: 0px;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
 
     p {
-      width: 80%;
-      margin-top: 0;
+      color: white;
+      padding: 55px 60px 0px 60px;
     }
   }
 }
@@ -874,6 +909,7 @@ body {
     clear: both;
     height: 370px;
     margin-left: 12.7%;
+    margin-top: 25px;
 
     .tekstboks2, .tekstboks1 {
       width: 40%;
@@ -939,25 +975,25 @@ body {
 
 /* Om Juviva ipad-version. */
 .omosklaus {
-  width: 100%;
-  clear: both;
-  height: 382px;
+  // width: 100%;
+  // clear: both;
+  // height: 382px;
 
   .klausom {
-    width: 45%;
-    float: left;
+    // width: 45%;
+    // float: left;
     }
 
   h1 {
-    text-align: center;
-    margin-top: 0;
+    // text-align: center;
+    // margin-top: 0;
     }
 
   p {
-    width: 46%;
-    float: right;
-    margin-top: 0;
-    padding: 3% 4%;
+    // width: 46%;
+    // float: right;
+    // margin-top: 0;
+    // padding: 3% 4%;
   }
 }
 
@@ -1204,16 +1240,16 @@ nav {
 
  /* Billedet af Klaus og teksten. */
    .klausogtekst {
-     height: auto;
+     // height: auto;
 
      .klaus {
        }
 
   div {
-    background-color: black;
+    // background-color: black;
 
      p {
-       padding-top: 23%;
+       // padding-top: 23%;
      }
    }
  }
