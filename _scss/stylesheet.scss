@@ -528,8 +528,9 @@ a {
     position: relative;
   }
 
-    h2 {
+    .tekst1, .tekst2, .tekst3, .tekst4 {
       color: black;
+      font-size: 14px;
       background-color: rgba(255,255,255, 0.5);
       position: absolute;
       margin-top: -145px;
@@ -549,7 +550,35 @@ a {
 
 
 /* Om Juviva mobil. */
-/* Billede og tekst Klaus. */
+/* Billedet af Klaus og teksten. */
+.omosklaus {
+  width: 100%;
+  height: auto;
+
+  .klausom {
+    width: 100%;
+    height: auto;
+    margin-top: 2px;
+}
+
+.tekstbokstopom {
+  background-color: white;
+  margin-top: -4px;
+
+  h1 {
+    padding: 9% 13% 0% 13%;
+    color: black;
+  }
+
+  p {
+    margin: 0;
+    padding: 1% 13% 13% 13%;
+    font-size: 13px;
+    font-style: italic;
+    color: black;
+  }
+ }
+}
 .omosklaus {
   // margin-top: 2%;
   // width: 100%;
@@ -580,13 +609,13 @@ a {
 }
 
 .tekstboksomjuviva {
-  margin-top: 30px;
+  margin-top: 0px;
   background-color: #FF5252;
   padding: 5px 5px;
 }
 
 h1 {
-  margin-top: 30px;
+  padding-top: 25px;
   color: white;
   text-align: center;
 }
@@ -596,6 +625,7 @@ p {
   padding: 3px 20px;
   text-align: center;
   margin-bottom: 40px;
+  font-size: 13px;
 }
 
 //login side
@@ -812,6 +842,7 @@ body {
 /* Forside ipad. */
 
 .forsidetekstogbillede {
+  margin-bottom: 55%;
 
   .forsidebillede {
     margin-top: 1%;
@@ -820,14 +851,14 @@ body {
 .help {
 
   h1 {
-    font-size: 120px;
+    font-size: 110px;
     margin-bottom: 0;
     margin-left: 10%;
     text-align: left;
   }
 
   h2 {
-    font-size: 100px;
+    font-size: 90px;
     margin-top: 2px;
     margin-left: 10%;
     border-bottom: 3px black;
@@ -835,18 +866,27 @@ body {
   }
 
   h3 {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 2px;
     margin-left: 10%;
     font-family: 'Raleway', sans-serif;
   }
- }
 }
+
+  button {
+    top: 350px;
+    border: none;
+    padding: 5px 35px;
+    color: white;
+    border-radius: 50px;
+    margin-left: -70px;
+  }
+ }
 
 /* De øverste bokse. */
 .trebokse {
   width: 100%;
-  height: 310px;
+  height: 200px;
 
   .second, .third, .first {
     margin-top: 0;
@@ -868,12 +908,16 @@ body {
    .second {
 
      button {
-       margin-top: 41.5%;
+       margin-top: 25%;
      }
    }
 
    h1 {
      margin: 0;
+   }
+
+   hr {
+     display: none;
    }
   }
 
@@ -898,7 +942,7 @@ body {
 
     p {
       color: white;
-      padding: 55px 60px 0px 60px;
+      padding: 108px 60px 0px 60px;
     }
   }
 }
@@ -933,6 +977,60 @@ body {
     margin-top: 3%;
   }
   }
+
+  /* Videobiblioteket på forsiden. */
+  .videobibliotekforside {
+    padding-left: 8px;
+
+  a {
+
+    .videoforside, .videoforside2, .videoforside3, .videoforside4 {
+      width: 24%;
+      margin-top: 10px;
+      padding-bottom: 3%;
+      margin-left: 2px;
+      position: relative;
+    }
+
+    .tekst1 {
+      margin-top: -102px;
+      margin-left: 2px;
+      padding: 17px 13px;
+      font-size: 13px;
+    }
+
+      .tekst2 {
+        margin-top: -102px;
+        margin-left: 191px;
+        font-size: 13px;
+        padding: 17px 7px;
+      }
+
+
+      .tekst3 {
+        margin-top: -102px;
+        margin-left: 379px;
+        font-size: 13px;
+        padding: 17px 7px;
+      }
+
+  .tekst4 {
+    margin-top: -102px;
+    margin-left: 567px;
+    font-size: 13px;
+    padding: 17px 7px;
+
+      }
+    }
+
+    p {
+      margin: 0;
+      color: white;
+      text-align: center;
+      padding-bottom: 5%;
+      list-style-type: none;
+    }
+   }
 
   //login side
   .brugerwrap{
@@ -974,6 +1072,32 @@ body {
   }
 
 /* Om Juviva ipad-version. */
+/* Billedet af Klaus og teksten. */
+  .omosklaus {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+
+    .klausom {
+      width: 50%;
+      height: 50%;
+      margin-top: 0;
+      }
+
+ .tekstboksom {
+    margin-left: 0px;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+
+    p {
+      color: white;
+      padding: 108px 60px 0px 60px;
+    }
+  }
+}
+
 .omosklaus {
   // width: 100%;
   // clear: both;
@@ -1018,17 +1142,18 @@ body {
   div {
     background-color: #FF5252;
     width: 47%;
-    height: 233px;
+    height: 200px;
     margin: auto;
+    margin-top: 50px;
 
   h1 {
     color: white;
-    padding-top: 8%;
   }
 
   p {
       color: white;
       padding: 0 4%;
+      padding-bottom: 0;
    }
   }
  }
@@ -1115,6 +1240,10 @@ main{
 
 body {
 
+  h1 {
+    font-size: 25px;
+  }
+
   header {
     width: 100%;
 
@@ -1184,13 +1313,13 @@ nav {
  .help {
 
    h1 {
-     font-size: 240px;
+     font-size: 220px;
      margin-top: 4%;
      margin-left: 10%;
    }
 
    h2 {
-     font-size: 200px;
+     font-size: 180px;
      margin-top: 2px;
      margin-left: 10%;
      border-bottom: 4px black;
@@ -1198,10 +1327,16 @@ nav {
    }
 
    h3 {
-     font-size: 120px;
+     font-size: 70px;
      margin-top: 2px;
      margin-left: 10%;
    }
+  }
+
+  button {
+    top: 630px;
+    margin-left: -45px;
+
   }
  }
 
@@ -1219,37 +1354,34 @@ nav {
    .first {
 
       button {
-        margin-top: 10%;
+        margin-top: 50px;
       }
     }
 
     .second {
 
       button {
-        margin-top: 29%;
+        margin-top: 94px;
       }
     }
 
     .third {
 
       button {
-        margin-top: 29%;
+        margin-top: 94px;
       }
     }
    }
 
  /* Billedet af Klaus og teksten. */
    .klausogtekst {
-     // height: auto;
 
-     .klaus {
-       }
-
-  div {
-    // background-color: black;
+  .boksomklaus {
 
      p {
-       // padding-top: 23%;
+       color: white;
+       font-size: 20px;
+       padding: 250px 90px 0px 90px;
      }
    }
  }
@@ -1277,24 +1409,79 @@ nav {
 
  /* Videobiblioteket på forsiden. */
  .videobibliotekforside {
-   margin-top: -2%;
+   padding-left: 12px;
 
-   h1 {
-     font-size: 30px;
-     list-style-type: none;
+ a {
+
+   .videoforside, .videoforside2, .videoforside3, .videoforside4 {
+     width: 24.3%;
+     margin-top: 3%;
    }
 
-a {
-  list-style-type: none;
-  text-decoration: none;
- }
+   .tekst1 {
+     margin-top: -165px;
+     margin-left: 2px;
+     padding: 22px 17px;
+     font-size: 16px;
+   }
 
-video  {
-  width: 23.5%;
-  float: left;
-  margin-left: 1.2%;
-  margin-top: 3%;
+     .tekst2 {
+       margin-top: -165px;
+       margin-left: 334px;
+       font-size: 16px;
+       padding: 22px 17px;
+     }
+
+
+     .tekst3 {
+       margin-top: -165px;
+       margin-left: 665px;
+       font-size: 16px;
+       padding: 22px 17px;
+     }
+
+ .tekst4 {
+   margin-top: -165px;
+   margin-left: 996px;
+   font-size: 16px;
+   padding: 22px 17px;
+     }
+   }
+
+   p {
+     margin: 0;
+     color: white;
+     text-align: center;
+     padding-bottom: 5%;
+     list-style-type: none;
+   }
   }
+
+  /* Om Juviva desktop-version. */
+
+  .omosklaus {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+
+    .klausom {
+      width: 40%;
+      height: 40%;
+      margin-top: 0;
+      }
+
+  .tekstbokstopom {
+    margin-left: 0px;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+
+    p {
+      color: white;
+      padding: 108px 60px 0px 60px;
+    }
+   }
   }
  }
 }
