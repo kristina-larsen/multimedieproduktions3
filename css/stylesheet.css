@@ -10,14 +10,7 @@ body {
   /* Tekstbokse. */
   /* Videobiblioteket på forsiden. */
   /* Om Juviva mobil. */
-  /* Billede og tekst Klaus. */ }
-  body h1, body h2, body h3 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px; }
-  body p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    list-style-type: none; }
+  /* Billedet af Klaus og teksten. */ }
   body header {
     background-color: white;
     position: relative;
@@ -238,7 +231,8 @@ body {
   body .forsidetekstogbillede {
     position: relative;
     margin: 0;
-    clear: both; }
+    clear: both;
+    margin-bottom: 60%; }
     body .forsidetekstogbillede .forsidebillede {
       width: 100%;
       height: auto;
@@ -251,57 +245,84 @@ body {
         font-size: 50px;
         margin-bottom: 0;
         margin-left: 7%;
-        text-align: left; }
+        text-align: left;
+        color: #48C3D1;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 0; }
       body .forsidetekstogbillede .help h2 {
         font-size: 35px;
         margin-top: 2px;
         margin-left: 7%;
         font-family: 'Raleway', sans-serif;
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        color: #48C3D1; }
       body .forsidetekstogbillede .help h3 {
-        font-size: 23px;
+        font-size: 20px;
         margin-top: 2px;
         margin-left: 7%;
-        font-family: 'Raleway', sans-serif; }
+        font-family: 'Raleway', sans-serif;
+        color: #48C3D1;
+        margin-bottom: 0;
+        padding-bottom: 0; }
     body .forsidetekstogbillede button {
       background-color: #FF5252;
       border: none;
-      padding: 5px 55px;
-      color: white;
+      padding: 6px 30px;
       border-radius: 50px;
       position: absolute;
-      top: 380px;
-      left: 100px; }
+      top: 165px;
+      left: 100px;
+      color: white;
+      margin-left: -90px;
+      font-family: 'Raleway', sans-serif; }
+      body .forsidetekstogbillede button a {
+        text-decoration: none;
+        list-style-type: none;
+        color: white; }
   body .trebokse {
-    margin-top: 65%;
-    text-align: center;
-    /*.second, .third, .first {
-      margin-top: 15%;
-    }*/ }
-    body .trebokse p {
-      margin: 4% 6%; }
+    text-align: center; }
+    body .trebokse .first h1, body .trebokse .second h1, body .trebokse .third h1 {
+      margin-top: 30px;
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
+    body .trebokse .first p, body .trebokse .second p, body .trebokse .third p {
+      margin: 4% 6%;
+      color: black;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+      list-style-type: none; }
     body .trebokse button {
       background-color: #FF5252;
       border: none;
       padding: 6px 30px;
       color: white;
-      border-radius: 50px; }
+      border-radius: 50px;
+      margin-bottom: 30px;
+      font-family: 'Raleway', sans-serif; }
+    body .trebokse hr {
+      background-color: #FF5252;
+      width: 300px;
+      height: 2px;
+      border-style: groove;
+      border: none; }
   body .klausogtekst {
-    margin-top: 12%;
-    width: 100%; }
+    width: 100%;
+    height: auto; }
     body .klausogtekst .klaus {
       width: 100%;
       height: auto;
-      padding: 0;
-      margin: 0; }
-    body .klausogtekst p {
+      margin-top: 20px; }
+    body .klausogtekst .boksomklaus {
       background-color: #2A2A2A;
-      margin: 0;
-      padding: 7% 5%;
-      color: white;
-      margin-top: -5px;
-      text-align: center;
-      font-style: italic; }
+      margin-top: -4px; }
+      body .klausogtekst .boksomklaus p {
+        margin: 0;
+        padding: 6% 13%;
+        font-style: italic;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        list-style-type: none; }
   body .tekstbokse {
     background-color: white;
     text-align: center;
@@ -313,10 +334,15 @@ body {
       border-color: black; }
     body .tekstbokse h1 {
       margin-top: 50px;
-      color: black; }
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
     body .tekstbokse p {
       color: black;
-      padding: 3px 20px; }
+      padding: 3px 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+      list-style-type: none; }
     body .tekstbokse button {
       background-color: #FF5252;
       color: white;
@@ -328,10 +354,16 @@ body {
   body .brugfor {
     text-align: center;
     background-color: #2A2A2A;
-    padding: 6% 0; }
-    body .brugfor h1, body .brugfor p {
+    padding: 0% 0% 5% 0%; }
+    body .brugfor h1 {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
+    body .brugfor p {
       margin: 5px 10px;
-      color: white; }
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      list-style-type: none; }
     body .brugfor button {
       background-color: #FF5252;
       border: none;
@@ -345,53 +377,79 @@ body {
       padding-top: 6%;
       color: white;
       text-align: center;
-      margin-top: 0px; }
-    body .videobibliotekforside video {
-      width: 90%;
-      margin-top: 10px;
-      padding-bottom: 3%;
-      margin-left: 5%; }
+      margin-top: 0px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
     body .videobibliotekforside a {
       list-style-type: none;
       text-decoration: none; }
-      body .videobibliotekforside a p {
-        margin: 0;
-        color: white;
-        text-align: center;
-        padding-bottom: 5%;
+      body .videobibliotekforside a .videoforside, body .videobibliotekforside a .videoforside2, body .videobibliotekforside a .videoforside3, body .videobibliotekforside a .videoforside4 {
+        width: 90%;
+        margin-top: 10px;
+        padding-bottom: 3%;
+        margin-left: 5%;
+        position: relative; }
+      body .videobibliotekforside a .tekst1, body .videobibliotekforside a .tekst2, body .videobibliotekforside a .tekst3, body .videobibliotekforside a .tekst4 {
+        color: black;
+        font-size: 14px;
+        background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        margin-top: -145px;
+        margin-left: 19px;
+        padding: 25px 40px;
+        font-family: 'Montserrat', sans-serif;
         list-style-type: none; }
+    body .videobibliotekforside p {
+      margin: 0;
+      color: white;
+      text-align: center;
+      padding-bottom: 5%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+      list-style-type: none; }
   body .omosklaus {
-    margin-top: 2%;
-    width: 100%; }
+    width: 100%;
+    height: auto; }
     body .omosklaus .klausom {
       width: 100%;
       height: auto;
-      padding: 0;
-      margin: 0; }
-    body .omosklaus p {
+      margin-top: 2px; }
+    body .omosklaus .tekstbokstopom {
       background-color: white;
-      margin: 0;
-      padding: 7% 5%;
-      color: black;
-      margin-top: -5px;
-      text-align: center; }
-    body .omosklaus h1 {
-      color: black; }
+      margin-top: -4px; }
+      body .omosklaus .tekstbokstopom h1 {
+        padding: 9% 13% 0% 13%;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px; }
+      body .omosklaus .tekstbokstopom p {
+        margin: 0;
+        padding: 1% 13% 13% 13%;
+        font-size: 13px;
+        font-style: italic;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        list-style-type: none; }
   body .billede1, body .billede2, body .billede3, body .billede4, body .billede5, body .billede6 {
     display: none; }
   body .tekstboksomjuviva {
-    margin-top: 30px;
+    margin-top: 0px;
     background-color: #FF5252;
     padding: 5px 5px; }
   body h1 {
-    margin-top: 30px;
+    padding-top: 25px;
     color: white;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px; }
   body p {
     color: white;
     padding: 3px 20px;
     text-align: center;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none; }
   body .brugerwrap {
     width: 60%;
     margin: auto; }
@@ -488,7 +546,8 @@ body {
         margin-bottom: 0;
         margin-top: 20px;
         color: white;
-        text-align: center; }
+        text-align: center;
+        font-family: 'Montserrat', sans-serif; }
       body footer div div {
         width: 100%;
         text-align: center; }
@@ -497,7 +556,9 @@ body {
           font-size: 11px;
           padding: 5px;
           margin-bottom: 0;
-          color: white; }
+          color: white;
+          font-family: 'Montserrat', sans-serif;
+          list-style-type: none; }
 
 @media screen and (min-width: 766px) {
   /* Tablet-version */
@@ -506,11 +567,13 @@ body {
     /* De øverste bokse. */
     /* Billedet af Klaus og teksten. */
     /* Tekstbokse. */
-    /* Om Juviva ipad-version. */ }
+    /* Videobiblioteket på forsiden. */
+    /* Om Juviva ipad-version. */
+    /* Billedet af Klaus og teksten. */ }
     body header {
       height: 90px; }
       body header div a img {
-        width: 130px;
+        width: 100px;
         height: auto;
         margin: 4% 0% 2% 4%; }
       body header .navi .overlayer a {
@@ -524,27 +587,36 @@ body {
         cursor: pointer;
         float: right;
         margin: -9.5% 4% 0 0; }
-    body .forsidetekstogbillede .forsidebillede {
-      margin-top: 1%; }
-    body .forsidetekstogbillede .help h1 {
-      font-size: 120px;
-      margin-bottom: 0;
-      margin-left: 10%;
-      text-align: left; }
-    body .forsidetekstogbillede .help h2 {
-      font-size: 100px;
-      margin-top: 2px;
-      margin-left: 10%;
-      border-bottom: 3px black;
-      border-bottom-style: inset; }
-    body .forsidetekstogbillede .help h3 {
-      font-size: 50px;
-      margin-top: 2px;
-      margin-left: 10%;
-      font-family: 'Raleway', sans-serif; }
+    body .forsidetekstogbillede {
+      margin-bottom: 55%; }
+      body .forsidetekstogbillede .forsidebillede {
+        margin-top: 1%; }
+      body .forsidetekstogbillede .help h1 {
+        font-size: 110px;
+        margin-bottom: 0;
+        margin-left: 10%;
+        text-align: left; }
+      body .forsidetekstogbillede .help h2 {
+        font-size: 90px;
+        margin-top: 2px;
+        margin-left: 10%;
+        border-bottom: 3px black;
+        border-bottom-style: inset; }
+      body .forsidetekstogbillede .help h3 {
+        font-size: 40px;
+        margin-top: 2px;
+        margin-left: 10%;
+        font-family: 'Raleway', sans-serif; }
+      body .forsidetekstogbillede button {
+        top: 350px;
+        border: none;
+        padding: 5px 35px;
+        color: white;
+        border-radius: 50px;
+        margin-left: -70px; }
     body .trebokse {
       width: 100%;
-      height: 310px; }
+      height: 200px; }
       body .trebokse .second, body .trebokse .third, body .trebokse .first {
         margin-top: 0;
         width: 33.2%;
@@ -557,28 +629,34 @@ body {
         body .trebokse .third button {
           margin-top: 41.5%; }
       body .trebokse .second button {
-        margin-top: 41.5%; }
+        margin-top: 25%; }
       body .trebokse h1 {
         margin: 0; }
+      body .trebokse hr {
+        display: none; }
     body .klausogtekst {
       width: 100%;
-      clear: both;
-      height: 450px;
-      margin-top: 10px; }
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 1; }
       body .klausogtekst .klaus {
         width: 50%;
-        height: auto;
-        float: left; }
-      body .klausogtekst p {
-        width: 40%;
-        float: right;
-        margin-top: 0;
-        height: 316.5px; }
+        height: 50%;
+        margin-top: 0; }
+      body .klausogtekst .boksomklaus {
+        margin-left: 0px;
+        width: 100%;
+        padding: 0;
+        margin-top: 0; }
+        body .klausogtekst .boksomklaus p {
+          color: white;
+          padding: 60px 60px 0px 60px; }
     body .tekstbokse {
       width: 80%;
       clear: both;
       height: 370px;
-      margin-left: 12.7%; }
+      margin-left: 12.7%;
+      margin-top: 25px; }
       body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
         width: 40%;
         float: left; }
@@ -588,9 +666,45 @@ body {
         margin-top: 10%; }
     body .brugfor {
       margin-bottom: 0%;
-      margin-top: 5%; }
+      margin-top: 9%; }
+      body .brugfor h1 {
+        padding-top: 7%; }
       body .brugfor button {
         margin-top: 3%; }
+    body .videobibliotekforside {
+      padding-left: 8px; }
+      body .videobibliotekforside a .videoforside, body .videobibliotekforside a .videoforside2, body .videobibliotekforside a .videoforside3, body .videobibliotekforside a .videoforside4 {
+        width: 24%;
+        margin-top: 10px;
+        padding-bottom: 3%;
+        margin-left: 2px;
+        position: relative; }
+      body .videobibliotekforside a .tekst1 {
+        margin-top: -102px;
+        margin-left: 2px;
+        padding: 17px 13px;
+        font-size: 13px; }
+      body .videobibliotekforside a .tekst2 {
+        margin-top: -102px;
+        margin-left: 191px;
+        font-size: 13px;
+        padding: 17px 7px; }
+      body .videobibliotekforside a .tekst3 {
+        margin-top: -102px;
+        margin-left: 379px;
+        font-size: 13px;
+        padding: 17px 7px; }
+      body .videobibliotekforside a .tekst4 {
+        margin-top: -102px;
+        margin-left: 567px;
+        font-size: 13px;
+        padding: 17px 7px; }
+      body .videobibliotekforside p {
+        margin: 0;
+        color: white;
+        text-align: center;
+        padding-bottom: 5%;
+        list-style-type: none; }
     body .brugerwrap {
       width: 90%; }
       body .brugerwrap .login, body .brugerwrap .opretbruger {
@@ -605,19 +719,23 @@ body {
         margin-top: 10px; }
     body .omosklaus {
       width: 100%;
-      clear: both;
-      height: 382px; }
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 1; }
       body .omosklaus .klausom {
-        width: 45%;
-        float: left; }
-      body .omosklaus h1 {
-        text-align: center;
+        width: 50%;
+        height: 50%;
         margin-top: 0; }
-      body .omosklaus p {
-        width: 46%;
-        float: right;
-        margin-top: 0;
-        padding: 3% 4%; }
+      body .omosklaus .tekstbokstopom {
+        margin-left: 0px;
+        width: 100%;
+        padding: 0; }
+        body .omosklaus .tekstbokstopom h1 {
+          padding-top: 60px; }
+        body .omosklaus .tekstbokstopom p {
+          color: black;
+          padding: 10px 60px 0px 60px;
+          font-size: 17px; }
     body .collagemain {
       position: relative; }
       body .collagemain .billede1, body .collagemain .billede2, body .collagemain .billede3, body .collagemain .billede4, body .collagemain .billede5, body .collagemain .billede6 {
@@ -635,14 +753,15 @@ body {
         body .collagemain .tekstboksomjuviva div {
           background-color: #FF5252;
           width: 47%;
-          height: 233px;
-          margin: auto; }
+          height: 180px;
+          margin: auto;
+          margin-top: 50px; }
           body .collagemain .tekstboksomjuviva div h1 {
-            color: white;
-            padding-top: 8%; }
+            color: white; }
           body .collagemain .tekstboksomjuviva div p {
             color: white;
-            padding: 0 4%; }
+            padding: 0 4%;
+            padding-bottom: 0; }
     body main .imgkonsultation .tekstkonsultation h1 {
       font-size: 80px;
       margin: 4px; }
@@ -683,7 +802,9 @@ body {
     /* De øverste bokse. */
     /* Billedet af Klaus og teksten. */
     /* Tekstbokse. */
-    /* Videobiblioteket på forsiden. */ }
+    /* Videobiblioteket på forsiden. */
+    /* Om Juviva ipad-version. */
+    /* Billedet af Klaus og teksten. */ }
     body header {
       width: 100%; }
       body header div a img {
@@ -691,7 +812,7 @@ body {
         height: auto;
         margin: 0;
         float: left;
-        padding: 2.5% 0% 0% 3%; }
+        padding: 2% 0% 0% 3%; }
       body header div #mynav {
         display: none; }
       body header nav {
@@ -718,59 +839,126 @@ body {
             border-bottom: 2px solid #FF5252;
             padding-bottom: 8px; }
     body .forsidetekstogbillede .forsidebillede {
-      margin-top: 0%; }
+      margin-top: 0.3%; }
     body .forsidetekstogbillede .help h1 {
-      font-size: 240px;
+      font-size: 220px;
       margin-top: 4%;
       margin-left: 10%; }
     body .forsidetekstogbillede .help h2 {
-      font-size: 200px;
+      font-size: 180px;
       margin-top: 2px;
       margin-left: 10%;
       border-bottom: 4px black;
       border-bottom-style: inset; }
     body .forsidetekstogbillede .help h3 {
-      font-size: 120px;
+      font-size: 70px;
       margin-top: 2px;
       margin-left: 10%; }
+    body .forsidetekstogbillede button {
+      top: 630px;
+      margin-left: -45px;
+      font-size: 20px; }
     body .trebokse {
       height: 370px;
       width: 100%; }
       body .trebokse .second, body .trebokse .third, body .trebokse .first {
-        width: 25%;
-        margin-top: 0%; }
+        width: 30%;
+        margin-top: 0%;
+        margin: 1.64%; }
+        body .trebokse .second h1, body .trebokse .third h1, body .trebokse .first h1 {
+          font-size: 25px; }
       body .trebokse .first button {
-        margin-top: 10%; }
+        margin-top: 50px;
+        font-size: 20px; }
       body .trebokse .second button {
-        margin-top: 29%; }
+        margin-top: 94px;
+        font-size: 20px; }
       body .trebokse .third button {
-        margin-top: 29%; }
-    body .klausogtekst p {
-      height: 340px;
-      padding-top: 23%; }
+        margin-top: 94px;
+        font-size: 20px; }
+    body .klausogtekst .boksomklaus p {
+      color: white;
+      font-size: 20px;
+      padding: 250px 90px 0px 90px; }
     body .tekstbokse {
       height: 410px;
-      width: 70%; }
+      width: 675px;
+      margin: auto; }
       body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
-        width: 30%;
+        width: 290px;
         margin-top: 4%; }
+        body .tekstbokse .tekstboks2 h1, body .tekstbokse .tekstboks1 h1 {
+          font-size: 25px; }
       body .tekstbokse .tekstboks2 {
         margin-left: 3%; }
+      body .tekstbokse button {
+        font-size: 20px; }
     body .brugfor {
       margin-bottom: 0%;
       margin-top: 0; }
+      body .brugfor h1 {
+        font-size: 30px; }
     body .videobibliotekforside {
-      margin-top: -2%; }
+      padding-left: 12px; }
       body .videobibliotekforside h1 {
-        font-size: 30px;
+        font-size: 30px; }
+      body .videobibliotekforside a .videoforside, body .videobibliotekforside a .videoforside2, body .videobibliotekforside a .videoforside3, body .videobibliotekforside a .videoforside4 {
+        width: 24.3%;
+        margin-top: 3%; }
+      body .videobibliotekforside a .tekst1 {
+        margin-top: -165px;
+        margin-left: 2px;
+        padding: 22px 17px;
+        font-size: 16px; }
+      body .videobibliotekforside a .tekst2 {
+        margin-top: -165px;
+        margin-left: 334px;
+        font-size: 16px;
+        padding: 22px 17px; }
+      body .videobibliotekforside a .tekst3 {
+        margin-top: -165px;
+        margin-left: 665px;
+        font-size: 16px;
+        padding: 22px 17px; }
+      body .videobibliotekforside a .tekst4 {
+        margin-top: -165px;
+        margin-left: 996px;
+        font-size: 16px;
+        padding: 22px 17px; }
+      body .videobibliotekforside p {
+        margin: 0;
+        color: white;
+        text-align: center;
+        padding-bottom: 5%;
         list-style-type: none; }
-      body .videobibliotekforside a {
-        list-style-type: none;
-        text-decoration: none; }
-      body .videobibliotekforside video {
-        width: 23.5%;
-        float: left;
-        margin-left: 1.2%;
-        margin-top: 3%; } }
+    body .omosklaus .klausom {
+      width: 40%;
+      height: 40%; }
+    body .omosklaus .tekstbokstopom h1 {
+      padding-top: 145px; }
+    body .omosklaus .tekstbokstopom p {
+      color: black;
+      padding: 28px 160px 0px 160px; }
+    body .collagemain .tekstboksomjuviva {
+      width: 100%;
+      height: 506px;
+      background-color: rgba(0, 0, 0, 0.8);
+      position: absolute;
+      margin-top: 0;
+      padding: 0; }
+      body .collagemain .tekstboksomjuviva div {
+        background-color: #FF5252;
+        width: 40%;
+        height: 300px;
+        margin: auto;
+        margin-top: 100px; }
+        body .collagemain .tekstboksomjuviva div h1 {
+          color: white;
+          padding-top: 10%; }
+        body .collagemain .tekstboksomjuviva div p {
+          color: white;
+          padding: 5% 10%;
+          padding-bottom: 0;
+          font-size: 17px; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
