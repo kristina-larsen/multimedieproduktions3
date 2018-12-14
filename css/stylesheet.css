@@ -573,7 +573,7 @@ body {
     body header {
       height: 90px; }
       body header div a img {
-        width: 130px;
+        width: 100px;
         height: auto;
         margin: 4% 0% 2% 4%; }
       body header .navi .overlayer a {
@@ -726,15 +726,16 @@ body {
         width: 50%;
         height: 50%;
         margin-top: 0; }
-      body .omosklaus .tekstboksom {
+      body .omosklaus .tekstbokstopom {
         margin-left: 0px;
         width: 100%;
         padding: 0; }
-        body .omosklaus .tekstboksom h1 {
-          padding-top: 90px; }
-        body .omosklaus .tekstboksom p {
-          color: white;
-          padding: 198px 60px 0px 60px; }
+        body .omosklaus .tekstbokstopom h1 {
+          padding-top: 60px; }
+        body .omosklaus .tekstbokstopom p {
+          color: black;
+          padding: 10px 60px 0px 60px;
+          font-size: 17px; }
     body .collagemain {
       position: relative; }
       body .collagemain .billede1, body .collagemain .billede2, body .collagemain .billede3, body .collagemain .billede4, body .collagemain .billede5, body .collagemain .billede6 {
@@ -811,7 +812,7 @@ body {
         height: auto;
         margin: 0;
         float: left;
-        padding: 2.5% 0% 0% 3%; }
+        padding: 2% 0% 0% 3%; }
       body header div #mynav {
         display: none; }
       body header nav {
@@ -927,36 +928,31 @@ body {
     body .omosklaus .klausom {
       width: 40%;
       height: 40%; }
-    body .omosklaus .tekstboksom h1 {
-      padding-top: 90px; }
-    body .omosklaus .tekstboksom p {
-      color: white;
-      padding: 198px 60px 0px 60px; }
-    body .collagemain {
-      position: relative; }
-      body .collagemain .billede1, body .collagemain .billede2, body .collagemain .billede3, body .collagemain .billede4, body .collagemain .billede5, body .collagemain .billede6 {
-        width: 33.3%;
-        height: auto;
-        float: left;
-        display: block; }
-      body .collagemain .tekstboksomjuviva {
-        width: 100%;
-        height: 288px;
-        background-color: rgba(0, 0, 0, 0.8);
-        position: absolute;
-        margin-top: 0;
-        padding: 0; }
-        body .collagemain .tekstboksomjuviva div {
-          background-color: #FF5252;
-          width: 47%;
-          height: 180px;
-          margin: auto;
-          margin-top: 50px; }
-          body .collagemain .tekstboksomjuviva div h1 {
-            color: white; }
-          body .collagemain .tekstboksomjuviva div p {
-            color: white;
-            padding: 0 4%;
-            padding-bottom: 0; } }
+    body .omosklaus .tekstbokstopom h1 {
+      padding-top: 145px; }
+    body .omosklaus .tekstbokstopom p {
+      color: black;
+      padding: 28px 160px 0px 160px; }
+    body .collagemain .tekstboksomjuviva {
+      width: 100%;
+      height: 506px;
+      background-color: rgba(0, 0, 0, 0.8);
+      position: absolute;
+      margin-top: 0;
+      padding: 0; }
+      body .collagemain .tekstboksomjuviva div {
+        background-color: #FF5252;
+        width: 40%;
+        height: 300px;
+        margin: auto;
+        margin-top: 100px; }
+        body .collagemain .tekstboksomjuviva div h1 {
+          color: white;
+          padding-top: 10%; }
+        body .collagemain .tekstboksomjuviva div p {
+          color: white;
+          padding: 5% 10%;
+          padding-bottom: 0;
+          font-size: 17px; } }
 
 /*# sourceMappingURL=stylesheet.css.map */

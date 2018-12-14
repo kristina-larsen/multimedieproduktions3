@@ -824,7 +824,7 @@ body {
       a {
 
         img {
-        width: 130px;
+        width: 100px;
         height: auto;
         margin: 4% 0% 2% 4%;
        }
@@ -1105,18 +1105,19 @@ body {
       margin-top: 0;
       }
 
-      .tekstboksom {
+      .tekstbokstopom {
          margin-left: 0px;
          width: 100%;
          padding: 0;
 
          h1 {
-           padding-top: 90px;
+           padding-top: 60px;
          }
 
     p {
-      color: white;
-      padding: 198px 60px 0px 60px;
+      color: black;
+      padding: 10px 60px 0px 60px;
+      font-size: 17px;
     }
   }
 }
@@ -1256,7 +1257,7 @@ body {
         height: auto;
         margin: 0;
         float: left;
-        padding: 2.5% 0% 0% 3%;
+        padding: 2% 0% 0% 3%;
        }
      }
 
@@ -1482,32 +1483,24 @@ nav {
         height: 40%;
         }
 
-        .tekstboksom {
+        .tekstbokstopom {
 
            h1 {
-             padding-top: 90px;
+             padding-top: 145px;
            }
 
       p {
-        color: white;
-        padding: 198px 60px 0px 60px;
+        color: black;
+        padding: 28px 160px 0px 160px;
       }
     }
   }
 
   .collagemain {
-    position: relative;
-
-    .billede1, .billede2, .billede3, .billede4, .billede5, .billede6 {
-      width: 33.3%;
-      height: auto;
-      float: left;
-      display: block;
-    }
 
   .tekstboksomjuviva {
     width: 100%;
-    height: 288px;
+    height: 506px;
     background-color: rgba(0,0,0,0.8);
     position: absolute;
     margin-top: 0;
@@ -1515,19 +1508,21 @@ nav {
 
     div {
       background-color: #FF5252;
-      width: 47%;
-      height: 180px;
+      width: 40%;
+      height: 300px;
       margin: auto;
-      margin-top: 50px;
+      margin-top: 100px;
 
     h1 {
       color: white;
+      padding-top: 10%;
     }
 
     p {
         color: white;
-        padding: 0 4%;
+        padding: 5% 10%;
         padding-bottom: 0;
+        font-size: 17px;
      }
     }
    }
