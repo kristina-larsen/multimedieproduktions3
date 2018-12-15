@@ -671,15 +671,33 @@ p {
       border-bottom: 1px solid;
       clear: both;
     }
+    .knapkontrol{
+      width: 100%;
+      margin: auto;
 
     button{
       text-align: center;
-      margin: 10px;
+      margin: 10px auto;
       font-family: Raleway;
       padding: 5px 20px;
-      border-radius: 30%;
+      border-radius: 50px;
       border: none;
+      width: 50%;
+      background-color: #45c2d1;
+      color: white;
+    }
+    .facebooklogin, .googlelogin{
       width: 65%;
+    }
+    .facebooklogin{
+      background-color: #3b5998;
+      color: white;
+    }
+    .googlelogin{
+      background-color: #FFFFFF;
+      border: 1px solid;
+      color: black;
+    }
     }
   }
   .login{
@@ -689,7 +707,7 @@ p {
   .opretbruger{
     margin-top: 40px;
   }
-}
+}//loginside slut
 
 //online konsultation side
 main{
@@ -711,26 +729,36 @@ main{
       text-align: left;
       width: 30%;
 
-      h1{
+      .konsulHL1{
+        font-size: 250%;
+        padding: 0;
+        margin: 5px;
         text-align: left;
         color: black;
         font-weight: bold;
       }
-      h2{
+      .konsulHL2{
         text-align: left;
         color: black;
+        font-size: 250%;
+        padding: 0;
+        margin: 5px;
+        text-decoration: underline;
       }
-      h3{
+      .konsulHL3{
         text-align: left;
         color: black;
+        font-size: 250%;
+        padding: 0;
+        margin: 5px;
       }
     }
     button{
-      width: 70px;
-      background-color: red;
+      width: 30%;
+      background-color: #FF5252;
       border: none;
-      border-radius: 25px;
-      padding: 2px;
+      border-radius: 50px;
+      padding: 4px;
       text-align:center;
       margin-top: 20px;
       margin-bottom: 20px;
@@ -754,16 +782,18 @@ main{
     }
     .knapkonsultation{
       margin: auto;
-      width: 80px;
+      width: 45%;
 
       .knapwrap{
+        //width: 40%;
 
       button{
         width: 100%;
-        background-color: lightblue;
+        background-color: #45c2d1;
+        color: white;
         border: none;
         border-radius: 25px;
-        padding: 2px;
+        padding: 8px;
         text-align:center;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -1089,7 +1119,7 @@ body {
       margin-left: 6%;
       margin-top: 10px;
     }
-  }
+  }//login slut
 
 /* Om Juviva ipad-version. */
 /* Billedet af Klaus og teksten. */
@@ -1174,21 +1204,27 @@ main{
     .tekstkonsultation{
 
 
-      h1{
+      .konsulHL1{
+        font-size: 110px;
+        padding: 0;
+        margin: 5px;
+
+
+      }
+      .konsulHL2{
+        font-size: 95px;
+        padding: 0;
+        margin: 5px;
+
+      }
+      .konsulHL3{
         font-size: 80px;
-        margin: 4px;
-      }
-      h2{
-        font-size: 60px;
-        margin: 4px;
-      }
-      h3{
-        font-size: 40px;
-        margin: 4px;
+        padding: 0;
+        margin: 5px;
       }
     }
     button{
-    width: 130px;
+    width: 150px;
     font-size: 20px;
     left: 12%;
     bottom: 3%;
@@ -1197,11 +1233,12 @@ main{
   }
 
   .konsultationinfo{
-    float: left;
+    width: 85%;
     margin: auto;
 
+
     .infotekst{
-      width: 48%;
+      width: 300px;
       float: left;
       border-right: 1px solid;
       padding-right: 4%;
@@ -1215,17 +1252,18 @@ main{
       }
     }
     .knapkonsultation{
-      width: 45%;
+      width: 300px;
       float: left;
 
       .knapwrap{
-        width: 150px;
+        width: 170px;
         margin: auto;
-        margin-top: 130px;
+        margin-top: 6%;
 
       button{
-        width: 150px;
+        width: 170px;
         padding: 5px;
+        margin: 15px;
 
       }
       }
@@ -1473,7 +1511,48 @@ nav {
      padding-bottom: 5%;
      list-style-type: none;
    }
-  }
+ }//videobibliotek slut
+
+ //login side
+ .brugerwrap{
+   width: 790px;
+   height: 600px;
+   margin: auto;
+
+
+   .login, .opretbruger{
+     width: 330px;
+     float: left;
+
+
+
+
+     label{
+
+
+       b{
+
+       }
+     }
+
+     input{
+
+     }
+
+     button{
+
+     }
+   }
+   .login{
+     padding-right: 6%;
+     border-right: 1px solid;
+     border-bottom: none;
+   }
+   .opretbruger{
+     margin-left: 6%;
+     margin-top: 10px;
+   }
+ }//login slut
 
   /* Om Juviva ipad-version. */
   /* Billedet af Klaus og teksten. */
@@ -1529,6 +1608,84 @@ nav {
    }
   }
 
+  //online konsultation side
+  main{
 
- }
+
+    .imgkonsultation{
+
+
+      img{
+
+      }
+
+      .tekstkonsultation{
+
+
+        .konsulHL1{
+          font-size: 200px;
+          ;
+
+
+        }
+        .konsulHL2{
+          font-size: 150px;
+
+
+        }
+        .konsulHL3{
+          font-size: 100px;
+
+        }
+      }
+      button{
+      width: 200px;
+      font-size: 20px;
+      left: 12%;
+      bottom: 3%;
+
+      }
+    }
+
+    .konsultationinfo{
+      width: 860px;
+      // float: left;
+      // margin: auto;
+
+      .infotekst{
+        width: 400px;
+        float: left;
+        border-right: 1px solid;
+        padding-right: 4%;
+        margin: 10px 0 10px 10px;
+
+        h2{
+
+        }
+        .konsultationtekst{
+
+        }
+      }
+      .knapkonsultation{
+        width: 400px;
+        float: left;
+
+        .knapwrap{
+          width: 170px;
+        //  margin: auto;
+        //  margin-top: 80px;;
+
+        button{
+          width: 170px;
+          padding: 5px;
+
+        }
+        }
+      }
+    }
+
+  }//online konsultation slut her
+
+
+}//body slut
 }
