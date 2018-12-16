@@ -774,7 +774,9 @@ body {
         width: 100%;
         padding: 0; }
         body .omosklaus .tekstbokstopom h1 {
-          padding-top: 60px; }
+          padding-top: 60px;
+          text-align: left;
+          margin-left: 3%; }
         body .omosklaus .tekstbokstopom p {
           color: black;
           padding: 10px 60px 0px 60px;
@@ -1152,7 +1154,8 @@ body {
       width: 40%;
       height: 40%; }
     body .omosklaus .tekstbokstopom h1 {
-      padding-top: 145px; }
+      padding-top: 145px;
+      margin-left: 6.5%; }
     body .omosklaus .tekstbokstopom p {
       color: black;
       padding: 28px 160px 0px 160px; }
