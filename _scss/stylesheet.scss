@@ -444,6 +444,7 @@ span {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     list-style-type: none;
+    color: white;
   }
  }
 }
@@ -958,14 +959,14 @@ body {
      border-right: none;
 
      button {
-       margin-top: 41.5%;
+       margin-top: 25%;
      }
    }
 
    .second {
 
      button {
-       margin-top: 25%;
+       margin-top: 16.5%;
      }
    }
 
@@ -1007,6 +1008,7 @@ body {
     height: 370px;
     margin-left: 12.7%;
     margin-top: 25px;
+    margin-bottom: 0;
 
     .tekstboks2, .tekstboks1 {
       width: 40%;
@@ -1025,7 +1027,7 @@ body {
 /* Teksten på forsiden. */
 .brugfor {
   margin-bottom: 0%;
-  margin-top: 9%;
+  margin-top: 2.5%;
 
   h1 {
     padding-top: 7%;
@@ -1144,6 +1146,8 @@ body {
 
          h1 {
            padding-top: 60px;
+           text-align: left;
+           margin-left: 3%;
          }
 
     p {
@@ -1580,7 +1584,7 @@ nav {
   }
 
   button {
-    top: 630px;
+    top: 610px;
     margin-left: -45px;
     font-size: 20px;
   }
@@ -1588,7 +1592,7 @@ nav {
 
  /* De øverste bokse. */
  .trebokse {
-   height: 400px;
+   height: 340px;
    width: 100%;
 
    .second, .third, .first {
@@ -1613,7 +1617,7 @@ nav {
     .second {
 
       button {
-        margin-top: 94px;
+        margin-top: 73px;
         font-size: 20px;
       }
     }
@@ -1621,7 +1625,7 @@ nav {
     .third {
 
       button {
-        margin-top: 94px;
+        margin-top: 92px;
         font-size: 20px;
       }
     }
@@ -1642,13 +1646,13 @@ nav {
 
    /* Tekstbokse. */
    .tekstbokse {
-     height: 460px;
+     height: 480px;
      width: 675px;
      margin: auto;
 
      .tekstboks2, .tekstboks1 {
        width: 290px;
-       margin-top: 4%;
+       margin-top: 8%;
        padding-bottom: 6%;
 
        h1 {
@@ -1669,6 +1673,7 @@ nav {
  .brugfor {
    margin-bottom: 0%;
    margin-top: 0;
+   padding-top: 0;
 
    h1 {
      font-size: 30px;
@@ -1787,6 +1792,7 @@ nav {
 
            h1 {
              padding-top: 145px;
+             margin-left: 6.5%;
            }
 
       p {
