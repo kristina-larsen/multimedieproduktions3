@@ -18,11 +18,11 @@ $( document ).ready(function() {
 //Her bestemmes den width som der den flytter på slides når pilen klikkes, den siger at hvis sidens width er mindre end 765, vil slide rykke 280 px og større end 765 med 380 px
   if($(window).width() < 765)
 {
-   width = 280;
+   width = 310;
 } else {
-   width = 380;
+   width = 410;
 }
-
+//$slides1.length-9
 //Slide videoer række 1
   var $slider1 = $('#slider1');
   var $slideContainer1 = $slider1.find('.slides1');
@@ -31,7 +31,7 @@ $( document ).ready(function() {
   $('.control_next1').click(function () {
     $slideContainer1.animate({'margin-left': '-='+width}, animationSpeed, function () {
       currentSlide++;
-        if (currentSlide === $slides1.length-9) {
+        if (currentSlide === 6) {
           currentSlide = 1;
           $slideContainer1.css('margin-left', 0);
         }
@@ -42,9 +42,9 @@ $( document ).ready(function() {
     $slideContainer1.animate({'margin-left': '+='+width},
     animationSpeed, function () {
       currentSlide--;
-        if (currentSlide === -3) {
+        if (currentSlide === -4) {
           currentSlide = 1;
-          $slideContainer1.css('margin-left', -1230);
+          $slideContainer1.css('margin-left', 0);
         }
       });
     });
@@ -58,7 +58,7 @@ $( document ).ready(function() {
       $slideContainer2.animate({'margin-left': '-='+width},
       animationSpeed, function () {
         currentSlide++;
-          if (currentSlide === $slides2.length-9) {
+          if (currentSlide === 6) {
             currentSlide = 1;
             $slideContainer2.css('margin-left', 0);
           }
@@ -69,7 +69,7 @@ $( document ).ready(function() {
       $slideContainer2.animate({'margin-left': '+='+width},
       animationSpeed, function () {
         currentSlide--;
-          if (currentSlide === -3) {
+          if (currentSlide === -4) {
             currentSlide = 1;
             $slideContainer2.css('margin-left', -1230);
           }
@@ -84,7 +84,7 @@ $( document ).ready(function() {
       $('.control_next3').click(function () {
         $slideContainer3.animate({'margin-left': '-='+width}, animationSpeed, function () {
           currentSlide++;
-            if (currentSlide === $slides3.length-9) {
+            if (currentSlide === 6) {
               currentSlide = 1;
               $slideContainer3.css('margin-left', 0);
             }
@@ -94,7 +94,7 @@ $( document ).ready(function() {
       $('.control_prev3').click(function () {
         $slideContainer3.animate({'margin-left': '+='+width}, animationSpeed, function () {
           currentSlide--;
-            if (currentSlide === -3) {
+            if (currentSlide === -4) {
               currentSlide = 1;
               $slideContainer3.css('margin-left', -1230);
             }
@@ -109,7 +109,7 @@ $( document ).ready(function() {
         $('.control_next4').click(function () {
           $slideContainer4.animate({'margin-left': '-='+width}, animationSpeed, function () {
             currentSlide++;
-              if (currentSlide === $slides4.length-9) {
+              if (currentSlide === 6) {
                 currentSlide = 1;
                 $slideContainer4.css('margin-left', 0);
               }
@@ -119,7 +119,7 @@ $( document ).ready(function() {
         $('.control_prev4').click(function () {
           $slideContainer4.animate({'margin-left': '+='+width}, animationSpeed, function () {
             currentSlide--;
-              if (currentSlide === -3) {
+              if (currentSlide === -4) {
                 currentSlide = 1;
                 $slideContainer4.css('margin-left', -1230);
               }
@@ -135,7 +135,7 @@ $( document ).ready(function() {
           $('.control_next5').click(function () {
             $slideContainer5.animate({'margin-left': '-='+width}, animationSpeed, function () {
               currentSlide++;
-                if (currentSlide === $slides5.length-9) {
+                if (currentSlide === 6) {
                   currentSlide = 1;
                   $slideContainer5.css('margin-left', 0);
                 }
@@ -145,7 +145,7 @@ $( document ).ready(function() {
           $('.control_prev5').click(function () {
             $slideContainer5.animate({'margin-left': '+='+width}, animationSpeed, function () {
               currentSlide--;
-                if (currentSlide === -3) {
+                if (currentSlide === -4) {
                   currentSlide = 1;
                   $slideContainer5.css('margin-left', -1230);
                 }
