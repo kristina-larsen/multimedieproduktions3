@@ -97,7 +97,7 @@ body .mestsete {
 }
 body .mestsete .overskriftvideoside {
   position: absolute;
-  margin: 15px 55px;
+  margin: 15px 25px;
 }
 body .mestsete .control_prev1 {
   margin-top: 110px;
@@ -115,15 +115,15 @@ body .mestsete .control_next1 {
   font-family: Roboto;
   color: black;
   z-index: 10;
-  margin-left: 88%;
+  position: absolute;
+  right: 4px;
 }
 body .mestsete #slider1 {
   width: 95%;
   height: 230px;
   overflow: hidden;
   position: absolute;
-  clip: rect(10px, 1000px);
-  margin: 40px 2.5% 0 2.5%;
+  margin: 40px 2% 0;
   /* Styring af billederne i slideshowet */
   /* Billederne i slideshowet */
   /* Billederne til venstre i slideshowet */
@@ -207,7 +207,8 @@ body .fællesslider .control_next2, body .fællesslider .control_next3, body .f�
   font-family: Roboto;
   color: black;
   z-index: 10;
-  margin-left: 88%;
+  position: absolute;
+  right: 4px;
 }
 body .fællesslider #slider2, body .fællesslider #slider3, body .fællesslider #slider4, body .fællesslider #slider5 {
   width: 95%;
@@ -515,14 +516,14 @@ body .tekstboksomjuviva {
   background-color: #FF5252;
   padding: 5px 5px;
 }
-body h1 {
+body .tekstboksomjuviva h1 {
   padding-top: 25px;
   color: white;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
 }
-body p {
+body .tekstboksomjuviva p {
   color: white;
   padding: 3px 20px;
   text-align: center;
@@ -996,7 +997,7 @@ body footer div div p {
     margin: 15px;
   }
   body .mestsete {
-    height: 270px;
+    height: 300px;
     width: 100%;
     background-color: white;
     display: inline-flex;
@@ -1009,7 +1010,7 @@ body footer div div p {
   }
   body .mestsete .overskriftvideoside {
     position: absolute;
-    margin: 15px 55px;
+    margin: 15px 4%;
   }
   body .mestsete .control_prev1 {
     margin-top: 110px;
@@ -1027,14 +1028,12 @@ body footer div div p {
     font-family: Roboto;
     color: black;
     z-index: 10;
-    margin-left: 88%;
   }
   body .mestsete #slider1 {
     width: 95%;
     height: 230px;
     overflow: hidden;
     position: absolute;
-    clip: rect(10px, 1000px);
     margin: 40px 2.5% 0 2.5%;
     /* Styring af billederne i slideshowet */
     /* Billederne i slideshowet */

@@ -113,7 +113,7 @@ span {
 
   .overskriftvideoside{
     position: absolute;
-    margin: 15px 55px;
+    margin: 15px 25px;
 
   }
 
@@ -136,7 +136,9 @@ span {
             font-family: Roboto;
             color: black;
             z-index: 10;
-            margin-left: 88%;
+            position: absolute;
+            right: 4px;
+
             }
 
                 /* Selve slideshowet */
@@ -144,12 +146,9 @@ span {
                   width: 95%;
                   height: 230px;
                   overflow: hidden;
-                //  margin: auto;
-                  //margin-top: 4px;
                   position: absolute;
-                  clip: rect(10px, 1000px);
-                  margin: 40px 2.5% 0 2.5%;;
-                  //overflow-x: visible;
+                  margin: 40px 2% 0;
+
 
                     /* Styring af billederne i slideshowet */
                     .slides1 {
@@ -220,7 +219,6 @@ span {
       display: inline-flex;
       bottom: 0;
       overflow-wrap: break-word;
-      //background-color: #45C2D1;
 
       .overskriftvideoside{
         position: absolute;
@@ -247,7 +245,8 @@ span {
                 font-family: Roboto;
                 color: black;
                 z-index: 10;
-                margin-left: 88%;
+                position: absolute;
+                right: 4px;
                 }
 
                     /* Selve slideshowet */
@@ -255,12 +254,9 @@ span {
                       width: 95%;
                       height: 230px;
                       overflow: hidden;
-                    //  margin: auto;
-                      //margin-top: 4px;
                       position: absolute;
                       clip: rect(10px, 1000px);
                       margin: 40px 2.5% 0 2.5%;;
-                      //overflow-x: visible;
 
                         /* Styring af billederne i slideshowet */
                         .slides2, .slides3, .slides4, .slides5 {
@@ -621,7 +617,7 @@ a {
   margin-top: 0px;
   background-color: #FF5252;
   padding: 5px 5px;
-}
+
 
 h1 {
   padding-top: 25px;
@@ -639,6 +635,7 @@ p {
   font-size: 13px;
   font-family: 'Montserrat', sans-serif;
   list-style-type: none;
+}
 }
 
 //login side
@@ -1275,7 +1272,7 @@ main{
 //videobibliotek
 /* Selve slideshowet */
 .mestsete{
- height: 270px;
+ height: 300px;
  width: 100%;
  background-color: white;
  display: inline-flex;
@@ -1285,7 +1282,7 @@ main{
 
  .overskriftvideoside{
    position: absolute;
-   margin: 15px 55px;
+   margin: 15px 4%;
 
  }
 
@@ -1308,7 +1305,7 @@ main{
            font-family: Roboto;
            color: black;
            z-index: 10;
-           margin-left: 88%;
+          // margin-left: 88%;
            }
 
                /* Selve slideshowet */
@@ -1319,7 +1316,6 @@ main{
                //  margin: auto;
                  //margin-top: 4px;
                  position: absolute;
-                 clip: rect(10px, 1000px);
                  margin: 40px 2.5% 0 2.5%;;
                  //overflow-x: visible;
 
