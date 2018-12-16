@@ -13,703 +13,592 @@ body {
   /* Videobiblioteket på forsiden. */
   /* Om Juviva mobil. */
   /* Billedet af Klaus og teksten. */
-  /* Se video mobilversion. */
-}
-body header {
-  background-color: white;
-  position: relative;
-  width: 100%;
-  height: 40px;
-  clear: both;
-  height: auto;
-  /* Burgermenu. */
-}
-body header div a img {
-  width: 70px;
-  height: auto;
-  margin: 4.5% 0% 2% 4%;
-}
-body header nav {
-  display: none;
-}
-body header div {
-  width: 100%;
-}
-body header div a {
-  text-decoration: none;
-  color: #293952;
-}
-body header .navi {
-  height: 68%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  overflow-x: hidden;
-  transition: 0.3s;
-  text-decoration: none;
-}
-body header .navi .overlayer {
-  position: relative;
-  top: 2%;
-  text-align: left;
-}
-body header .navi .overlayer a {
-  padding: 8px;
-  margin-left: 7%;
-  margin-top: 20%;
-  text-decoration: none;
-  font-size: 22px;
-  color: #FF5252;
-  display: block;
-  transition: 0.3s;
-  border-bottom: 2px solid white;
-  font-family: 'Raleway', sans-serif;
-}
-body header .navi .overlayer .active {
-  border-left: 3px solid #FF5252;
-}
-body header .navi .closebut {
-  position: absolute;
-  right: 3%;
-  padding: 0;
-  font-size: 40px;
-  text-decoration: none;
-  color: #293952;
-}
-body header span {
-  display: block;
-  font-size: 25px;
-  color: #293952;
-  cursor: pointer;
-  float: right;
-  margin: -11% 4% 0 0;
-}
-body .mestsete {
-  height: 270px;
-  width: 100%;
-  background-color: white;
-  display: inline-flex;
-  bottom: 0;
-  overflow-wrap: break-word;
-  background-color: #45C2D1;
-  /* Pilen til venstre */
-  /* Pilen til højre */
-  /* Selve slideshowet */
-}
-body .mestsete .overskriftvideoside {
-  position: absolute;
-  margin: 15px 25px;
-}
-body .mestsete .control_prev1 {
-  margin-top: 110px;
-  text-decoration: none;
-  font-size: 60px;
-  font-family: Roboto;
-  color: black;
-  z-index: 10;
-  margin-left: 1%;
-}
-body .mestsete .control_next1 {
-  margin-top: 110px;
-  text-decoration: none;
-  font-size: 60px;
-  font-family: Roboto;
-  color: black;
-  z-index: 10;
-  position: absolute;
-  right: 4px;
-}
-body .mestsete #slider1 {
-  width: 95%;
-  height: 230px;
-  overflow: hidden;
-  position: absolute;
-  margin: 40px 2% 0;
-  /* Styring af billederne i slideshowet */
-  /* Billederne i slideshowet */
-  /* Billederne til venstre i slideshowet */
-}
-body .mestsete #slider1 .slides1 {
-  display: block;
-  width: 6560px;
-  max-height: 300px;
-  padding: 0%;
-}
-body .mestsete #slider1 .slide1 {
-  float: left;
-  list-style-type: none;
-  width: 280px;
-  height: auto;
-  margin: 0 15px;
-  /* Skriften over billederne */
-  /* Selve billederne */
-}
-body .mestsete #slider1 .slide1 .text6 {
-  background-color: rgba(255, 255, 255, 0.7);
-  width: 135px;
-  height: 70px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 10px;
-  font-size: 20px;
-  font-family: 'Quattrocento Sans', sans-serif;
-  position: absolute;
-  margin-top: -178px;
-  color: #293952;
-}
-body .mestsete #slider1 .slide1 img {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-body .mestsete #slider1 .left1 {
-  margin-left: -300px;
-}
-body .mestsete #slider1 .left2 {
-  margin-left: -610px;
-}
-body .mestsete #slider1 .left3 {
-  margin-left: -920px;
-}
-body .mestsete #slider1 .left4 {
-  margin-left: -1230px;
-}
-body .mestsete #slider1 .left5 {
-  margin-left: -1540px;
-}
-body .fællesslider {
-  height: 270px;
-  width: 100%;
-  background-color: white;
-  display: inline-flex;
-  bottom: 0;
-  overflow-wrap: break-word;
-  /* Pilen til venstre */
-  /* Pilen til højre */
-  /* Selve slideshowet */
-}
-body .fællesslider .overskriftvideoside {
-  position: absolute;
-  margin: 15px 55px;
-}
-body .fællesslider .control_prev2, body .fællesslider .control_prev3, body .fællesslider .control_prev4, body .fællesslider .control_prev5 {
-  margin-top: 110px;
-  text-decoration: none;
-  font-size: 60px;
-  font-family: Roboto;
-  color: black;
-  z-index: 10;
-  margin-left: 1%;
-}
-body .fællesslider .control_next2, body .fællesslider .control_next3, body .fællesslider .control_next4, body .fællesslider .control_next5 {
-  margin-top: 110px;
-  text-decoration: none;
-  font-size: 60px;
-  font-family: Roboto;
-  color: black;
-  z-index: 10;
-  position: absolute;
-  right: 4px;
-}
-body .fællesslider #slider2, body .fællesslider #slider3, body .fællesslider #slider4, body .fællesslider #slider5 {
-  width: 95%;
-  height: 230px;
-  overflow: hidden;
-  position: absolute;
-  clip: rect(10px, 1000px);
-  margin: 40px 2.5% 0 2.5%;
-  /* Styring af billederne i slideshowet */
-  /* Billederne i slideshowet */
-  /* Billederne til venstre i slideshowet */
-}
-body .fællesslider #slider2 .slides2, body .fællesslider #slider2 .slides3, body .fællesslider #slider2 .slides4, body .fællesslider #slider2 .slides5, body .fællesslider #slider3 .slides2, body .fællesslider #slider3 .slides3, body .fællesslider #slider3 .slides4, body .fællesslider #slider3 .slides5, body .fællesslider #slider4 .slides2, body .fællesslider #slider4 .slides3, body .fællesslider #slider4 .slides4, body .fællesslider #slider4 .slides5, body .fællesslider #slider5 .slides2, body .fællesslider #slider5 .slides3, body .fællesslider #slider5 .slides4, body .fællesslider #slider5 .slides5 {
-  display: block;
-  width: 6560px;
-  max-height: 300px;
-  padding: 0%;
-}
-body .fællesslider #slider2 .slide2, body .fællesslider #slider2 .slide3, body .fællesslider #slider2 .slide4, body .fællesslider #slider2 .slide5, body .fællesslider #slider3 .slide2, body .fællesslider #slider3 .slide3, body .fællesslider #slider3 .slide4, body .fællesslider #slider3 .slide5, body .fællesslider #slider4 .slide2, body .fællesslider #slider4 .slide3, body .fællesslider #slider4 .slide4, body .fællesslider #slider4 .slide5, body .fællesslider #slider5 .slide2, body .fællesslider #slider5 .slide3, body .fællesslider #slider5 .slide4, body .fællesslider #slider5 .slide5 {
-  float: left;
-  list-style-type: none;
-  width: 280px;
-  height: auto;
-  margin: 0 15px;
-  /* Skriften over billederne */
-  /* Selve billederne */
-}
-body .fællesslider #slider2 .slide2 .text6, body .fællesslider #slider2 .slide3 .text6, body .fællesslider #slider2 .slide4 .text6, body .fællesslider #slider2 .slide5 .text6, body .fællesslider #slider3 .slide2 .text6, body .fællesslider #slider3 .slide3 .text6, body .fællesslider #slider3 .slide4 .text6, body .fællesslider #slider3 .slide5 .text6, body .fællesslider #slider4 .slide2 .text6, body .fællesslider #slider4 .slide3 .text6, body .fællesslider #slider4 .slide4 .text6, body .fællesslider #slider4 .slide5 .text6, body .fællesslider #slider5 .slide2 .text6, body .fællesslider #slider5 .slide3 .text6, body .fællesslider #slider5 .slide4 .text6, body .fællesslider #slider5 .slide5 .text6 {
-  background-color: rgba(255, 255, 255, 0.7);
-  width: 135px;
-  height: 70px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 10px;
-  font-size: 20px;
-  font-family: 'Quattrocento Sans', sans-serif;
-  position: absolute;
-  margin-top: -178px;
-  color: #293952;
-}
-body .fællesslider #slider2 .slide2 img, body .fællesslider #slider2 .slide3 img, body .fællesslider #slider2 .slide4 img, body .fællesslider #slider2 .slide5 img, body .fællesslider #slider3 .slide2 img, body .fællesslider #slider3 .slide3 img, body .fællesslider #slider3 .slide4 img, body .fællesslider #slider3 .slide5 img, body .fællesslider #slider4 .slide2 img, body .fællesslider #slider4 .slide3 img, body .fællesslider #slider4 .slide4 img, body .fællesslider #slider4 .slide5 img, body .fællesslider #slider5 .slide2 img, body .fællesslider #slider5 .slide3 img, body .fællesslider #slider5 .slide4 img, body .fællesslider #slider5 .slide5 img {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-body .fællesslider #slider2 .left1, body .fællesslider #slider3 .left1, body .fællesslider #slider4 .left1, body .fællesslider #slider5 .left1 {
-  margin-left: -300px;
-}
-body .fællesslider #slider2 .left2, body .fællesslider #slider3 .left2, body .fællesslider #slider4 .left2, body .fællesslider #slider5 .left2 {
-  margin-left: -610px;
-}
-body .fællesslider #slider2 .left3, body .fællesslider #slider3 .left3, body .fællesslider #slider4 .left3, body .fællesslider #slider5 .left3 {
-  margin-left: -920px;
-}
-body .fællesslider #slider2 .left4, body .fællesslider #slider3 .left4, body .fællesslider #slider4 .left4, body .fællesslider #slider5 .left4 {
-  margin-left: -1230px;
-}
-body .fællesslider #slider2 .left5, body .fællesslider #slider3 .left5, body .fællesslider #slider4 .left5, body .fællesslider #slider5 .left5 {
-  margin-left: -1540px;
-}
-body .forsidetekstogbillede {
-  position: relative;
-  margin: 0;
-  clear: both;
-  margin-bottom: 60%;
-}
-body .forsidetekstogbillede .forsidebillede {
-  width: 100%;
-  height: auto;
-  margin-top: 2%;
-  position: absolute;
-}
-body .forsidetekstogbillede .help {
-  position: absolute;
-  text-align: left;
-}
-body .forsidetekstogbillede .help h1 {
-  font-size: 50px;
-  margin-bottom: 0;
-  margin-left: 7%;
-  text-align: left;
-  color: #48C3D1;
-  font-family: 'Raleway', sans-serif;
-  margin-top: 0;
-}
-body .forsidetekstogbillede .help h2 {
-  font-size: 35px;
-  margin-top: 2px;
-  margin-left: 7%;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 0;
-  color: #48C3D1;
-}
-body .forsidetekstogbillede .help h3 {
-  font-size: 20px;
-  margin-top: 2px;
-  margin-left: 7%;
-  font-family: 'Raleway', sans-serif;
-  color: #48C3D1;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-body .forsidetekstogbillede button {
-  background-color: #FF5252;
-  border: none;
-  padding: 6px 30px;
-  border-radius: 50px;
-  position: absolute;
-  top: 165px;
-  left: 100px;
-  color: white;
-  margin-left: -90px;
-  font-family: 'Raleway', sans-serif;
-}
-body .forsidetekstogbillede button a {
-  text-decoration: none;
-  list-style-type: none;
-  color: white;
-}
-body .trebokse {
-  text-align: center;
-}
-body .trebokse .first h1, body .trebokse .second h1, body .trebokse .third h1 {
-  margin-top: 30px;
-  color: black;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-}
-body .trebokse .first p, body .trebokse .second p, body .trebokse .third p {
-  margin: 4% 6%;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
-  list-style-type: none;
-}
-body .trebokse button {
-  background-color: #FF5252;
-  border: none;
-  padding: 6px 30px;
-  color: white;
-  border-radius: 50px;
-  margin-bottom: 30px;
-  font-family: 'Raleway', sans-serif;
-}
-body .trebokse hr {
-  background-color: #FF5252;
-  width: 300px;
-  height: 2px;
-  border-style: groove;
-  border: none;
-}
-body .klausogtekst {
-  width: 100%;
-  height: auto;
-}
-body .klausogtekst .klaus {
-  width: 100%;
-  height: auto;
-  margin-top: 20px;
-}
-body .klausogtekst .boksomklaus {
-  background-color: #2A2A2A;
-  margin-top: -4px;
-}
-body .klausogtekst .boksomklaus p {
-  margin: 0;
-  padding: 6% 13%;
-  font-style: italic;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
-  list-style-type: none;
-}
-body .tekstbokse {
-  background-color: white;
-  text-align: center;
-  width: 100%;
-}
-body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
-  margin: 30px 20px 20px 20px;
-  border: 1px;
-  border-style: groove;
-  border-color: black;
-}
-body .tekstbokse h1 {
-  margin-top: 50px;
-  color: black;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-}
-body .tekstbokse p {
-  color: black;
-  padding: 3px 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
-  list-style-type: none;
-}
-body .tekstbokse button {
-  background-color: #FF5252;
-  color: white;
-  margin-bottom: 50px;
-  border: none;
-  padding: 5px 35px;
-  color: white;
-  border-radius: 50px;
-}
-body .brugfor {
-  text-align: center;
-  background-color: #2A2A2A;
-  padding: 0% 0% 5% 0%;
-}
-body .brugfor h1 {
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-}
-body .brugfor p {
-  margin: 5px 10px;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  list-style-type: none;
-}
-body .brugfor button {
-  background-color: #FF5252;
-  border: none;
-  padding: 5px 30px;
-  color: white;
-  border-radius: 50px;
-  margin-top: 3%;
-}
-body .videobibliotekforside {
-  background-color: #48C3D1;
-}
-body .videobibliotekforside h1 {
-  padding-top: 6%;
-  color: white;
-  text-align: center;
-  margin-top: 0px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-}
-body .videobibliotekforside a {
-  list-style-type: none;
-  text-decoration: none;
-}
-body .videobibliotekforside a .videoforside, body .videobibliotekforside a .videoforside2, body .videobibliotekforside a .videoforside3, body .videobibliotekforside a .videoforside4 {
-  width: 90%;
-  margin-top: 10px;
-  padding-bottom: 3%;
-  margin-left: 5%;
-  position: relative;
-}
-body .videobibliotekforside a .tekst1, body .videobibliotekforside a .tekst2, body .videobibliotekforside a .tekst3, body .videobibliotekforside a .tekst4 {
-  color: black;
-  font-size: 14px;
-  background-color: rgba(255, 255, 255, 0.5);
-  position: absolute;
-  margin-top: -145px;
-  margin-left: 19px;
-  padding: 25px 40px;
-  font-family: 'Montserrat', sans-serif;
-  list-style-type: none;
-}
-body .videobibliotekforside p {
-  margin: 0;
-  color: white;
-  text-align: center;
-  padding-bottom: 5%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
-  list-style-type: none;
-}
-body .omosklaus {
-  width: 100%;
-  height: auto;
-}
-body .omosklaus .klausom {
-  width: 100%;
-  height: auto;
-  margin-top: 2px;
-}
-body .omosklaus .tekstbokstopom {
-  background-color: white;
-  margin-top: -4px;
-}
-body .omosklaus .tekstbokstopom h1 {
-  padding: 9% 13% 0% 13%;
-  color: black;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-}
-body .omosklaus .tekstbokstopom p {
-  margin: 0;
-  padding: 1% 13% 13% 13%;
-  font-size: 13px;
-  font-style: italic;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  list-style-type: none;
-}
-body .billede1, body .billede2, body .billede3, body .billede4, body .billede5, body .billede6 {
-  display: none;
-}
-body .tekstboksomjuviva {
-  margin-top: 0px;
-  background-color: #FF5252;
-  padding: 5px 5px;
-}
-body .tekstboksomjuviva h1 {
-  padding-top: 25px;
-  color: white;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-}
-body .tekstboksomjuviva p {
-  color: white;
-  padding: 3px 20px;
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
-  list-style-type: none;
-}
-body .brugerwrap {
-  width: 60%;
-  margin: auto;
-}
-body .brugerwrap .login, body .brugerwrap .opretbruger {
-  width: 100%;
-  font-family: Raleway;
-  margin: 10px;
-}
-body .brugerwrap .login label, body .brugerwrap .opretbruger label {
-  margin-top: 5px;
-  width: 50px;
-  clear: both;
-}
-body .brugerwrap .login label b, body .brugerwrap .opretbruger label b {
-  width: 50px;
-}
-body .brugerwrap .login input, body .brugerwrap .opretbruger input {
-  margin: 10px 0px 20px;
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid;
-  clear: both;
-}
-body .brugerwrap .login .knapkontrol, body .brugerwrap .opretbruger .knapkontrol {
-  width: 100%;
-  margin: auto;
-}
-body .brugerwrap .login .knapkontrol button, body .brugerwrap .opretbruger .knapkontrol button {
-  text-align: center;
-  margin: 10px auto;
-  font-family: Raleway;
-  padding: 5px 20px;
-  border-radius: 50px;
-  border: none;
-  width: 50%;
-  background-color: #45c2d1;
-  color: white;
-}
-body .brugerwrap .login .knapkontrol .facebooklogin, body .brugerwrap .login .knapkontrol .googlelogin, body .brugerwrap .opretbruger .knapkontrol .facebooklogin, body .brugerwrap .opretbruger .knapkontrol .googlelogin {
-  width: 65%;
-}
-body .brugerwrap .login .knapkontrol .facebooklogin, body .brugerwrap .opretbruger .knapkontrol .facebooklogin {
-  background-color: #3b5998;
-  color: white;
-}
-body .brugerwrap .login .knapkontrol .googlelogin, body .brugerwrap .opretbruger .knapkontrol .googlelogin {
-  background-color: #FFFFFF;
-  border: 1px solid;
-  color: black;
-}
-body .brugerwrap .login {
-  padding-bottom: 30px;
-  border-bottom: 1px solid;
-}
-body .brugerwrap .opretbruger {
-  margin-top: 40px;
-}
-body main .imgkonsultation {
-  width: 100%;
-  position: relative;
-  clear: both;
-}
-body main .imgkonsultation img {
-  width: 100%;
-}
-body main .imgkonsultation .tekstkonsultation {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  text-align: left;
-  width: 30%;
-}
-body main .imgkonsultation .tekstkonsultation .konsulHL1 {
-  font-size: 250%;
-  padding: 0;
-  margin: 5px;
-  text-align: left;
-  color: black;
-  font-weight: bold;
-}
-body main .imgkonsultation .tekstkonsultation .konsulHL2 {
-  text-align: left;
-  color: black;
-  font-size: 250%;
-  padding: 0;
-  margin: 5px;
-  text-decoration: underline;
-}
-body main .imgkonsultation .tekstkonsultation .konsulHL3 {
-  text-align: left;
-  color: black;
-  font-size: 250%;
-  padding: 0;
-  margin: 5px;
-}
-body main .imgkonsultation button {
-  width: 30%;
-  background-color: #FF5252;
-  border: none;
-  border-radius: 50px;
-  padding: 4px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  position: absolute;
-  bottom: 5%;
-  left: 5%;
-}
-body main .konsultationinfo .infotekst h2 {
-  text-align: center;
-}
-body main .konsultationinfo .infotekst .konsultationtekst {
-  color: black;
-}
-body main .konsultationinfo .knapkonsultation {
-  margin: auto;
-  width: 45%;
-}
-body main .konsultationinfo .knapkonsultation .knapwrap button {
-  width: 100%;
-  background-color: #45c2d1;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  padding: 8px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-body .firstvid, body .secondvid, body .thirdvid {
-  width: 90%;
-  margin-left: 5%;
-  margin-top: 2%;
-}
-body .thirdvid {
-  padding-bottom: 3%;
-}
-body h1 {
-  color: black;
-}
-body footer {
-  background-color: #2A2A2A;
-  height: 125px;
-  clear: both;
-}
-body footer div {
-  margin: auto;
-  width: 70%;
-  padding: 10px;
-}
-body footer div p {
-  font-size: 12px;
-  padding: 2px;
-  margin-bottom: 0;
-  margin-top: 20px;
-  color: white;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-}
-body footer div div {
-  width: 100%;
-  text-align: center;
-}
-body footer div div p {
-  display: inline-block;
-  font-size: 11px;
-  padding: 5px;
-  margin-right: 18px;
-  margin-bottom: 0;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  list-style-type: none;
-}
+  /* Se video mobilversion. */ }
+  body header {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    clear: both;
+    height: auto;
+    /* Burgermenu. */ }
+    body header div a img {
+      width: 70px;
+      height: auto;
+      margin: 4.5% 0% 2% 4%; }
+    body header nav {
+      display: none; }
+    body header div {
+      width: 100%; }
+      body header div a {
+        text-decoration: none;
+        color: #293952; }
+    body header .navi {
+      height: 68%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.9);
+      overflow-x: hidden;
+      transition: 0.3s;
+      text-decoration: none; }
+      body header .navi .overlayer {
+        position: relative;
+        top: 2%;
+        text-align: left; }
+        body header .navi .overlayer a {
+          padding: 8px;
+          margin-left: 7%;
+          margin-top: 20%;
+          text-decoration: none;
+          font-size: 22px;
+          color: #FF5252;
+          display: block;
+          transition: 0.3s;
+          border-bottom: 2px solid white;
+          font-family: 'Raleway', sans-serif; }
+        body header .navi .overlayer .active {
+          border-left: 3px solid #FF5252; }
+      body header .navi .closebut {
+        position: absolute;
+        right: 3%;
+        padding: 0;
+        font-size: 40px;
+        text-decoration: none;
+        color: #293952; }
+    body header span {
+      display: block;
+      font-size: 25px;
+      color: #293952;
+      cursor: pointer;
+      float: right;
+      margin: -11% 4% 0 0; }
+  body .mestsete {
+    height: 270px;
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    bottom: 0;
+    overflow-wrap: break-word;
+    background-color: #45C2D1;
+    /* Pilen til venstre */
+    /* Pilen til højre */
+    /* Selve slideshowet */ }
+    body .mestsete .overskriftvideoside {
+      position: absolute;
+      margin: 15px 25px; }
+    body .mestsete .control_prev1 {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      margin-left: 1%; }
+    body .mestsete .control_next1 {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      position: absolute;
+      right: 4px; }
+    body .mestsete #slider1 {
+      width: 95%;
+      height: 230px;
+      overflow: hidden;
+      position: absolute;
+      margin: 40px 2% 0;
+      /* Styring af billederne i slideshowet */
+      /* Billederne i slideshowet */
+      /* Billederne til venstre i slideshowet */ }
+      body .mestsete #slider1 .slides1 {
+        display: block;
+        width: 6560px;
+        max-height: 300px;
+        padding: 0%; }
+      body .mestsete #slider1 .slide1 {
+        float: left;
+        list-style-type: none;
+        width: 280px;
+        height: auto;
+        margin: 0 15px;
+        /* Skriften over billederne */
+        /* Selve billederne */ }
+        body .mestsete #slider1 .slide1 .text6 {
+          background-color: rgba(255, 255, 255, 0.7);
+          width: 135px;
+          height: 70px;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 10px;
+          font-size: 20px;
+          font-family: 'Quattrocento Sans', sans-serif;
+          position: absolute;
+          margin-top: -178px;
+          color: #293952; }
+        body .mestsete #slider1 .slide1 img {
+          width: 100%;
+          height: auto;
+          position: relative; }
+      body .mestsete #slider1 .left1 {
+        margin-left: -300px; }
+      body .mestsete #slider1 .left2 {
+        margin-left: -610px; }
+      body .mestsete #slider1 .left3 {
+        margin-left: -920px; }
+      body .mestsete #slider1 .left4 {
+        margin-left: -1230px; }
+      body .mestsete #slider1 .left5 {
+        margin-left: -1540px; }
+  body .fællesslider {
+    height: 270px;
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    bottom: 0;
+    overflow-wrap: break-word;
+    /* Pilen til venstre */
+    /* Pilen til højre */
+    /* Selve slideshowet */ }
+    body .fællesslider .overskriftvideoside {
+      position: absolute;
+      margin: 15px 55px; }
+    body .fællesslider .control_prev2, body .fællesslider .control_prev3, body .fællesslider .control_prev4, body .fællesslider .control_prev5 {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      margin-left: 1%; }
+    body .fællesslider .control_next2, body .fællesslider .control_next3, body .fællesslider .control_next4, body .fællesslider .control_next5 {
+      margin-top: 110px;
+      text-decoration: none;
+      font-size: 60px;
+      font-family: Roboto;
+      color: black;
+      z-index: 10;
+      position: absolute;
+      right: 4px; }
+    body .fællesslider #slider2, body .fællesslider #slider3, body .fællesslider #slider4, body .fællesslider #slider5 {
+      width: 95%;
+      height: 230px;
+      overflow: hidden;
+      position: absolute;
+      clip: rect(10px, 1000px);
+      margin: 40px 2.5% 0 2.5%;
+      /* Styring af billederne i slideshowet */
+      /* Billederne i slideshowet */
+      /* Billederne til venstre i slideshowet */ }
+      body .fællesslider #slider2 .slides2, body .fællesslider #slider2 .slides3, body .fællesslider #slider2 .slides4, body .fællesslider #slider2 .slides5, body .fællesslider #slider3 .slides2, body .fællesslider #slider3 .slides3, body .fællesslider #slider3 .slides4, body .fællesslider #slider3 .slides5, body .fællesslider #slider4 .slides2, body .fællesslider #slider4 .slides3, body .fællesslider #slider4 .slides4, body .fællesslider #slider4 .slides5, body .fællesslider #slider5 .slides2, body .fællesslider #slider5 .slides3, body .fællesslider #slider5 .slides4, body .fællesslider #slider5 .slides5 {
+        display: block;
+        width: 6560px;
+        max-height: 300px;
+        padding: 0%; }
+      body .fællesslider #slider2 .slide2, body .fællesslider #slider2 .slide3, body .fællesslider #slider2 .slide4, body .fællesslider #slider2 .slide5, body .fællesslider #slider3 .slide2, body .fællesslider #slider3 .slide3, body .fællesslider #slider3 .slide4, body .fællesslider #slider3 .slide5, body .fællesslider #slider4 .slide2, body .fællesslider #slider4 .slide3, body .fællesslider #slider4 .slide4, body .fællesslider #slider4 .slide5, body .fællesslider #slider5 .slide2, body .fællesslider #slider5 .slide3, body .fællesslider #slider5 .slide4, body .fællesslider #slider5 .slide5 {
+        float: left;
+        list-style-type: none;
+        width: 280px;
+        height: auto;
+        margin: 0 15px;
+        /* Skriften over billederne */
+        /* Selve billederne */ }
+        body .fællesslider #slider2 .slide2 .text6, body .fællesslider #slider2 .slide3 .text6, body .fællesslider #slider2 .slide4 .text6, body .fællesslider #slider2 .slide5 .text6, body .fællesslider #slider3 .slide2 .text6, body .fællesslider #slider3 .slide3 .text6, body .fællesslider #slider3 .slide4 .text6, body .fællesslider #slider3 .slide5 .text6, body .fællesslider #slider4 .slide2 .text6, body .fællesslider #slider4 .slide3 .text6, body .fællesslider #slider4 .slide4 .text6, body .fællesslider #slider4 .slide5 .text6, body .fællesslider #slider5 .slide2 .text6, body .fællesslider #slider5 .slide3 .text6, body .fællesslider #slider5 .slide4 .text6, body .fællesslider #slider5 .slide5 .text6 {
+          background-color: rgba(255, 255, 255, 0.7);
+          width: 135px;
+          height: 70px;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 10px;
+          font-size: 20px;
+          font-family: 'Quattrocento Sans', sans-serif;
+          position: absolute;
+          margin-top: -178px;
+          color: #293952; }
+        body .fællesslider #slider2 .slide2 img, body .fællesslider #slider2 .slide3 img, body .fællesslider #slider2 .slide4 img, body .fællesslider #slider2 .slide5 img, body .fællesslider #slider3 .slide2 img, body .fællesslider #slider3 .slide3 img, body .fællesslider #slider3 .slide4 img, body .fællesslider #slider3 .slide5 img, body .fællesslider #slider4 .slide2 img, body .fællesslider #slider4 .slide3 img, body .fællesslider #slider4 .slide4 img, body .fællesslider #slider4 .slide5 img, body .fællesslider #slider5 .slide2 img, body .fællesslider #slider5 .slide3 img, body .fællesslider #slider5 .slide4 img, body .fællesslider #slider5 .slide5 img {
+          width: 100%;
+          height: auto;
+          position: relative; }
+      body .fællesslider #slider2 .left1, body .fællesslider #slider3 .left1, body .fællesslider #slider4 .left1, body .fællesslider #slider5 .left1 {
+        margin-left: -300px; }
+      body .fællesslider #slider2 .left2, body .fællesslider #slider3 .left2, body .fællesslider #slider4 .left2, body .fællesslider #slider5 .left2 {
+        margin-left: -610px; }
+      body .fællesslider #slider2 .left3, body .fællesslider #slider3 .left3, body .fællesslider #slider4 .left3, body .fællesslider #slider5 .left3 {
+        margin-left: -920px; }
+      body .fællesslider #slider2 .left4, body .fællesslider #slider3 .left4, body .fællesslider #slider4 .left4, body .fællesslider #slider5 .left4 {
+        margin-left: -1230px; }
+      body .fællesslider #slider2 .left5, body .fællesslider #slider3 .left5, body .fællesslider #slider4 .left5, body .fællesslider #slider5 .left5 {
+        margin-left: -1540px; }
+  body .forsidetekstogbillede {
+    position: relative;
+    margin: 0;
+    clear: both;
+    margin-bottom: 60%; }
+    body .forsidetekstogbillede .forsidebillede {
+      width: 100%;
+      height: auto;
+      margin-top: 2%;
+      position: absolute; }
+    body .forsidetekstogbillede .help {
+      position: absolute;
+      text-align: left; }
+      body .forsidetekstogbillede .help h1 {
+        font-size: 50px;
+        margin-bottom: 0;
+        margin-left: 7%;
+        text-align: left;
+        color: #48C3D1;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 0; }
+      body .forsidetekstogbillede .help h2 {
+        font-size: 35px;
+        margin-top: 2px;
+        margin-left: 7%;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 0;
+        color: #48C3D1; }
+      body .forsidetekstogbillede .help h3 {
+        font-size: 20px;
+        margin-top: 2px;
+        margin-left: 7%;
+        font-family: 'Raleway', sans-serif;
+        color: #48C3D1;
+        margin-bottom: 0;
+        padding-bottom: 0; }
+    body .forsidetekstogbillede button {
+      background-color: #FF5252;
+      border: none;
+      padding: 6px 30px;
+      border-radius: 50px;
+      position: absolute;
+      top: 165px;
+      left: 100px;
+      color: white;
+      margin-left: -90px;
+      font-family: 'Raleway', sans-serif; }
+      body .forsidetekstogbillede button a {
+        text-decoration: none;
+        list-style-type: none;
+        color: white; }
+  body .trebokse {
+    text-align: center; }
+    body .trebokse .first h1, body .trebokse .second h1, body .trebokse .third h1 {
+      margin-top: 30px;
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
+    body .trebokse .first p, body .trebokse .second p, body .trebokse .third p {
+      margin: 4% 6%;
+      color: black;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+      list-style-type: none; }
+    body .trebokse button {
+      background-color: #FF5252;
+      border: none;
+      padding: 6px 30px;
+      color: white;
+      border-radius: 50px;
+      margin-bottom: 30px;
+      font-family: 'Raleway', sans-serif; }
+    body .trebokse hr {
+      background-color: #FF5252;
+      width: 300px;
+      height: 2px;
+      border-style: groove;
+      border: none; }
+  body .klausogtekst {
+    width: 100%;
+    height: auto; }
+    body .klausogtekst .klaus {
+      width: 100%;
+      height: auto;
+      margin-top: 20px; }
+    body .klausogtekst .boksomklaus {
+      background-color: #2A2A2A;
+      margin-top: -4px; }
+      body .klausogtekst .boksomklaus p {
+        margin: 0;
+        padding: 6% 13%;
+        font-style: italic;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        list-style-type: none;
+        color: white; }
+  body .tekstbokse {
+    background-color: white;
+    text-align: center;
+    width: 100%; }
+    body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
+      margin: 30px 20px 20px 20px;
+      border: 1px;
+      border-style: groove;
+      border-color: black; }
+    body .tekstbokse h1 {
+      margin-top: 50px;
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
+    body .tekstbokse p {
+      color: black;
+      padding: 3px 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+      list-style-type: none; }
+    body .tekstbokse button {
+      background-color: #FF5252;
+      color: white;
+      margin-bottom: 50px;
+      border: none;
+      padding: 5px 35px;
+      color: white;
+      border-radius: 50px; }
+  body .brugfor {
+    text-align: center;
+    background-color: #2A2A2A;
+    padding: 5% 0% 5% 0%; }
+    body .brugfor h1 {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
+    body .brugfor p {
+      margin: 5px 10px;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      list-style-type: none; }
+    body .brugfor button {
+      background-color: #FF5252;
+      border: none;
+      padding: 5px 30px;
+      color: white;
+      border-radius: 50px;
+      margin-top: 3%; }
+  body .videobibliotekforside {
+    background-color: #48C3D1; }
+    body .videobibliotekforside h1 {
+      padding-top: 6%;
+      color: white;
+      text-align: center;
+      margin-top: 0px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
+    body .videobibliotekforside a {
+      list-style-type: none;
+      text-decoration: none; }
+      body .videobibliotekforside a .videoforside, body .videobibliotekforside a .videoforside2, body .videobibliotekforside a .videoforside3, body .videobibliotekforside a .videoforside4 {
+        width: 90%;
+        margin-top: 10px;
+        padding-bottom: 3%;
+        margin-left: 5%;
+        position: relative; }
+      body .videobibliotekforside a .tekst1, body .videobibliotekforside a .tekst2, body .videobibliotekforside a .tekst3, body .videobibliotekforside a .tekst4 {
+        color: black;
+        font-size: 14px;
+        background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        margin-top: -145px;
+        margin-left: 19px;
+        padding: 25px 40px;
+        font-family: 'Montserrat', sans-serif;
+        list-style-type: none; }
+    body .videobibliotekforside p {
+      margin: 0;
+      color: white;
+      text-align: center;
+      padding-bottom: 5%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+      list-style-type: none; }
+  body .omosklaus {
+    width: 100%;
+    height: auto; }
+    body .omosklaus .klausom {
+      width: 100%;
+      height: auto;
+      margin-top: 2px; }
+    body .omosklaus .tekstbokstopom {
+      background-color: white;
+      margin-top: -4px; }
+      body .omosklaus .tekstbokstopom h1 {
+        padding: 9% 13% 0% 13%;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px; }
+      body .omosklaus .tekstbokstopom p {
+        margin: 0;
+        padding: 1% 13% 13% 13%;
+        font-size: 13px;
+        font-style: italic;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        list-style-type: none; }
+  body .billede1, body .billede2, body .billede3, body .billede4, body .billede5, body .billede6 {
+    display: none; }
+  body .tekstboksomjuviva {
+    margin-top: 0px;
+    background-color: #FF5252;
+    padding: 5px 5px; }
+    body .tekstboksomjuviva h1 {
+      padding-top: 25px;
+      color: white;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px; }
+    body .tekstboksomjuviva p {
+      color: white;
+      padding: 3px 20px;
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 13px;
+      font-family: 'Montserrat', sans-serif;
+      list-style-type: none; }
+  body .brugerwrap {
+    width: 60%;
+    margin: auto; }
+    body .brugerwrap .login, body .brugerwrap .opretbruger {
+      width: 100%;
+      font-family: Raleway;
+      margin: 10px; }
+      body .brugerwrap .login label, body .brugerwrap .opretbruger label {
+        margin-top: 5px;
+        width: 50px;
+        clear: both; }
+        body .brugerwrap .login label b, body .brugerwrap .opretbruger label b {
+          width: 50px; }
+      body .brugerwrap .login input, body .brugerwrap .opretbruger input {
+        margin: 10px 0px 20px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid;
+        clear: both; }
+      body .brugerwrap .login .knapkontrol, body .brugerwrap .opretbruger .knapkontrol {
+        width: 100%;
+        margin: auto; }
+        body .brugerwrap .login .knapkontrol button, body .brugerwrap .opretbruger .knapkontrol button {
+          text-align: center;
+          margin: 10px auto;
+          font-family: Raleway;
+          padding: 5px 20px;
+          border-radius: 50px;
+          border: none;
+          width: 50%;
+          background-color: #45c2d1;
+          color: white; }
+        body .brugerwrap .login .knapkontrol .facebooklogin, body .brugerwrap .login .knapkontrol .googlelogin, body .brugerwrap .opretbruger .knapkontrol .facebooklogin, body .brugerwrap .opretbruger .knapkontrol .googlelogin {
+          width: 65%; }
+        body .brugerwrap .login .knapkontrol .facebooklogin, body .brugerwrap .opretbruger .knapkontrol .facebooklogin {
+          background-color: #3b5998;
+          color: white; }
+        body .brugerwrap .login .knapkontrol .googlelogin, body .brugerwrap .opretbruger .knapkontrol .googlelogin {
+          background-color: #FFFFFF;
+          border: 1px solid;
+          color: black; }
+    body .brugerwrap .login {
+      padding-bottom: 30px;
+      border-bottom: 1px solid; }
+    body .brugerwrap .opretbruger {
+      margin-top: 40px; }
+  body main .imgkonsultation {
+    width: 100%;
+    position: relative;
+    clear: both; }
+    body main .imgkonsultation img {
+      width: 100%; }
+    body main .imgkonsultation .tekstkonsultation {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      text-align: left;
+      width: 30%; }
+      body main .imgkonsultation .tekstkonsultation .konsulHL1 {
+        font-size: 250%;
+        padding: 0;
+        margin: 5px;
+        text-align: left;
+        color: black;
+        font-weight: bold; }
+      body main .imgkonsultation .tekstkonsultation .konsulHL2 {
+        text-align: left;
+        color: black;
+        font-size: 250%;
+        padding: 0;
+        margin: 5px;
+        text-decoration: underline; }
+      body main .imgkonsultation .tekstkonsultation .konsulHL3 {
+        text-align: left;
+        color: black;
+        font-size: 250%;
+        padding: 0;
+        margin: 5px; }
+    body main .imgkonsultation button {
+      width: 30%;
+      background-color: #FF5252;
+      border: none;
+      border-radius: 50px;
+      padding: 4px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      position: absolute;
+      bottom: 5%;
+      left: 5%; }
+  body main .konsultationinfo .infotekst h2 {
+    text-align: center; }
+  body main .konsultationinfo .infotekst .konsultationtekst {
+    color: black; }
+  body main .konsultationinfo .knapkonsultation {
+    margin: auto;
+    width: 45%; }
+    body main .konsultationinfo .knapkonsultation .knapwrap button {
+      width: 100%;
+      background-color: #45c2d1;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 8px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+  body .firstvid, body .secondvid, body .thirdvid {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%; }
+  body .thirdvid {
+    padding-bottom: 3%; }
+  body h1 {
+    color: black; }
+  body footer {
+    background-color: #2A2A2A;
+    height: 125px;
+    clear: both; }
+    body footer div {
+      margin: auto;
+      width: 70%;
+      padding: 10px; }
+      body footer div p {
+        font-size: 12px;
+        padding: 2px;
+        margin-bottom: 0;
+        margin-top: 20px;
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif; }
+      body footer div div {
+        width: 100%;
+        text-align: center; }
+        body footer div div p {
+          display: inline-block;
+          font-size: 11px;
+          padding: 5px;
+          margin-right: 18px;
+          margin-bottom: 0;
+          color: white;
+          font-family: 'Montserrat', sans-serif;
+          list-style-type: none; }
 
 @media screen and (min-width: 766px) {
   /* Tablet-version */
@@ -722,471 +611,384 @@ body footer div div p {
     /* Videobiblioteket på forsiden. */
     /* Om Juviva ipad-version. */
     /* Billedet af Klaus og teksten. */
-    /* Selve slideshowet */
-  }
-  body header {
-    height: 90px;
-  }
-  body header div a img {
-    width: 100px;
-    height: auto;
-    margin: 4% 0% 2% 4%;
-  }
-  body header .navi .overlayer a {
-    font-size: 28px;
-  }
-  body header .navi .closebut {
-    font-size: 60px;
-  }
-  body header span {
-    display: block;
-    font-size: 34px;
-    color: #293952;
-    cursor: pointer;
-    float: right;
-    margin: -9.5% 4% 0 0;
-  }
-  body .forsidetekstogbillede {
-    margin-bottom: 55%;
-  }
-  body .forsidetekstogbillede .forsidebillede {
-    margin-top: 1%;
-  }
-  body .forsidetekstogbillede .help h1 {
-    font-size: 110px;
-    margin-bottom: 0;
-    margin-left: 10%;
-    text-align: left;
-  }
-  body .forsidetekstogbillede .help h2 {
-    font-size: 90px;
-    margin-top: 2px;
-    margin-left: 10%;
-    border-bottom: 3px #48C3D1;
-    border-bottom-style: inset;
-  }
-  body .forsidetekstogbillede .help h3 {
-    font-size: 40px;
-    margin-top: 2px;
-    margin-left: 10%;
-    font-family: 'Raleway', sans-serif;
-  }
-  body .forsidetekstogbillede button {
-    top: 350px;
-    border: none;
-    padding: 5px 35px;
-    color: white;
-    border-radius: 50px;
-    margin-left: -70px;
-  }
-  body .trebokse {
-    width: 100%;
-    height: 200px;
-  }
-  body .trebokse .second, body .trebokse .third, body .trebokse .first {
-    margin-top: 0;
-    width: 33.2%;
-    display: inline-block;
-    float: left;
-    border-right: 1px black;
-    border-right-style: inset;
-  }
-  body .trebokse .second h1, body .trebokse .third h1, body .trebokse .first h1 {
-    margin-top: 0;
-  }
-  body .trebokse .third {
-    border-right: none;
-  }
-  body .trebokse .third button {
-    margin-top: 41.5%;
-  }
-  body .trebokse .second button {
-    margin-top: 25%;
-  }
-  body .trebokse hr {
-    display: none;
-  }
-  body .klausogtekst {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-shrink: 1;
-  }
-  body .klausogtekst .klaus {
-    width: 50%;
-    height: 50%;
-    margin-top: 0;
-  }
-  body .klausogtekst .boksomklaus {
-    margin-left: 0px;
-    width: 100%;
-    padding: 0;
-    margin-top: 0;
-  }
-  body .klausogtekst .boksomklaus p {
-    color: white;
-    padding: 60px 60px 0px 60px;
-  }
-  body .tekstbokse {
-    width: 80%;
-    clear: both;
-    height: 370px;
-    margin-left: 12.7%;
-    margin-top: 25px;
-  }
-  body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
-    width: 40%;
-    float: left;
-  }
-  body .tekstbokse .tekstboks1 {
-    padding-right: 1.5%;
-  }
-  body .tekstbokse button {
-    margin-top: 10%;
-  }
-  body .brugfor {
-    margin-bottom: 0%;
-    margin-top: 9%;
-  }
-  body .brugfor h1 {
-    padding-top: 7%;
-  }
-  body .brugfor button {
-    margin-top: 3%;
-  }
-  body .videobibliotekforside {
-    padding-left: 8px;
-  }
-  body .videobibliotekforside a .videoforside, body .videobibliotekforside a .videoforside2, body .videobibliotekforside a .videoforside3, body .videobibliotekforside a .videoforside4 {
-    width: 24%;
-    margin-top: 10px;
-    padding-bottom: 3%;
-    margin-left: 2px;
-    position: relative;
-  }
-  body .videobibliotekforside a .tekst1 {
-    margin-top: -102px;
-    margin-left: 2px;
-    padding: 17px 13px;
-    font-size: 13px;
-  }
-  body .videobibliotekforside a .tekst2 {
-    margin-top: -102px;
-    margin-left: 191px;
-    font-size: 13px;
-    padding: 17px 7px;
-  }
-  body .videobibliotekforside a .tekst3 {
-    margin-top: -102px;
-    margin-left: 379px;
-    font-size: 13px;
-    padding: 17px 7px;
-  }
-  body .videobibliotekforside a .tekst4 {
-    margin-top: -102px;
-    margin-left: 567px;
-    font-size: 13px;
-    padding: 17px 7px;
-  }
-  body .videobibliotekforside p {
-    margin: 0;
-    color: white;
-    text-align: center;
-    padding-bottom: 5%;
-    list-style-type: none;
-  }
-  body .brugerwrap {
-    width: 90%;
-  }
-  body .brugerwrap .login, body .brugerwrap .opretbruger {
-    width: 40%;
-    float: left;
-  }
-  body .brugerwrap .login {
-    padding-right: 6%;
-    border-right: 1px solid;
-    border-bottom: none;
-  }
-  body .brugerwrap .opretbruger {
-    margin-left: 6%;
-    margin-top: 10px;
-  }
-  body .omosklaus {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-shrink: 1;
-  }
-  body .omosklaus .klausom {
-    width: 50%;
-    height: 50%;
-    margin-top: 0;
-  }
-  body .omosklaus .tekstbokstopom {
-    margin-left: 0px;
-    width: 100%;
-    padding: 0;
-  }
-  body .omosklaus .tekstbokstopom h1 {
-    padding-top: 60px;
-  }
-  body .omosklaus .tekstbokstopom p {
-    color: black;
-    padding: 10px 60px 0px 60px;
-    font-size: 17px;
-  }
-  body .collagemain {
-    position: relative;
-  }
-  body .collagemain .billede1, body .collagemain .billede2, body .collagemain .billede3, body .collagemain .billede4, body .collagemain .billede5, body .collagemain .billede6 {
-    width: 33.3%;
-    height: auto;
-    float: left;
-    display: block;
-  }
-  body .collagemain .tekstboksomjuviva {
-    width: 100%;
-    height: 288px;
-    background-color: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    margin-top: 0;
-    padding: 0;
-  }
-  body .collagemain .tekstboksomjuviva div {
-    background-color: #FF5252;
-    width: 47%;
-    height: 180px;
-    margin: auto;
-    margin-top: 50px;
-  }
-  body .collagemain .tekstboksomjuviva div h1 {
-    color: white;
-  }
-  body .collagemain .tekstboksomjuviva div p {
-    color: white;
-    padding: 0 4%;
-    padding-bottom: 0;
-  }
-  body main .imgkonsultation .tekstkonsultation .konsulHL1 {
-    font-size: 110px;
-    padding: 0;
-    margin: 5px;
-  }
-  body main .imgkonsultation .tekstkonsultation .konsulHL2 {
-    font-size: 95px;
-    padding: 0;
-    margin: 5px;
-  }
-  body main .imgkonsultation .tekstkonsultation .konsulHL3 {
-    font-size: 80px;
-    padding: 0;
-    margin: 5px;
-  }
-  body main .imgkonsultation button {
-    width: 150px;
-    font-size: 20px;
-    left: 12%;
-    bottom: 3%;
-  }
-  body main .konsultationinfo {
-    width: 85%;
-    margin: auto;
-  }
-  body main .konsultationinfo .infotekst {
-    width: 300px;
-    float: left;
-    border-right: 1px solid;
-    padding-right: 4%;
-    margin: 10px 0 10px 10px;
-  }
-  body main .konsultationinfo .knapkonsultation {
-    width: 300px;
-    float: left;
-  }
-  body main .konsultationinfo .knapkonsultation .knapwrap {
-    width: 170px;
-    margin: auto;
-    margin-top: 6%;
-  }
-  body main .konsultationinfo .knapkonsultation .knapwrap button {
-    width: 170px;
-    padding: 5px;
-    margin: 15px;
-  }
-  body .mestsete {
-    height: 300px;
-    width: 100%;
-    background-color: white;
-    display: inline-flex;
-    bottom: 0;
-    overflow-wrap: break-word;
-    background-color: #45C2D1;
-    /* Pilen til venstre */
-    /* Pilen til højre */
-    /* Selve slideshowet */
-  }
-  body .mestsete .overskriftvideoside {
-    position: absolute;
-    margin: 15px 4%;
-  }
-  body .mestsete .control_prev1 {
-    margin-top: 110px;
-    text-decoration: none;
-    font-size: 60px;
-    font-family: Roboto;
-    color: black;
-    z-index: 10;
-    margin-left: 1%;
-  }
-  body .mestsete .control_next1 {
-    margin-top: 110px;
-    text-decoration: none;
-    font-size: 60px;
-    font-family: Roboto;
-    color: black;
-    z-index: 10;
-  }
-  body .mestsete #slider1 {
-    width: 95%;
-    height: 230px;
-    overflow: hidden;
-    position: absolute;
-    margin: 40px 2.5% 0 2.5%;
-    /* Styring af billederne i slideshowet */
-    /* Billederne i slideshowet */
-    /* Billederne til venstre i slideshowet */
-  }
-  body .mestsete #slider1 .slides1 {
-    display: block;
-    width: 6560px;
-    max-height: 300px;
-    padding: 0%;
-  }
-  body .mestsete #slider1 .slide1 {
-    float: left;
-    list-style-type: none;
-    width: 380px;
-    height: auto;
-    margin: 0 15px;
-    /* Skriften over billederne */
-    /* Selve billederne */
-  }
-  body .mestsete #slider1 .slide1 .text6 {
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 135px;
-    height: 70px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    font-size: 20px;
-    font-family: 'Quattrocento Sans', sans-serif;
-    position: absolute;
-    margin-top: -178px;
-    color: #293952;
-  }
-  body .mestsete #slider1 .left1 {
-    margin-left: -400px;
-  }
-  body .mestsete #slider1 .left2 {
-    margin-left: -810px;
-  }
-  body .mestsete #slider1 .left3 {
-    margin-left: -1220px;
-  }
-  body .mestsete #slider1 .left4 {
-    margin-left: -1630px;
-  }
-  body .mestsete #slider1 .left5 {
-    margin-left: -2040px;
-  }
-  body .fællesslider {
-    height: 270px;
-    width: 100%;
-    background-color: white;
-    display: inline-flex;
-    bottom: 0;
-    overflow-wrap: break-word;
-    /* Pilen til venstre */
-    /* Pilen til højre */
-    /* Selve slideshowet */
-  }
-  body .fællesslider .overskriftvideoside {
-    position: absolute;
-    margin: 15px 55px;
-  }
-  body .fællesslider .control_prev2, body .fællesslider .control_prev3, body .fællesslider .control_prev4, body .fællesslider .control_prev5 {
-    margin-top: 110px;
-    text-decoration: none;
-    font-size: 60px;
-    font-family: Roboto;
-    color: black;
-    z-index: 10;
-    margin-left: 1%;
-  }
-  body .fællesslider .control_next2, body .fællesslider .control_next3, body .fællesslider .control_next4, body .fællesslider .control_next5 {
-    margin-top: 110px;
-    text-decoration: none;
-    font-size: 60px;
-    font-family: Roboto;
-    color: black;
-    z-index: 10;
-    margin-left: 88%;
-  }
-  body .fællesslider #slider2, body .fællesslider #slider3, body .fællesslider #slider4, body .fællesslider #slider5 {
-    width: 95%;
-    height: 230px;
-    overflow: hidden;
-    position: absolute;
-    clip: rect(10px, 1000px);
-    margin: 40px 2.5% 0 2.5%;
-    /* Styring af billederne i slideshowet */
-    /* Billederne i slideshowet */
-    /* Billederne til venstre i slideshowet */
-  }
-  body .fællesslider #slider2 .slides2, body .fællesslider #slider2 .slides3, body .fællesslider #slider2 .slides4, body .fællesslider #slider2 .slides5, body .fællesslider #slider3 .slides2, body .fællesslider #slider3 .slides3, body .fællesslider #slider3 .slides4, body .fællesslider #slider3 .slides5, body .fællesslider #slider4 .slides2, body .fællesslider #slider4 .slides3, body .fællesslider #slider4 .slides4, body .fællesslider #slider4 .slides5, body .fællesslider #slider5 .slides2, body .fællesslider #slider5 .slides3, body .fællesslider #slider5 .slides4, body .fællesslider #slider5 .slides5 {
-    display: block;
-    width: 6560px;
-    max-height: 300px;
-    padding: 0%;
-  }
-  body .fællesslider #slider2 .slide2, body .fællesslider #slider2 .slide3, body .fællesslider #slider2 .slide4, body .fællesslider #slider2 .slide5, body .fællesslider #slider3 .slide2, body .fællesslider #slider3 .slide3, body .fællesslider #slider3 .slide4, body .fællesslider #slider3 .slide5, body .fællesslider #slider4 .slide2, body .fællesslider #slider4 .slide3, body .fællesslider #slider4 .slide4, body .fællesslider #slider4 .slide5, body .fællesslider #slider5 .slide2, body .fællesslider #slider5 .slide3, body .fællesslider #slider5 .slide4, body .fællesslider #slider5 .slide5 {
-    float: left;
-    list-style-type: none;
-    width: 380px;
-    height: auto;
-    margin: 0 15px;
-    /* Skriften over billederne */
-    /* Selve billederne */
-  }
-  body .fællesslider #slider2 .slide2 .text6, body .fællesslider #slider2 .slide3 .text6, body .fællesslider #slider2 .slide4 .text6, body .fællesslider #slider2 .slide5 .text6, body .fællesslider #slider3 .slide2 .text6, body .fællesslider #slider3 .slide3 .text6, body .fællesslider #slider3 .slide4 .text6, body .fællesslider #slider3 .slide5 .text6, body .fællesslider #slider4 .slide2 .text6, body .fællesslider #slider4 .slide3 .text6, body .fællesslider #slider4 .slide4 .text6, body .fællesslider #slider4 .slide5 .text6, body .fællesslider #slider5 .slide2 .text6, body .fællesslider #slider5 .slide3 .text6, body .fællesslider #slider5 .slide4 .text6, body .fællesslider #slider5 .slide5 .text6 {
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 135px;
-    height: 70px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    font-size: 20px;
-    font-family: 'Quattrocento Sans', sans-serif;
-    position: absolute;
-    margin-top: -178px;
-    color: #293952;
-  }
-  body .fællesslider #slider2 .left1, body .fællesslider #slider3 .left1, body .fællesslider #slider4 .left1, body .fællesslider #slider5 .left1 {
-    margin-left: -400px;
-  }
-  body .fællesslider #slider2 .left2, body .fællesslider #slider3 .left2, body .fællesslider #slider4 .left2, body .fællesslider #slider5 .left2 {
-    margin-left: -810px;
-  }
-  body .fællesslider #slider2 .left3, body .fællesslider #slider3 .left3, body .fællesslider #slider4 .left3, body .fællesslider #slider5 .left3 {
-    margin-left: -1220px;
-  }
-  body .fællesslider #slider2 .left4, body .fællesslider #slider3 .left4, body .fællesslider #slider4 .left4, body .fællesslider #slider5 .left4 {
-    margin-left: -1630px;
-  }
-  body .fællesslider #slider2 .left5, body .fællesslider #slider3 .left5, body .fællesslider #slider4 .left5, body .fællesslider #slider5 .left5 {
-    margin-left: -2040px;
-  }
-}
+    /* Selve slideshowet */ }
+    body header {
+      height: 90px; }
+      body header div a img {
+        width: 100px;
+        height: auto;
+        margin: 4% 0% 2% 4%; }
+      body header .navi .overlayer a {
+        font-size: 28px; }
+      body header .navi .closebut {
+        font-size: 60px; }
+      body header span {
+        display: block;
+        font-size: 34px;
+        color: #293952;
+        cursor: pointer;
+        float: right;
+        margin: -9.5% 4% 0 0; }
+    body .forsidetekstogbillede {
+      margin-bottom: 55%; }
+      body .forsidetekstogbillede .forsidebillede {
+        margin-top: 1%; }
+      body .forsidetekstogbillede .help h1 {
+        font-size: 110px;
+        margin-bottom: 0;
+        margin-left: 10%;
+        text-align: left; }
+      body .forsidetekstogbillede .help h2 {
+        font-size: 90px;
+        margin-top: 2px;
+        margin-left: 10%;
+        border-bottom: 3px #48C3D1;
+        border-bottom-style: inset; }
+      body .forsidetekstogbillede .help h3 {
+        font-size: 40px;
+        margin-top: 2px;
+        margin-left: 10%;
+        font-family: 'Raleway', sans-serif; }
+      body .forsidetekstogbillede button {
+        top: 350px;
+        border: none;
+        padding: 5px 35px;
+        color: white;
+        border-radius: 50px;
+        margin-left: -70px; }
+    body .trebokse {
+      width: 100%;
+      height: 200px; }
+      body .trebokse .second, body .trebokse .third, body .trebokse .first {
+        margin-top: 0;
+        width: 33.2%;
+        display: inline-block;
+        float: left;
+        border-right: 1px black;
+        border-right-style: inset; }
+        body .trebokse .second h1, body .trebokse .third h1, body .trebokse .first h1 {
+          margin-top: 0; }
+      body .trebokse .third {
+        border-right: none; }
+        body .trebokse .third button {
+          margin-top: 25%; }
+      body .trebokse .second button {
+        margin-top: 16.5%; }
+      body .trebokse hr {
+        display: none; }
+    body .klausogtekst {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 1; }
+      body .klausogtekst .klaus {
+        width: 50%;
+        height: 50%;
+        margin-top: 0; }
+      body .klausogtekst .boksomklaus {
+        margin-left: 0px;
+        width: 100%;
+        padding: 0;
+        margin-top: 0; }
+        body .klausogtekst .boksomklaus p {
+          color: white;
+          padding: 60px 60px 0px 60px; }
+    body .tekstbokse {
+      width: 80%;
+      clear: both;
+      height: 370px;
+      margin-left: 12.7%;
+      margin-top: 25px;
+      margin-bottom: 0; }
+      body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
+        width: 40%;
+        float: left; }
+      body .tekstbokse .tekstboks1 {
+        padding-right: 1.5%; }
+      body .tekstbokse button {
+        margin-top: 10%; }
+    body .brugfor {
+      margin-bottom: 0%;
+      margin-top: 2.5%; }
+      body .brugfor h1 {
+        padding-top: 7%; }
+      body .brugfor button {
+        margin-top: 3%; }
+    body .videobibliotekforside {
+      padding-left: 8px; }
+      body .videobibliotekforside a .videoforside, body .videobibliotekforside a .videoforside2, body .videobibliotekforside a .videoforside3, body .videobibliotekforside a .videoforside4 {
+        width: 24%;
+        margin-top: 10px;
+        padding-bottom: 3%;
+        margin-left: 2px;
+        position: relative; }
+      body .videobibliotekforside a .tekst1 {
+        margin-top: -102px;
+        margin-left: 2px;
+        padding: 17px 13px;
+        font-size: 13px; }
+      body .videobibliotekforside a .tekst2 {
+        margin-top: -102px;
+        margin-left: 191px;
+        font-size: 13px;
+        padding: 17px 7px; }
+      body .videobibliotekforside a .tekst3 {
+        margin-top: -102px;
+        margin-left: 379px;
+        font-size: 13px;
+        padding: 17px 7px; }
+      body .videobibliotekforside a .tekst4 {
+        margin-top: -102px;
+        margin-left: 567px;
+        font-size: 13px;
+        padding: 17px 7px; }
+      body .videobibliotekforside p {
+        margin: 0;
+        color: white;
+        text-align: center;
+        padding-bottom: 5%;
+        list-style-type: none; }
+    body .brugerwrap {
+      width: 90%; }
+      body .brugerwrap .login, body .brugerwrap .opretbruger {
+        width: 40%;
+        float: left; }
+      body .brugerwrap .login {
+        padding-right: 6%;
+        border-right: 1px solid;
+        border-bottom: none; }
+      body .brugerwrap .opretbruger {
+        margin-left: 6%;
+        margin-top: 10px; }
+    body .omosklaus {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 1; }
+      body .omosklaus .klausom {
+        width: 50%;
+        height: 50%;
+        margin-top: 0; }
+      body .omosklaus .tekstbokstopom {
+        margin-left: 0px;
+        width: 100%;
+        padding: 0; }
+        body .omosklaus .tekstbokstopom h1 {
+          padding-top: 60px; }
+        body .omosklaus .tekstbokstopom p {
+          color: black;
+          padding: 10px 60px 0px 60px;
+          font-size: 17px; }
+    body .collagemain {
+      position: relative; }
+      body .collagemain .billede1, body .collagemain .billede2, body .collagemain .billede3, body .collagemain .billede4, body .collagemain .billede5, body .collagemain .billede6 {
+        width: 33.3%;
+        height: auto;
+        float: left;
+        display: block; }
+      body .collagemain .tekstboksomjuviva {
+        width: 100%;
+        height: 288px;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        margin-top: 0;
+        padding: 0; }
+        body .collagemain .tekstboksomjuviva div {
+          background-color: #FF5252;
+          width: 47%;
+          height: 180px;
+          margin: auto;
+          margin-top: 50px; }
+          body .collagemain .tekstboksomjuviva div h1 {
+            color: white; }
+          body .collagemain .tekstboksomjuviva div p {
+            color: white;
+            padding: 0 4%;
+            padding-bottom: 0; }
+    body main .imgkonsultation .tekstkonsultation .konsulHL1 {
+      font-size: 110px;
+      padding: 0;
+      margin: 5px; }
+    body main .imgkonsultation .tekstkonsultation .konsulHL2 {
+      font-size: 95px;
+      padding: 0;
+      margin: 5px; }
+    body main .imgkonsultation .tekstkonsultation .konsulHL3 {
+      font-size: 80px;
+      padding: 0;
+      margin: 5px; }
+    body main .imgkonsultation button {
+      width: 150px;
+      font-size: 20px;
+      left: 12%;
+      bottom: 3%; }
+    body main .konsultationinfo {
+      width: 85%;
+      margin: auto; }
+      body main .konsultationinfo .infotekst {
+        width: 300px;
+        float: left;
+        border-right: 1px solid;
+        padding-right: 4%;
+        margin: 10px 0 10px 10px; }
+      body main .konsultationinfo .knapkonsultation {
+        width: 300px;
+        float: left; }
+        body main .konsultationinfo .knapkonsultation .knapwrap {
+          width: 170px;
+          margin: auto;
+          margin-top: 6%; }
+          body main .konsultationinfo .knapkonsultation .knapwrap button {
+            width: 170px;
+            padding: 5px;
+            margin: 15px; }
+    body .mestsete {
+      height: 300px;
+      width: 100%;
+      background-color: white;
+      display: inline-flex;
+      bottom: 0;
+      overflow-wrap: break-word;
+      background-color: #45C2D1;
+      /* Pilen til venstre */
+      /* Pilen til højre */
+      /* Selve slideshowet */ }
+      body .mestsete .overskriftvideoside {
+        position: absolute;
+        margin: 15px 4%; }
+      body .mestsete .control_prev1 {
+        margin-top: 110px;
+        text-decoration: none;
+        font-size: 60px;
+        font-family: Roboto;
+        color: black;
+        z-index: 10;
+        margin-left: 1%; }
+      body .mestsete .control_next1 {
+        margin-top: 110px;
+        text-decoration: none;
+        font-size: 60px;
+        font-family: Roboto;
+        color: black;
+        z-index: 10; }
+      body .mestsete #slider1 {
+        width: 95%;
+        height: 230px;
+        overflow: hidden;
+        position: absolute;
+        margin: 40px 2.5% 0 2.5%;
+        /* Styring af billederne i slideshowet */
+        /* Billederne i slideshowet */
+        /* Billederne til venstre i slideshowet */ }
+        body .mestsete #slider1 .slides1 {
+          display: block;
+          width: 6560px;
+          max-height: 300px;
+          padding: 0%; }
+        body .mestsete #slider1 .slide1 {
+          float: left;
+          list-style-type: none;
+          width: 380px;
+          height: auto;
+          margin: 0 15px;
+          /* Skriften over billederne */
+          /* Selve billederne */ }
+          body .mestsete #slider1 .slide1 .text6 {
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 135px;
+            height: 70px;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 10px;
+            font-size: 20px;
+            font-family: 'Quattrocento Sans', sans-serif;
+            position: absolute;
+            margin-top: -178px;
+            color: #293952; }
+        body .mestsete #slider1 .left1 {
+          margin-left: -400px; }
+        body .mestsete #slider1 .left2 {
+          margin-left: -810px; }
+        body .mestsete #slider1 .left3 {
+          margin-left: -1220px; }
+        body .mestsete #slider1 .left4 {
+          margin-left: -1630px; }
+        body .mestsete #slider1 .left5 {
+          margin-left: -2040px; }
+    body .fællesslider {
+      height: 270px;
+      width: 100%;
+      background-color: white;
+      display: inline-flex;
+      bottom: 0;
+      overflow-wrap: break-word;
+      /* Pilen til venstre */
+      /* Pilen til højre */
+      /* Selve slideshowet */ }
+      body .fællesslider .overskriftvideoside {
+        position: absolute;
+        margin: 15px 55px; }
+      body .fællesslider .control_prev2, body .fællesslider .control_prev3, body .fællesslider .control_prev4, body .fællesslider .control_prev5 {
+        margin-top: 110px;
+        text-decoration: none;
+        font-size: 60px;
+        font-family: Roboto;
+        color: black;
+        z-index: 10;
+        margin-left: 1%; }
+      body .fællesslider .control_next2, body .fællesslider .control_next3, body .fællesslider .control_next4, body .fællesslider .control_next5 {
+        margin-top: 110px;
+        text-decoration: none;
+        font-size: 60px;
+        font-family: Roboto;
+        color: black;
+        z-index: 10;
+        margin-left: 88%; }
+      body .fællesslider #slider2, body .fællesslider #slider3, body .fællesslider #slider4, body .fællesslider #slider5 {
+        width: 95%;
+        height: 230px;
+        overflow: hidden;
+        position: absolute;
+        clip: rect(10px, 1000px);
+        margin: 40px 2.5% 0 2.5%;
+        /* Styring af billederne i slideshowet */
+        /* Billederne i slideshowet */
+        /* Billederne til venstre i slideshowet */ }
+        body .fællesslider #slider2 .slides2, body .fællesslider #slider2 .slides3, body .fællesslider #slider2 .slides4, body .fællesslider #slider2 .slides5, body .fællesslider #slider3 .slides2, body .fællesslider #slider3 .slides3, body .fællesslider #slider3 .slides4, body .fællesslider #slider3 .slides5, body .fællesslider #slider4 .slides2, body .fællesslider #slider4 .slides3, body .fællesslider #slider4 .slides4, body .fællesslider #slider4 .slides5, body .fællesslider #slider5 .slides2, body .fællesslider #slider5 .slides3, body .fællesslider #slider5 .slides4, body .fællesslider #slider5 .slides5 {
+          display: block;
+          width: 6560px;
+          max-height: 300px;
+          padding: 0%; }
+        body .fællesslider #slider2 .slide2, body .fællesslider #slider2 .slide3, body .fællesslider #slider2 .slide4, body .fællesslider #slider2 .slide5, body .fællesslider #slider3 .slide2, body .fællesslider #slider3 .slide3, body .fællesslider #slider3 .slide4, body .fællesslider #slider3 .slide5, body .fællesslider #slider4 .slide2, body .fællesslider #slider4 .slide3, body .fællesslider #slider4 .slide4, body .fællesslider #slider4 .slide5, body .fællesslider #slider5 .slide2, body .fællesslider #slider5 .slide3, body .fællesslider #slider5 .slide4, body .fællesslider #slider5 .slide5 {
+          float: left;
+          list-style-type: none;
+          width: 380px;
+          height: auto;
+          margin: 0 15px;
+          /* Skriften over billederne */
+          /* Selve billederne */ }
+          body .fællesslider #slider2 .slide2 .text6, body .fællesslider #slider2 .slide3 .text6, body .fællesslider #slider2 .slide4 .text6, body .fællesslider #slider2 .slide5 .text6, body .fællesslider #slider3 .slide2 .text6, body .fællesslider #slider3 .slide3 .text6, body .fællesslider #slider3 .slide4 .text6, body .fællesslider #slider3 .slide5 .text6, body .fællesslider #slider4 .slide2 .text6, body .fællesslider #slider4 .slide3 .text6, body .fællesslider #slider4 .slide4 .text6, body .fællesslider #slider4 .slide5 .text6, body .fællesslider #slider5 .slide2 .text6, body .fællesslider #slider5 .slide3 .text6, body .fællesslider #slider5 .slide4 .text6, body .fællesslider #slider5 .slide5 .text6 {
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 135px;
+            height: 70px;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 10px;
+            font-size: 20px;
+            font-family: 'Quattrocento Sans', sans-serif;
+            position: absolute;
+            margin-top: -178px;
+            color: #293952; }
+        body .fællesslider #slider2 .left1, body .fællesslider #slider3 .left1, body .fællesslider #slider4 .left1, body .fællesslider #slider5 .left1 {
+          margin-left: -400px; }
+        body .fællesslider #slider2 .left2, body .fællesslider #slider3 .left2, body .fællesslider #slider4 .left2, body .fællesslider #slider5 .left2 {
+          margin-left: -810px; }
+        body .fællesslider #slider2 .left3, body .fællesslider #slider3 .left3, body .fællesslider #slider4 .left3, body .fællesslider #slider5 .left3 {
+          margin-left: -1220px; }
+        body .fællesslider #slider2 .left4, body .fællesslider #slider3 .left4, body .fællesslider #slider4 .left4, body .fællesslider #slider5 .left4 {
+          margin-left: -1630px; }
+        body .fællesslider #slider2 .left5, body .fællesslider #slider3 .left5, body .fællesslider #slider4 .left5, body .fællesslider #slider5 .left5 {
+          margin-left: -2040px; } }
 @media screen and (min-width: 992px) {
   /* Desktop-version */
   body {
@@ -1199,303 +1001,239 @@ body footer div div p {
     /* Om Juviva ipad-version. */
     /* Billedet af Klaus og teksten. */
     /* Collagen. */
-    /* Se mere desktop. */
-  }
-  body header {
-    width: 100%;
-  }
-  body header div a img {
-    width: 80px;
-    height: auto;
-    margin: 0;
-    float: left;
-    padding: 2% 0% 0% 3%;
-  }
-  body header div #mynav {
-    display: none;
-  }
-  body header nav {
-    float: right;
-    text-decoration: none;
-    display: inline-block !important;
-    margin: auto;
-  }
-  body header nav ul {
-    margin: auto;
-    margin: 35px 25px 0px 0px;
-  }
-  body header nav ul li {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    list-style-type: none;
-    display: inline-block;
-  }
-  body header nav ul a {
-    color: black;
-    text-decoration: none;
-    margin-left: 35px;
-  }
-  body header nav ul .active {
-    font-weight: bolder;
-    color: black;
-    border-bottom: 2px solid #FF5252;
-    padding-bottom: 8px;
-  }
-  body .forsidetekstogbillede .forsidebillede {
-    margin-top: 0.3%;
-  }
-  body .forsidetekstogbillede .help h1 {
-    font-size: 220px;
-    margin-top: 4%;
-    margin-left: 10%;
-  }
-  body .forsidetekstogbillede .help h2 {
-    font-size: 180px;
-    margin-top: 2px;
-    margin-left: 10%;
-  }
-  body .forsidetekstogbillede .help h3 {
-    font-size: 70px;
-    margin-top: 2px;
-    margin-left: 10%;
-  }
-  body .forsidetekstogbillede button {
-    top: 630px;
-    margin-left: -45px;
-    font-size: 20px;
-  }
-  body .trebokse {
-    height: 400px;
-    width: 100%;
-  }
-  body .trebokse .second, body .trebokse .third, body .trebokse .first {
-    width: 30%;
-    margin-top: 0%;
-    margin: 1.64%;
-  }
-  body .trebokse .second h1, body .trebokse .third h1, body .trebokse .first h1 {
-    font-size: 25px;
-    margin-top: 0;
-  }
-  body .trebokse .first button {
-    margin-top: 50px;
-    font-size: 20px;
-  }
-  body .trebokse .second button {
-    margin-top: 94px;
-    font-size: 20px;
-  }
-  body .trebokse .third button {
-    margin-top: 94px;
-    font-size: 20px;
-  }
-  body .klausogtekst .boksomklaus p {
-    color: white;
-    font-size: 20px;
-    padding: 250px 90px 0px 90px;
-  }
-  body .tekstbokse {
-    height: 460px;
-    width: 675px;
-    margin: auto;
-  }
-  body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
-    width: 290px;
-    margin-top: 4%;
-    padding-bottom: 6%;
-  }
-  body .tekstbokse .tekstboks2 h1, body .tekstbokse .tekstboks1 h1 {
-    font-size: 25px;
-  }
-  body .tekstbokse .tekstboks2 {
-    margin-left: 3%;
-  }
-  body .tekstbokse button {
-    font-size: 20px;
-  }
-  body .brugfor {
-    margin-bottom: 0%;
-    margin-top: 0;
-  }
-  body .brugfor h1 {
-    font-size: 30px;
-  }
-  body .brugfor p {
-    font-size: 18px;
-  }
-  body .brugfor button {
-    font-size: 20px;
-  }
-  body .videobibliotekforside {
-    padding-left: 12px;
-  }
-  body .videobibliotekforside h1 {
-    font-size: 30px;
-  }
-  body .videobibliotekforside a .videoforside, body .videobibliotekforside a .videoforside2, body .videobibliotekforside a .videoforside3, body .videobibliotekforside a .videoforside4 {
-    width: 24.3%;
-    margin-top: 3%;
-  }
-  body .videobibliotekforside a .tekst1 {
-    margin-top: -165px;
-    margin-left: 2px;
-    padding: 22px 17px;
-    font-size: 16px;
-  }
-  body .videobibliotekforside a .tekst2 {
-    margin-top: -165px;
-    margin-left: 334px;
-    font-size: 16px;
-    padding: 22px 17px;
-  }
-  body .videobibliotekforside a .tekst3 {
-    margin-top: -165px;
-    margin-left: 665px;
-    font-size: 16px;
-    padding: 22px 17px;
-  }
-  body .videobibliotekforside a .tekst4 {
-    margin-top: -165px;
-    margin-left: 996px;
-    font-size: 16px;
-    padding: 22px 17px;
-  }
-  body .videobibliotekforside p {
-    margin: 0;
-    color: white;
-    text-align: center;
-    padding-bottom: 5%;
-    font-size: 18px;
-    list-style-type: none;
-  }
-  body .brugerwrap {
-    width: 790px;
-    height: 600px;
-    margin: auto;
-  }
-  body .brugerwrap .login, body .brugerwrap .opretbruger {
-    width: 330px;
-    float: left;
-  }
-  body .brugerwrap .login {
-    padding-right: 6%;
-    border-right: 1px solid;
-    border-bottom: none;
-  }
-  body .brugerwrap .opretbruger {
-    margin-left: 6%;
-    margin-top: 10px;
-  }
-  body .omosklaus .klausom {
-    width: 40%;
-    height: 40%;
-  }
-  body .omosklaus .tekstbokstopom h1 {
-    padding-top: 145px;
-  }
-  body .omosklaus .tekstbokstopom p {
-    color: black;
-    padding: 28px 160px 0px 160px;
-  }
-  body .collagemain .tekstboksomjuviva {
-    width: 100%;
-    height: 506px;
-    background-color: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    margin-top: 0;
-    padding: 0;
-  }
-  body .collagemain .tekstboksomjuviva div {
-    background-color: #FF5252;
-    width: 40%;
-    height: 300px;
-    margin: auto;
-    margin-top: 100px;
-  }
-  body .collagemain .tekstboksomjuviva div h1 {
-    color: white;
-    padding-top: 10%;
-  }
-  body .collagemain .tekstboksomjuviva div p {
-    color: white;
-    padding: 5% 10%;
-    padding-bottom: 0;
-    font-size: 17px;
-  }
-  body main .imgkonsultation .tekstkonsultation .konsulHL1 {
-    font-size: 200px;
-  }
-  body main .imgkonsultation .tekstkonsultation .konsulHL2 {
-    font-size: 150px;
-  }
-  body main .imgkonsultation .tekstkonsultation .konsulHL3 {
-    font-size: 100px;
-  }
-  body main .imgkonsultation button {
-    width: 200px;
-    font-size: 20px;
-    left: 12%;
-    bottom: 3%;
-  }
-  body main .konsultationinfo {
-    width: 860px;
-  }
-  body main .konsultationinfo .infotekst {
-    width: 400px;
-    float: left;
-    border-right: 1px solid;
-    padding-right: 4%;
-    margin: 10px 0 10px 10px;
-  }
-  body main .konsultationinfo .knapkonsultation {
-    width: 400px;
-    float: left;
-  }
-  body main .konsultationinfo .knapkonsultation .knapwrap {
-    width: 170px;
-  }
-  body main .konsultationinfo .knapkonsultation .knapwrap button {
-    width: 170px;
-    padding: 5px;
-  }
-  body .videosidese {
-    margin-left: 5%;
-  }
-  body .videosidese .firstvid {
-    float: left;
-    width: 60%;
-    padding-bottom: 3%;
-  }
-  body .videosidese .secondvid, body .videosidese .thirdvid {
-    float: right;
-    width: 20%;
-    margin-right: 10%;
-    margin-top: 3.4%;
-  }
-  body .videosidese h1 {
-    margin-right: 11.5%;
-    width: 20%;
-    float: right;
-    margin-top: 0;
-    font-size: 25px;
-  }
-  body footer {
-    height: 175px;
-    clear: both;
-  }
-  body footer div p {
-    font-size: 15px;
-    margin-top: 40px;
-  }
-  body footer div div p {
-    display: inline-block;
-    font-size: 15px;
-    padding: 5px;
-    margin-right: 18px;
-    margin-bottom: 0;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    list-style-type: none;
-  }
-}
+    /* Se mere desktop. */ }
+    body header {
+      width: 100%; }
+      body header div a img {
+        width: 80px;
+        height: auto;
+        margin: 0;
+        float: left;
+        padding: 2% 0% 0% 3%; }
+      body header div #mynav {
+        display: none; }
+      body header nav {
+        float: right;
+        text-decoration: none;
+        display: inline-block !important;
+        margin: auto; }
+        body header nav ul {
+          margin: auto;
+          margin: 35px 25px 0px 0px; }
+          body header nav ul li {
+            text-decoration: none;
+            font-family: 'Raleway', sans-serif;
+            font-size: 18px;
+            list-style-type: none;
+            display: inline-block; }
+          body header nav ul a {
+            color: black;
+            text-decoration: none;
+            margin-left: 35px; }
+          body header nav ul .active {
+            font-weight: bolder;
+            color: black;
+            border-bottom: 2px solid #FF5252;
+            padding-bottom: 8px; }
+    body .forsidetekstogbillede .forsidebillede {
+      margin-top: 0.3%; }
+    body .forsidetekstogbillede .help h1 {
+      font-size: 220px;
+      margin-top: 4%;
+      margin-left: 10%; }
+    body .forsidetekstogbillede .help h2 {
+      font-size: 180px;
+      margin-top: 2px;
+      margin-left: 10%; }
+    body .forsidetekstogbillede .help h3 {
+      font-size: 70px;
+      margin-top: 2px;
+      margin-left: 10%; }
+    body .forsidetekstogbillede button {
+      top: 630px;
+      margin-left: -45px;
+      font-size: 20px; }
+    body .trebokse {
+      height: 400px;
+      width: 100%; }
+      body .trebokse .second, body .trebokse .third, body .trebokse .first {
+        width: 30%;
+        margin-top: 0%;
+        margin: 1.64%; }
+        body .trebokse .second h1, body .trebokse .third h1, body .trebokse .first h1 {
+          font-size: 25px;
+          margin-top: 0; }
+      body .trebokse .first button {
+        margin-top: 50px;
+        font-size: 20px; }
+      body .trebokse .second button {
+        margin-top: 94px;
+        font-size: 20px; }
+      body .trebokse .third button {
+        margin-top: 94px;
+        font-size: 20px; }
+    body .klausogtekst .boksomklaus p {
+      color: white;
+      font-size: 20px;
+      padding: 250px 90px 0px 90px; }
+    body .tekstbokse {
+      height: 460px;
+      width: 675px;
+      margin: auto; }
+      body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
+        width: 290px;
+        margin-top: 4%;
+        padding-bottom: 6%; }
+        body .tekstbokse .tekstboks2 h1, body .tekstbokse .tekstboks1 h1 {
+          font-size: 25px; }
+      body .tekstbokse .tekstboks2 {
+        margin-left: 3%; }
+      body .tekstbokse button {
+        font-size: 20px; }
+    body .brugfor {
+      margin-bottom: 0%;
+      margin-top: 0; }
+      body .brugfor h1 {
+        font-size: 30px; }
+      body .brugfor p {
+        font-size: 18px; }
+      body .brugfor button {
+        font-size: 20px; }
+    body .videobibliotekforside {
+      padding-left: 12px; }
+      body .videobibliotekforside h1 {
+        font-size: 30px; }
+      body .videobibliotekforside a .videoforside, body .videobibliotekforside a .videoforside2, body .videobibliotekforside a .videoforside3, body .videobibliotekforside a .videoforside4 {
+        width: 24.3%;
+        margin-top: 3%; }
+      body .videobibliotekforside a .tekst1 {
+        margin-top: -165px;
+        margin-left: 2px;
+        padding: 22px 17px;
+        font-size: 16px; }
+      body .videobibliotekforside a .tekst2 {
+        margin-top: -165px;
+        margin-left: 334px;
+        font-size: 16px;
+        padding: 22px 17px; }
+      body .videobibliotekforside a .tekst3 {
+        margin-top: -165px;
+        margin-left: 665px;
+        font-size: 16px;
+        padding: 22px 17px; }
+      body .videobibliotekforside a .tekst4 {
+        margin-top: -165px;
+        margin-left: 996px;
+        font-size: 16px;
+        padding: 22px 17px; }
+      body .videobibliotekforside p {
+        margin: 0;
+        color: white;
+        text-align: center;
+        padding-bottom: 5%;
+        font-size: 18px;
+        list-style-type: none; }
+    body .brugerwrap {
+      width: 790px;
+      height: 600px;
+      margin: auto; }
+      body .brugerwrap .login, body .brugerwrap .opretbruger {
+        width: 330px;
+        float: left; }
+      body .brugerwrap .login {
+        padding-right: 6%;
+        border-right: 1px solid;
+        border-bottom: none; }
+      body .brugerwrap .opretbruger {
+        margin-left: 6%;
+        margin-top: 10px; }
+    body .omosklaus .klausom {
+      width: 40%;
+      height: 40%; }
+    body .omosklaus .tekstbokstopom h1 {
+      padding-top: 145px; }
+    body .omosklaus .tekstbokstopom p {
+      color: black;
+      padding: 28px 160px 0px 160px; }
+    body .collagemain .tekstboksomjuviva {
+      width: 100%;
+      height: 506px;
+      background-color: rgba(0, 0, 0, 0.8);
+      position: absolute;
+      margin-top: 0;
+      padding: 0; }
+      body .collagemain .tekstboksomjuviva div {
+        background-color: #FF5252;
+        width: 40%;
+        height: 300px;
+        margin: auto;
+        margin-top: 100px; }
+        body .collagemain .tekstboksomjuviva div h1 {
+          color: white;
+          padding-top: 10%; }
+        body .collagemain .tekstboksomjuviva div p {
+          color: white;
+          padding: 5% 10%;
+          padding-bottom: 0;
+          font-size: 17px; }
+    body main .imgkonsultation .tekstkonsultation .konsulHL1 {
+      font-size: 200px; }
+    body main .imgkonsultation .tekstkonsultation .konsulHL2 {
+      font-size: 150px; }
+    body main .imgkonsultation .tekstkonsultation .konsulHL3 {
+      font-size: 100px; }
+    body main .imgkonsultation button {
+      width: 200px;
+      font-size: 20px;
+      left: 12%;
+      bottom: 3%; }
+    body main .konsultationinfo {
+      width: 860px; }
+      body main .konsultationinfo .infotekst {
+        width: 400px;
+        float: left;
+        border-right: 1px solid;
+        padding-right: 4%;
+        margin: 10px 0 10px 10px; }
+      body main .konsultationinfo .knapkonsultation {
+        width: 400px;
+        float: left; }
+        body main .konsultationinfo .knapkonsultation .knapwrap {
+          width: 170px; }
+          body main .konsultationinfo .knapkonsultation .knapwrap button {
+            width: 170px;
+            padding: 5px; }
+    body .videosidese {
+      margin-left: 5%; }
+      body .videosidese .firstvid {
+        float: left;
+        width: 60%;
+        padding-bottom: 3%; }
+      body .videosidese .secondvid, body .videosidese .thirdvid {
+        float: right;
+        width: 20%;
+        margin-right: 10%;
+        margin-top: 3.4%; }
+      body .videosidese h1 {
+        margin-right: 11.5%;
+        width: 20%;
+        float: right;
+        margin-top: 0;
+        font-size: 25px; }
+    body footer {
+      height: 175px;
+      clear: both; }
+      body footer div p {
+        font-size: 15px;
+        margin-top: 40px; }
+      body footer div div p {
+        display: inline-block;
+        font-size: 15px;
+        padding: 5px;
+        margin-right: 18px;
+        margin-bottom: 0;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        list-style-type: none; } }
+
+/*# sourceMappingURL=stylesheet.css.map */

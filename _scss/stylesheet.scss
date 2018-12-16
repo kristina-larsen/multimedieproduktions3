@@ -444,6 +444,7 @@ span {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     list-style-type: none;
+    color: white;
   }
  }
 }
@@ -491,7 +492,7 @@ button {
 .brugfor {
   text-align: center;
   background-color: #2A2A2A;
-  padding: 0% 0% 5% 0%;
+  padding: 5% 0% 5% 0%;
 
   h1 {
     color: white;
@@ -958,14 +959,14 @@ body {
      border-right: none;
 
      button {
-       margin-top: 41.5%;
+       margin-top: 25%;
      }
    }
 
    .second {
 
      button {
-       margin-top: 25%;
+       margin-top: 16.5%;
      }
    }
 
@@ -1007,6 +1008,7 @@ body {
     height: 370px;
     margin-left: 12.7%;
     margin-top: 25px;
+    margin-bottom: 0;
 
     .tekstboks2, .tekstboks1 {
       width: 40%;
@@ -1025,7 +1027,7 @@ body {
 /* Teksten på forsiden. */
 .brugfor {
   margin-bottom: 0%;
-  margin-top: 9%;
+  margin-top: 2.5%;
 
   h1 {
     padding-top: 7%;
