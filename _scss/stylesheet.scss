@@ -163,7 +163,7 @@ span {
           .slide1 {
             float: left;
             list-style-type: none;
-            width: 380px;
+            width: 280px;
             height: auto;
             margin: 0 15px;
 
@@ -274,7 +274,7 @@ span {
               .slide2, .slide3, .slide4, .slide5  {
                 float: left;
                 list-style-type: none;
-                width: 380px;
+                width: 280px;
                 height: auto;
                 margin: 0 15px;
 
@@ -1272,8 +1272,229 @@ main{
   //skiv her
 }//online konsultation slut her
 
+//videobibliotek
+/* Selve slideshowet */
+.mestsete{
+ height: 270px;
+ width: 100%;
+ background-color: white;
+ display: inline-flex;
+ bottom: 0;
+ overflow-wrap: break-word;
+ background-color: #45C2D1;
+
+ .overskriftvideoside{
+   position: absolute;
+   margin: 15px 55px;
+
  }
-}
+
+     /* Pilen til venstre */
+     .control_prev1{
+       margin-top: 110px;
+       text-decoration: none;
+       font-size: 60px;
+       font-family: Roboto;
+       color: black;
+       z-index: 10;
+       margin-left: 1%;
+     }
+
+           /* Pilen til højre */
+           .control_next1{
+           margin-top: 110px;
+           text-decoration: none;
+           font-size: 60px;
+           font-family: Roboto;
+           color: black;
+           z-index: 10;
+           margin-left: 88%;
+           }
+
+               /* Selve slideshowet */
+               #slider1 {
+                 width: 95%;
+                 height: 230px;
+                 overflow: hidden;
+               //  margin: auto;
+                 //margin-top: 4px;
+                 position: absolute;
+                 clip: rect(10px, 1000px);
+                 margin: 40px 2.5% 0 2.5%;;
+                 //overflow-x: visible;
+
+                   /* Styring af billederne i slideshowet */
+                   .slides1 {
+                      display: block;
+                      width: 6560px;
+                      max-height: 300px;
+                      padding: 0%;
+                     }
+
+         /* Billederne i slideshowet */
+         .slide1 {
+           float: left;
+           list-style-type: none;
+           width: 380px;
+           height: auto;
+           margin: 0 15px;
+
+/* Skriften over billederne */
+.text6 {
+ background-color: rgba(255,255,255, 0.7);
+ width: 135px;
+ height: 70px;
+ padding-top: 20px;
+ padding-left: 20px;
+ padding-right: 10px;
+ font-size: 20px;
+ font-family: 'Quattrocento Sans', sans-serif;
+ position: absolute;
+ margin-top: -178px;
+ color: #293952;
+ }
+
+     /* Selve billederne */
+     img {
+
+     }
+    }
+
+         /* Billederne til venstre i slideshowet */
+         .left1 {
+           margin-left: -415px;
+         }
+
+               .left2 {
+                 margin-left: -830px;
+               }
+
+                 .left3{
+                   margin-left: -1245px;
+                 }
+
+           .left4 {
+             margin-left: -1660px;
+           }
+
+       .left5 {
+         margin-left: -2075px;
+       }
+     }
+   }
+
+   .fællesslider{
+     height: 270px;
+     width: 100%;
+     background-color: white;
+     display: inline-flex;
+     bottom: 0;
+     overflow-wrap: break-word;
+     //background-color: #45C2D1;
+
+     .overskriftvideoside{
+       position: absolute;
+       margin: 15px 55px;
+
+     }
+
+         /* Pilen til venstre */
+         .control_prev2, .control_prev3, .control_prev4, .control_prev5{
+           margin-top: 110px;
+           text-decoration: none;
+           font-size: 60px;
+           font-family: Roboto;
+           color: black;
+           z-index: 10;
+           margin-left: 1%;
+         }
+
+               /* Pilen til højre */
+               .control_next2, .control_next3, .control_next4, .control_next5{
+               margin-top: 110px;
+               text-decoration: none;
+               font-size: 60px;
+               font-family: Roboto;
+               color: black;
+               z-index: 10;
+               margin-left: 88%;
+               }
+
+                   /* Selve slideshowet */
+                   #slider2, #slider3, #slider4, #slider5 {
+                     width: 95%;
+                     height: 230px;
+                     overflow: hidden;
+                   //  margin: auto;
+                     //margin-top: 4px;
+                     position: absolute;
+                     clip: rect(10px, 1000px);
+                     margin: 40px 2.5% 0 2.5%;;
+                     //overflow-x: visible;
+
+                       /* Styring af billederne i slideshowet */
+                       .slides2, .slides3, .slides4, .slides5 {
+                          display: block;
+                          width: 6560px;
+                          max-height: 300px;
+                          padding: 0%;
+                         }
+
+             /* Billederne i slideshowet */
+             .slide2, .slide3, .slide4, .slide5  {
+               float: left;
+               list-style-type: none;
+               width: 380px;
+               height: auto;
+               margin: 0 15px;
+
+   /* Skriften over billederne */
+   .text6 {
+     background-color: rgba(255,255,255, 0.7);
+     width: 135px;
+     height: 70px;
+     padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 10px;
+     font-size: 20px;
+     font-family: 'Quattrocento Sans', sans-serif;
+     position: absolute;
+     margin-top: -178px;
+     color: #293952;
+     }
+
+         /* Selve billederne */
+         img {
+
+         }
+        }
+
+             /* Billederne til venstre i slideshowet */
+             .left1 {
+               margin-left: -415px;
+             }
+
+                   .left2 {
+                     margin-left: -830px;
+                   }
+
+                     .left3{
+                       margin-left: -1245px;
+                     }
+
+               .left4 {
+                 margin-left: -1660px;
+               }
+
+           .left5 {
+             margin-left: -2075px;
+           }
+         }
+       }
+
+
+ }//body slut
+}//media screen 766 width slut
 
 @media screen and (min-width: 992px){ /* Desktop-version */
 

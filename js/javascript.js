@@ -10,10 +10,18 @@ function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
 
 $( document ).ready(function() {
 
-  var width = 410;  // Størrelsen på billederne, i pixels
+  var width = 380;  // Størrelsen på billederne, i pixels
   var animationSpeed = 500;  // Hastigheden de rykker sig ved, i milisekunder
   var currentSlide = 1;
 
+
+//Her bestemmes den width som der den flytter på slides når pilen klikkes, den siger at hvis sidens width er mindre end 765, vil slide rykke 280 px og større end 765 med 380 px
+  if($(window).width() < 765)
+{
+   width = 280;
+} else {
+   width = 380;
+}
 
 //Slide videoer række 1
   var $slider1 = $('#slider1');

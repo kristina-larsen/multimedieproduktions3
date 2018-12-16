@@ -15,8 +15,9 @@ images = {
 Object.keys(images).forEach(function(path) {
     $('#hold_images').append("<img class='my_img' width=200 height=400 src=" + images[path] + ">");
 });
+var right = $('#icon_right');
 
-$('body').append("<i id='icon_right'></i>");
+$('body').append("right");
 $('body').append("<i id='icon_left'></i>");
 // add_icon('#icon_right', 'chevron-right-solid.svg', '40px', 'white');
 // add_icon('#icon_left', 'ui-icon-caret-1-e', '40px', 'white');
