@@ -2,15 +2,18 @@
 body {
   margin: 0;
   padding: 0;
+  /* Videobibliotek mobil-version. */
   /* Selve slideshowet */
-  /* Forside mobil. */
+  /* Forside mobil-version. */
   /* Billedet øverst med tekst ovenpå. */
   /* De øverste bokse. */
   /* Billedet af Klaus og teksten. */
   /* Tekstbokse. */
+  /* Teksten på forsiden. */
   /* Videobiblioteket på forsiden. */
   /* Om Juviva mobil. */
   /* Billedet af Klaus og teksten. */
+  /* Se video mobilversion. */
 }
 body header {
   background-color: white;
@@ -19,6 +22,7 @@ body header {
   height: 40px;
   clear: both;
   height: auto;
+  /* Burgermenu. */
 }
 body header div a img {
   width: 70px;
@@ -662,6 +666,17 @@ body main .konsultationinfo .knapkonsultation .knapwrap button {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+body .firstvid, body .secondvid, body .thirdvid {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+body .thirdvid {
+  padding-bottom: 3%;
+}
+body h1 {
+  color: black;
+}
 body footer {
   background-color: #2A2A2A;
   height: 125px;
@@ -689,6 +704,7 @@ body footer div div p {
   display: inline-block;
   font-size: 11px;
   padding: 5px;
+  margin-right: 18px;
   margin-bottom: 0;
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -702,6 +718,7 @@ body footer div div p {
     /* De øverste bokse. */
     /* Billedet af Klaus og teksten. */
     /* Tekstbokse. */
+    /* Teksten på forsiden. */
     /* Videobiblioteket på forsiden. */
     /* Om Juviva ipad-version. */
     /* Billedet af Klaus og teksten. */
@@ -774,6 +791,9 @@ body footer div div p {
     border-right: 1px black;
     border-right-style: inset;
   }
+  body .trebokse .second h1, body .trebokse .third h1, body .trebokse .first h1 {
+    margin-top: 0;
+  }
   body .trebokse .third {
     border-right: none;
   }
@@ -782,9 +802,6 @@ body footer div div p {
   }
   body .trebokse .second button {
     margin-top: 25%;
-  }
-  body .trebokse h1 {
-    margin: 0;
   }
   body .trebokse hr {
     display: none;
@@ -1177,9 +1194,12 @@ body footer div div p {
     /* De øverste bokse. */
     /* Billedet af Klaus og teksten. */
     /* Tekstbokse. */
+    /* Teksten på forsiden. */
     /* Videobiblioteket på forsiden. */
     /* Om Juviva ipad-version. */
     /* Billedet af Klaus og teksten. */
+    /* Collagen. */
+    /* Se mere desktop. */
   }
   body header {
     width: 100%;
@@ -1246,7 +1266,7 @@ body footer div div p {
     font-size: 20px;
   }
   body .trebokse {
-    height: 370px;
+    height: 400px;
     width: 100%;
   }
   body .trebokse .second, body .trebokse .third, body .trebokse .first {
@@ -1256,6 +1276,7 @@ body footer div div p {
   }
   body .trebokse .second h1, body .trebokse .third h1, body .trebokse .first h1 {
     font-size: 25px;
+    margin-top: 0;
   }
   body .trebokse .first button {
     margin-top: 50px;
@@ -1275,13 +1296,14 @@ body footer div div p {
     padding: 250px 90px 0px 90px;
   }
   body .tekstbokse {
-    height: 410px;
+    height: 460px;
     width: 675px;
     margin: auto;
   }
   body .tekstbokse .tekstboks2, body .tekstbokse .tekstboks1 {
     width: 290px;
     margin-top: 4%;
+    padding-bottom: 6%;
   }
   body .tekstbokse .tekstboks2 h1, body .tekstbokse .tekstboks1 h1 {
     font-size: 25px;
@@ -1298,6 +1320,12 @@ body footer div div p {
   }
   body .brugfor h1 {
     font-size: 30px;
+  }
+  body .brugfor p {
+    font-size: 18px;
+  }
+  body .brugfor button {
+    font-size: 20px;
   }
   body .videobibliotekforside {
     padding-left: 12px;
@@ -1338,6 +1366,7 @@ body footer div div p {
     color: white;
     text-align: center;
     padding-bottom: 5%;
+    font-size: 18px;
     list-style-type: none;
   }
   body .brugerwrap {
@@ -1429,5 +1458,44 @@ body footer div div p {
   body main .konsultationinfo .knapkonsultation .knapwrap button {
     width: 170px;
     padding: 5px;
+  }
+  body .videosidese {
+    margin-left: 5%;
+  }
+  body .videosidese .firstvid {
+    float: left;
+    width: 60%;
+    padding-bottom: 3%;
+  }
+  body .videosidese .secondvid, body .videosidese .thirdvid {
+    float: right;
+    width: 20%;
+    margin-right: 10%;
+    margin-top: 3.4%;
+  }
+  body .videosidese h1 {
+    margin-right: 11.5%;
+    width: 20%;
+    float: right;
+    margin-top: 0;
+    font-size: 25px;
+  }
+  body footer {
+    height: 175px;
+    clear: both;
+  }
+  body footer div p {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  body footer div div p {
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px;
+    margin-right: 18px;
+    margin-bottom: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
   }
 }
