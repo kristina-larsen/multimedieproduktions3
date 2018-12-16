@@ -193,7 +193,8 @@ body .fællesslider {
 }
 body .fællesslider .overskriftvideoside {
   position: absolute;
-  margin: 15px 55px;
+  margin: 15px 25px;
+  color: #31607F;
 }
 body .fællesslider .control_prev2, body .fællesslider .control_prev3, body .fællesslider .control_prev4, body .fællesslider .control_prev5 {
   margin-top: 110px;
@@ -1071,7 +1072,7 @@ body footer div div p {
     list-style-type: none;
     width: 380px;
     height: auto;
-    margin: 0 15px;
+    margin: 8px 15px;
     /* Skriften over billederne */
     /* Selve billederne */
   }
@@ -1116,7 +1117,7 @@ body footer div div p {
   }
   body .fællesslider .overskriftvideoside {
     position: absolute;
-    margin: 15px 55px;
+    margin: 15px 4%;
   }
   body .fællesslider .control_prev2, body .fællesslider .control_prev3, body .fællesslider .control_prev4, body .fællesslider .control_prev5 {
     margin-top: 110px;
@@ -1158,7 +1159,7 @@ body footer div div p {
     list-style-type: none;
     width: 380px;
     height: auto;
-    margin: 0 15px;
+    margin: 8px 15px;
     /* Skriften over billederne */
     /* Selve billederne */
   }

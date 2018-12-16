@@ -71,7 +71,7 @@ $( document ).ready(function() {
         currentSlide--;
           if (currentSlide === -4) {
             currentSlide = 1;
-            $slideContainer2.css('margin-left', -1230);
+            $slideContainer2.css('margin-left', 0);
           }
         });
       });
@@ -96,7 +96,7 @@ $( document ).ready(function() {
           currentSlide--;
             if (currentSlide === -4) {
               currentSlide = 1;
-              $slideContainer3.css('margin-left', -1230);
+              $slideContainer3.css('margin-left', 0);
             }
           });
         });
@@ -121,7 +121,7 @@ $( document ).ready(function() {
             currentSlide--;
               if (currentSlide === -4) {
                 currentSlide = 1;
-                $slideContainer4.css('margin-left', -1230);
+                $slideContainer4.css('margin-left', 0);
               }
             });
           });
@@ -147,7 +147,7 @@ $( document ).ready(function() {
               currentSlide--;
                 if (currentSlide === -4) {
                   currentSlide = 1;
-                  $slideContainer5.css('margin-left', -1230);
+                  $slideContainer5.css('margin-left', 0);
                 }
               });
             });
