@@ -2,12 +2,14 @@
 body {
   margin: 0;
   padding: 0;
+  /* Videobibliotek mobil-version. */
   /* Selve slideshowet */
-  /* Forside mobil. */
+  /* Forside mobil-version. */
   /* Billedet øverst med tekst ovenpå. */
   /* De øverste bokse. */
   /* Billedet af Klaus og teksten. */
   /* Tekstbokse. */
+  /* Teksten på forsiden. */
   /* Videobiblioteket på forsiden. */
   /* Om Juviva mobil. */
   /* Billedet af Klaus og teksten. */
@@ -18,7 +20,8 @@ body {
     width: 100%;
     height: 40px;
     clear: both;
-    height: auto; }
+    height: auto;
+    /* Burgermenu. */ }
     body header div a img {
       width: 70px;
       height: auto;
@@ -601,6 +604,7 @@ body {
     /* De øverste bokse. */
     /* Billedet af Klaus og teksten. */
     /* Tekstbokse. */
+    /* Teksten på forsiden. */
     /* Videobiblioteket på forsiden. */
     /* Om Juviva ipad-version. */
     /* Billedet af Klaus og teksten. */
@@ -990,9 +994,11 @@ body {
     /* De øverste bokse. */
     /* Billedet af Klaus og teksten. */
     /* Tekstbokse. */
+    /* Teksten på forsiden. */
     /* Videobiblioteket på forsiden. */
     /* Om Juviva ipad-version. */
     /* Billedet af Klaus og teksten. */
+    /* Collagen. */
     /* Se mere desktop. */ }
     body header {
       width: 100%; }
