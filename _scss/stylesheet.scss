@@ -840,6 +840,22 @@ footer {
     }
    }
  }
+
+ /* Se video mobilversion. */
+
+ .firstvid, .secondvid, .thirdvid {
+   width: 90%;
+   margin-left: 5%;
+   margin-top: 2%;
+ }
+
+ .thirdvid {
+   padding-bottom: 3%;
+ }
+
+   h1 {
+     color: black;
+   }
 }
 
 @media screen and (min-width: 766px){ /* Tablet-version */
@@ -1907,6 +1923,32 @@ nav {
 
   }//online konsultation slut her
 
+/* Se mere desktop. */
+
+.videosidese {
+margin-left: 5%;
+
+.firstvid {
+  float: left;
+  width: 60%;
+  padding-bottom: 3%;
+}
+
+.secondvid, .thirdvid {
+  float: right;
+  width: 20%;
+  margin-right: 10%;
+  margin-top: 3.4%;
+}
+
+h1 {
+  margin-right: 11.5%;
+  width: 20%;
+  float: right;
+  margin-top: 0;
+  font-size: 25px;
+}
+}
 
 }//body slut
 }
