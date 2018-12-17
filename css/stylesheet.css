@@ -907,6 +907,9 @@ body footer div div p {
     width: 40%;
     float: left;
   }
+  body .brugerwrap .login .knapkontrol, body .brugerwrap .opretbruger .knapkontrol {
+    text-align: center;
+  }
   body .brugerwrap .login {
     padding-right: 6%;
     border-right: 1px solid;
