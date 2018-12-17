@@ -295,6 +295,7 @@ body .forsidetekstogbillede .forsidebillede {
 body .forsidetekstogbillede .help {
   position: absolute;
   text-align: left;
+  margin-top: 6%;
 }
 body .forsidetekstogbillede .help h1 {
   font-size: 50px;
@@ -328,7 +329,7 @@ body .forsidetekstogbillede button {
   padding: 6px 30px;
   border-radius: 50px;
   position: absolute;
-  top: 165px;
+  top: 160px;
   left: 100px;
   color: white;
   margin-left: -90px;
@@ -386,10 +387,10 @@ body .klausogtekst .boksomklaus {
 }
 body .klausogtekst .boksomklaus p {
   margin: 0;
-  padding: 6% 13%;
+  padding: 9% 13%;
   font-style: italic;
   font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   list-style-type: none;
   color: white;
 }
@@ -429,7 +430,7 @@ body .tekstbokse button {
 body .brugfor {
   text-align: center;
   background-color: #2A2A2A;
-  padding: 0% 0% 5% 0%;
+  padding: 4% 0% 5% 0%;
 }
 body .brugfor h1 {
   color: white;
@@ -483,7 +484,7 @@ body .videobibliotekforside div a h2 {
   position: absolute;
   margin-top: -145px;
   margin-left: 19px;
-  padding: 25px 40px;
+  padding: 25px 27px;
   font-family: 'Montserrat', sans-serif;
   list-style-type: none;
 }
@@ -554,7 +555,7 @@ body .brugerwrap {
 }
 body .brugerwrap .login, body .brugerwrap .opretbruger {
   width: 100%;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   margin: 10px;
 }
 body .brugerwrap .login label, body .brugerwrap .opretbruger label {
@@ -616,31 +617,33 @@ body main .imgkonsultation img {
 }
 body main .imgkonsultation .tekstkonsultation {
   position: absolute;
-  top: 5%;
+  top: 8%;
   left: 5%;
   text-align: left;
   width: 30%;
+  font-family: 'Raleway', sans-serif;
 }
 body main .imgkonsultation .tekstkonsultation .konsulHL1 {
   font-size: 250%;
   padding: 0;
   margin: 5px;
   text-align: left;
-  color: black;
+  color: #45C2D1;
   font-weight: bold;
+  font-family: 'Raleway', sans-serif;
 }
 body main .imgkonsultation .tekstkonsultation .konsulHL2 {
   text-align: left;
-  color: black;
-  font-size: 250%;
+  color: #45C2D1;
+  font-size: 200%;
   padding: 0;
   margin: 5px;
   text-decoration: underline;
 }
 body main .imgkonsultation .tekstkonsultation .konsulHL3 {
   text-align: left;
-  color: black;
-  font-size: 250%;
+  color: #45C2D1;
+  font-size: 150%;
   padding: 0;
   margin: 5px;
 }
@@ -651,17 +654,21 @@ body main .imgkonsultation button {
   border-radius: 50px;
   padding: 4px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   position: absolute;
   bottom: 5%;
   left: 5%;
+  color: white;
 }
 body main .konsultationinfo .infotekst h2 {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 body main .konsultationinfo .infotekst .konsultationtekst {
   color: black;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 body main .konsultationinfo .knapkonsultation {
   margin: auto;
@@ -868,7 +875,7 @@ body footer div div p {
     margin-top: 2.5%;
   }
   body .brugfor h1 {
-    padding-top: 7%;
+    padding-top: 0;
   }
   body .brugfor button {
     margin-top: 3%;
@@ -888,7 +895,7 @@ body footer div div p {
     position: relative;
   }
   body .videobibliotekforside div a h2 {
-    margin-top: -90px;
+    margin-top: -11%;
     margin-left: 0px;
     font-size: 13px;
     padding: 17px 7px;
@@ -984,24 +991,24 @@ body footer div div p {
     padding-bottom: 0;
   }
   body main .imgkonsultation .tekstkonsultation .konsulHL1 {
-    font-size: 110px;
+    font-size: 90px;
     padding: 0;
     margin: 5px;
   }
   body main .imgkonsultation .tekstkonsultation .konsulHL2 {
-    font-size: 95px;
+    font-size: 85px;
     padding: 0;
     margin: 5px;
   }
   body main .imgkonsultation .tekstkonsultation .konsulHL3 {
-    font-size: 80px;
+    font-size: 60px;
     padding: 0;
     margin: 5px;
   }
   body main .imgkonsultation button {
     width: 150px;
     font-size: 20px;
-    left: 12%;
+    left: 6%;
     bottom: 3%;
   }
   body main .konsultationinfo {
@@ -1267,23 +1274,23 @@ body footer div div p {
     margin-top: 0.3%;
   }
   body .forsidetekstogbillede .help h1 {
-    font-size: 220px;
+    font-size: 140px;
     margin-top: 4%;
     margin-left: 10%;
   }
   body .forsidetekstogbillede .help h2 {
-    font-size: 180px;
-    margin-top: 2px;
+    font-size: 110px;
+    margin-top: 1px;
     margin-left: 10%;
   }
   body .forsidetekstogbillede .help h3 {
-    font-size: 70px;
+    font-size: 45px;
     margin-top: 2px;
     margin-left: 10%;
   }
   body .forsidetekstogbillede button {
-    top: 610px;
-    margin-left: -45px;
+    top: 455px;
+    margin-left: -65px;
     font-size: 20px;
   }
   body .trebokse {
@@ -1291,7 +1298,7 @@ body footer div div p {
     width: 100%;
   }
   body .trebokse .second, body .trebokse .third, body .trebokse .first {
-    width: 30%;
+    width: 29.9%;
     margin-top: 0%;
     margin: 1.64%;
   }
@@ -1300,24 +1307,24 @@ body footer div div p {
     margin-top: 0;
   }
   body .trebokse .first button {
-    margin-top: 50px;
+    margin-top: 58px;
     font-size: 20px;
   }
   body .trebokse .second button {
-    margin-top: 73px;
+    margin-top: 100px;
     font-size: 20px;
   }
   body .trebokse .third button {
-    margin-top: 92px;
+    margin-top: 121px;
     font-size: 20px;
   }
   body .klausogtekst .boksomklaus p {
     color: white;
     font-size: 20px;
-    padding: 250px 90px 0px 90px;
+    padding: 100px 90px 0px 90px;
   }
   body .tekstbokse {
-    height: 480px;
+    height: 460px;
     width: 675px;
     margin: auto;
   }
@@ -1342,6 +1349,7 @@ body footer div div p {
   }
   body .brugfor h1 {
     font-size: 30px;
+    padding-top: 5%;
   }
   body .brugfor p {
     font-size: 18px;
@@ -1363,9 +1371,9 @@ body footer div div p {
     margin-top: 3%;
   }
   body .videobibliotekforside div a h2 {
-    margin-top: -90px;
-    margin-left: 0px;
-    font-size: 13px;
+    margin-top: -10%;
+    margin-left: 2px;
+    font-size: 16px;
     padding: 17px 7px;
   }
   body .videobibliotekforside p {
@@ -1378,7 +1386,6 @@ body footer div div p {
   }
   body .brugerwrap {
     width: 790px;
-    height: 600px;
     margin: auto;
   }
   body .brugerwrap .login, body .brugerwrap .opretbruger {
@@ -1399,8 +1406,8 @@ body footer div div p {
     height: 40%;
   }
   body .omosklaus .tekstbokstopom h1 {
-    padding-top: 145px;
-    margin-left: 6.5%;
+    padding-top: 70px;
+    margin-left: 14%;
   }
   body .omosklaus .tekstbokstopom p {
     color: black;
@@ -1408,7 +1415,7 @@ body footer div div p {
   }
   body .collagemain .tekstboksomjuviva {
     width: 100%;
-    height: 506px;
+    height: 371px;
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
     margin-top: 0;
@@ -1419,7 +1426,7 @@ body footer div div p {
     width: 40%;
     height: 300px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 37px;
   }
   body .collagemain .tekstboksomjuviva div h1 {
     color: white;
@@ -1432,18 +1439,18 @@ body footer div div p {
     font-size: 17px;
   }
   body main .imgkonsultation .tekstkonsultation .konsulHL1 {
-    font-size: 200px;
+    font-size: 140px;
   }
   body main .imgkonsultation .tekstkonsultation .konsulHL2 {
-    font-size: 150px;
+    font-size: 110px;
   }
   body main .imgkonsultation .tekstkonsultation .konsulHL3 {
-    font-size: 100px;
+    font-size: 70px;
   }
   body main .imgkonsultation button {
     width: 200px;
     font-size: 20px;
-    left: 12%;
+    left: 5.5%;
     bottom: 3%;
   }
   body main .konsultationinfo {
@@ -1523,12 +1530,12 @@ body footer div div p {
     margin-top: 0.3%;
   }
   body .forsidetekstogbillede .help h1 {
-    font-size: 220px;
+    font-size: 180px;
     margin-top: 4%;
     margin-left: 10%;
   }
   body .forsidetekstogbillede .help h2 {
-    font-size: 180px;
+    font-size: 160px;
     margin-top: 2px;
     margin-left: 10%;
   }
@@ -1538,7 +1545,7 @@ body footer div div p {
     margin-left: 10%;
   }
   body .forsidetekstogbillede button {
-    top: 610px;
+    top: 615px;
     margin-left: -45px;
     font-size: 20px;
   }
@@ -1619,10 +1626,10 @@ body footer div div p {
     margin-top: 3%;
   }
   body .videobibliotekforside div a h2 {
-    margin-top: -90px;
-    margin-left: 0px;
-    font-size: 13px;
-    padding: 17px 7px;
+    margin-top: -130px;
+    margin-left: 2px;
+    font-size: 18px;
+    padding: 17px 13px;
   }
   body .videobibliotekforside p {
     margin: 0;
