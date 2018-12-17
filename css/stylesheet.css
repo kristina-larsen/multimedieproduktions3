@@ -808,21 +808,21 @@ body {
             padding: 0 4%;
             padding-bottom: 0; }
     body main .imgkonsultation .tekstkonsultation .konsulHL1 {
-      font-size: 110px;
+      font-size: 90px;
       padding: 0;
       margin: 5px; }
     body main .imgkonsultation .tekstkonsultation .konsulHL2 {
-      font-size: 95px;
+      font-size: 85px;
       padding: 0;
       margin: 5px; }
     body main .imgkonsultation .tekstkonsultation .konsulHL3 {
-      font-size: 80px;
+      font-size: 60px;
       padding: 0;
       margin: 5px; }
     body main .imgkonsultation button {
       width: 150px;
       font-size: 20px;
-      left: 12%;
+      left: 6%;
       bottom: 3%; }
     body main .konsultationinfo {
       width: 85%;
@@ -1126,7 +1126,6 @@ body {
         list-style-type: none; }
     body .brugerwrap {
       width: 790px;
-      height: 600px;
       margin: auto; }
       body .brugerwrap .login, body .brugerwrap .opretbruger {
         width: 330px;
@@ -1169,15 +1168,15 @@ body {
           padding-bottom: 0;
           font-size: 17px; }
     body main .imgkonsultation .tekstkonsultation .konsulHL1 {
-      font-size: 200px; }
+      font-size: 140px; }
     body main .imgkonsultation .tekstkonsultation .konsulHL2 {
-      font-size: 150px; }
+      font-size: 110px; }
     body main .imgkonsultation .tekstkonsultation .konsulHL3 {
-      font-size: 100px; }
+      font-size: 70px; }
     body main .imgkonsultation button {
       width: 200px;
       font-size: 20px;
-      left: 12%;
+      left: 5.5%;
       bottom: 3%; }
     body main .konsultationinfo {
       width: 860px; }

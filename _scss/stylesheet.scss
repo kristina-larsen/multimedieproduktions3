@@ -1212,19 +1212,19 @@ main{
     .tekstkonsultation{
 
       .konsulHL1{
-        font-size: 110px;
+        font-size: 90px;
         padding: 0;
         margin: 5px;
       }
 
       .konsulHL2{
-        font-size: 95px;
+        font-size: 85px;
         padding: 0;
         margin: 5px;
       }
 
       .konsulHL3{
-        font-size: 80px;
+        font-size: 60px;
         padding: 0;
         margin: 5px;
       }
@@ -1233,7 +1233,7 @@ main{
     button{
     width: 150px;
     font-size: 20px;
-    left: 12%;
+    left: 6%;
     bottom: 3%;
    }
   }
@@ -1737,7 +1737,6 @@ div {
  //login side
  .brugerwrap{
    width: 790px;
-   height: 600px;
    margin: auto;
 
    .login, .opretbruger{
@@ -1837,23 +1836,23 @@ div {
       .tekstkonsultation{
 
         .konsulHL1{
-          font-size: 200px;
+          font-size: 140px;
           ;
         }
 
         .konsulHL2{
-          font-size: 150px;
+          font-size: 110px;
 
         }
         .konsulHL3{
-          font-size: 100px;
+          font-size: 70px;
         }
       }
 
       button{
       width: 200px;
       font-size: 20px;
-      left: 12%;
+      left: 5.5%;
       bottom: 3%;
       }
     }
