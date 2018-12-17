@@ -331,6 +331,7 @@ span {
       .help {
         position: absolute;
         text-align: left;
+        margin-top: 6%;
 
             h1 {
               font-size: 50px;
@@ -368,7 +369,7 @@ span {
     padding: 6px 30px;
     border-radius: 50px;
     position: absolute;
-    top: 165px;
+    top: 160px;
     left: 100px;
     color: white;
     margin-left: -90px;
@@ -440,10 +441,10 @@ span {
 
   p {
     margin: 0;
-    padding: 6% 13%;
+    padding: 9% 13%;
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     list-style-type: none;
     color: white;
   }
@@ -493,7 +494,7 @@ button {
 .brugfor {
   text-align: center;
   background-color: #2A2A2A;
-  padding: 0% 0% 5% 0%;
+  padding: 4% 0% 5% 0%;
 
   h1 {
     color: white;
@@ -559,7 +560,7 @@ a {
       position: absolute;
       margin-top: -145px;
       margin-left: 19px;
-      padding: 25px 40px;
+      padding: 25px 27px;
       font-family: 'Montserrat', sans-serif;
       list-style-type: none;
     }
@@ -1559,27 +1560,27 @@ nav {
  .help {
 
    h1 {
-     font-size: 220px;
+     font-size: 170px;
      margin-top: 4%;
      margin-left: 10%;
    }
 
    h2 {
-     font-size: 180px;
+     font-size: 130px;
      margin-top: 2px;
      margin-left: 10%;
    }
 
    h3 {
-     font-size: 70px;
+     font-size: 60px;
      margin-top: 2px;
      margin-left: 10%;
    }
   }
 
   button {
-    top: 610px;
-    margin-left: -45px;
+    top: 455px;
+    margin-left: -65px;
     font-size: 20px;
   }
  }
@@ -1590,7 +1591,7 @@ nav {
    width: 100%;
 
    .second, .third, .first {
-     width: 30%;
+     width: 29.9%;
      margin-top: 0%;
      margin: 1.64%;
 
@@ -1603,7 +1604,7 @@ nav {
    .first {
 
       button {
-        margin-top: 50px;
+        margin-top: 58px;
         font-size: 20px;
       }
     }
@@ -1611,7 +1612,7 @@ nav {
     .second {
 
       button {
-        margin-top: 73px;
+        margin-top: 100px;
         font-size: 20px;
       }
     }
@@ -1619,7 +1620,7 @@ nav {
     .third {
 
       button {
-        margin-top: 92px;
+        margin-top: 121px;
         font-size: 20px;
       }
     }
@@ -1633,14 +1634,14 @@ nav {
      p {
        color: white;
        font-size: 20px;
-       padding: 250px 90px 0px 90px;
+       padding: 100px 90px 0px 90px;
      }
    }
  }
 
    /* Tekstbokse. */
    .tekstbokse {
-     height: 480px;
+     height: 460px;
      width: 675px;
      margin: auto;
 
@@ -1704,9 +1705,9 @@ div {
    }
 
    h2 {
-    margin-top: -90px;
-    margin-left: 0px;
-    font-size: 13px;
+    margin-top: -10%;
+    margin-left: 2px;
+    font-size: 16px;
     padding: 17px 7px;
    }
  }
