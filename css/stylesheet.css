@@ -1677,13 +1677,19 @@ body footer div div p {
     font-size: 17px;
   }
   body main .imgkonsultation .tekstkonsultation .konsulHL1 {
-    font-size: 140px;
+    font-size: 180px;
+    margin-top: 4%;
+    margin-left: 10%;
   }
   body main .imgkonsultation .tekstkonsultation .konsulHL2 {
-    font-size: 110px;
+    font-size: 160px;
+    margin-top: 2px;
+    margin-left: 10%;
   }
   body main .imgkonsultation .tekstkonsultation .konsulHL3 {
     font-size: 70px;
+    margin-top: 2px;
+    margin-left: 10%;
   }
   body main .imgkonsultation button {
     width: 200px;
