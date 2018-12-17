@@ -1676,4 +1676,40 @@ body footer div div p {
     padding-bottom: 0;
     font-size: 17px;
   }
+  body main .imgkonsultation .tekstkonsultation .konsulHL1 {
+    font-size: 140px;
+  }
+  body main .imgkonsultation .tekstkonsultation .konsulHL2 {
+    font-size: 110px;
+  }
+  body main .imgkonsultation .tekstkonsultation .konsulHL3 {
+    font-size: 70px;
+  }
+  body main .imgkonsultation button {
+    width: 200px;
+    font-size: 20px;
+    left: 5.5%;
+    bottom: 3%;
+  }
+  body main .konsultationinfo {
+    width: 860px;
+  }
+  body main .konsultationinfo .infotekst {
+    width: 400px;
+    float: left;
+    border-right: 1px solid;
+    padding-right: 4%;
+    margin: 10px 0 10px 10px;
+  }
+  body main .konsultationinfo .knapkonsultation {
+    width: 400px;
+    float: left;
+  }
+  body main .konsultationinfo .knapkonsultation .knapwrap {
+    width: 170px;
+  }
+  body main .konsultationinfo .knapkonsultation .knapwrap button {
+    width: 170px;
+    padding: 5px;
+  }
 }

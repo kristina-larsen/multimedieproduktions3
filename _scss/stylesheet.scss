@@ -2180,5 +2180,70 @@ footer {
        }
      }// Om Juviva 1350px slut
 
+     //online konsultation side
+     main{
+
+       .imgkonsultation{
+
+         img{
+         }
+
+         .tekstkonsultation{
+
+           .konsulHL1{
+             font-size: 140px;
+             ;
+           }
+
+           .konsulHL2{
+             font-size: 110px;
+
+           }
+           .konsulHL3{
+             font-size: 70px;
+           }
+         }
+
+         button{
+         width: 200px;
+         font-size: 20px;
+         left: 5.5%;
+         bottom: 3%;
+         }
+       }
+
+       .konsultationinfo{
+         width: 860px;
+
+         .infotekst{
+           width: 400px;
+           float: left;
+           border-right: 1px solid;
+           padding-right: 4%;
+           margin: 10px 0 10px 10px;
+
+           h2{
+           }
+
+           .konsultationtekst{
+           }
+         }
+
+         .knapkonsultation{
+           width: 400px;
+           float: left;
+
+           .knapwrap{
+             width: 170px;
+
+           button{
+             width: 170px;
+             padding: 5px;
+            }
+           }
+         }
+       }
+     }//online konsultation slut her
+
     }//body slut
   } //media screen 1350 px slut
