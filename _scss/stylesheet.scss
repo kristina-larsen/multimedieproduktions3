@@ -37,7 +37,7 @@ div {
 
 /* Burgermenu. */
 .navi {
-  height: 68%;
+  height: 55%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -793,6 +793,7 @@ main{
 
       .knapwrap{
 
+
       button{
         width: 100%;
         background-color: #45c2d1;
@@ -1103,8 +1104,12 @@ body {
 
       input{
       }
+      .knapkontrol{
+        text-align: center;
 
-      button{
+        button{
+
+        }
       }
     }
 

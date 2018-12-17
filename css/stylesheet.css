@@ -34,7 +34,7 @@ body {
         text-decoration: none;
         color: #293952; }
     body header .navi {
-      height: 68%;
+      height: 55%;
       width: 0;
       position: fixed;
       z-index: 1;
@@ -746,6 +746,8 @@ body {
       body .brugerwrap .login, body .brugerwrap .opretbruger {
         width: 40%;
         float: left; }
+        body .brugerwrap .login .knapkontrol, body .brugerwrap .opretbruger .knapkontrol {
+          text-align: center; }
       body .brugerwrap .login {
         padding-right: 6%;
         border-right: 1px solid;
