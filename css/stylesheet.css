@@ -34,7 +34,7 @@ body {
         text-decoration: none;
         color: #293952; }
     body header .navi {
-      height: 55%;
+      height: 70%;
       width: 0;
       position: fixed;
       z-index: 1;
@@ -49,7 +49,7 @@ body {
         top: 2%;
         text-align: left; }
         body header .navi .overlayer a {
-          padding: 8px;
+          padding: 14px;
           margin-left: 7%;
           margin-top: 15%;
           text-decoration: none;
@@ -631,10 +631,12 @@ body {
         width: 100px;
         height: auto;
         margin: 4% 0% 2% 4%; }
-      body header .navi .overlayer a {
-        font-size: 28px; }
-      body header .navi .closebut {
-        font-size: 60px; }
+      body header .navi {
+        height: 97%; }
+        body header .navi .overlayer a {
+          font-size: 28px; }
+        body header .navi .closebut {
+          font-size: 60px; }
       body header span {
         display: block;
         font-size: 34px;

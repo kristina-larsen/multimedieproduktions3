@@ -37,7 +37,7 @@ div {
 
 /* Burgermenu. */
 .navi {
-  height: 55%;
+  height: 70%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -54,7 +54,7 @@ div {
       text-align: left;
 
          a {
-          padding: 8px;
+          padding: 14px;
           margin-left: 7%;
           margin-top: 15%;
           text-decoration: none;
@@ -893,6 +893,7 @@ body {
    }
 
    .navi {
+     height: 97%;
 
        .overlayer {
 
