@@ -29,7 +29,9 @@ $( document ).ready(function() {
   var $slides1 = $slideContainer1.find('.slide1');
   // Styre hvad der sker nå der trykkes på pilen til højre
   $('.control_next1').click(function () {
-    $slideContainer1.animate({'margin-left': '-='+width}, animationSpeed, function () {
+    $slideContainer1.animate({'margin-left': '-='+width},
+//margin-left = margin-left - width
+     animationSpeed, function () {
       currentSlide++;
         if (currentSlide === 6) {
           currentSlide = 1;
