@@ -552,7 +552,8 @@ body {
       margin-bottom: 10px;
       position: absolute;
       bottom: 5%;
-      left: 5%; }
+      left: 5%;
+      color: white; }
   body main .konsultationinfo .infotekst h2 {
     text-align: center;
     font-family: 'Raleway', sans-serif; }
