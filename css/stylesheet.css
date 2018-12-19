@@ -1203,7 +1203,7 @@ body .footervideo {
   }
   body .faellesslider #slider2 .slide2 .text6, body .faellesslider #slider2 .slide3 .text6, body .faellesslider #slider2 .slide4 .text6, body .faellesslider #slider2 .slide5 .text6, body .faellesslider #slider3 .slide2 .text6, body .faellesslider #slider3 .slide3 .text6, body .faellesslider #slider3 .slide4 .text6, body .faellesslider #slider3 .slide5 .text6, body .faellesslider #slider4 .slide2 .text6, body .faellesslider #slider4 .slide3 .text6, body .faellesslider #slider4 .slide4 .text6, body .faellesslider #slider4 .slide5 .text6, body .faellesslider #slider5 .slide2 .text6, body .faellesslider #slider5 .slide3 .text6, body .faellesslider #slider5 .slide4 .text6, body .faellesslider #slider5 .slide5 .text6 {
     background-color: rgba(255, 255, 255, 0.7);
-    width: 135px;
+    width: 180px;
     height: 70px;
     padding-top: 20px;
     padding-left: 20px;
