@@ -37,7 +37,7 @@ div {
 
 /* Burgermenu. */
 .navi {
-  height: 70%;
+  height: 80%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -75,7 +75,7 @@ div {
       position: absolute;
       right: 3%;
       padding: 0;
-      font-size: 40px;
+      font-size: 50px;
       text-decoration: none;
       color: #293952;
     }
@@ -89,7 +89,8 @@ span {
   float: right;
   margin: -11% 4% 0 0;
   }
-}
+} /* Burgermenu slut. */
+
 
 /* Videobibliotek mobil-version. */
  /* Selve slideshowet */
@@ -102,11 +103,6 @@ span {
   overflow-wrap: break-word;
   background-color: #45C2D1;
   font-family: 'Raleway', sans-serif;
-
-  // h1 {
-  //   color: white;
-  //   font-size: 20px;
-  // }
 
   .overskriftvideoside{
     position: absolute;
@@ -144,7 +140,6 @@ span {
                   overflow: hidden;
                   position: absolute;
                   margin: 40px 2% 0;
-
 
                     /* Styring af billederne i slideshowet */
                     .slides1 {
@@ -221,7 +216,6 @@ span {
         margin: 15px 25px;
         color: black;
         font-family: 'Raleway', sans-serif;
-        //font-size: 20px;
       }
 
           /* Pilen til venstre */
@@ -543,7 +537,6 @@ button {
   }
 
 div {
-  //position: absolute;
 
 a {
   list-style-type: none;
@@ -828,7 +821,8 @@ main{
  margin-left: 5%;
  margin-top: 2%;
 }
-iframe{
+
+iframe {
   width: 90%;
   margin-left: 4%;
   margin-top: 2%;
@@ -1339,11 +1333,8 @@ main{
                  width: 95%;
                  height: 230px;
                  overflow: hidden;
-               //  margin: auto;
-                 //margin-top: 4px;
                  position: absolute;
                  margin: 40px 2.5% 0 2.5%;;
-                 //overflow-x: visible;
 
                    /* Styring af billederne i slideshowet */
                    .slides1 {
@@ -1412,7 +1403,6 @@ main{
      display: inline-flex;
      bottom: 0;
      overflow-wrap: break-word;
-     //background-color: #45C2D1;
 
      .overskriftvideoside{
        position: absolute;
@@ -1448,11 +1438,8 @@ main{
                      width: 95%;
                      height: 230px;
                      overflow: hidden;
-                   //  margin: auto;
-                     //margin-top: 4px;
                      position: absolute;
                      margin: 40px 2.5% 0 2.5%;;
-                     //overflow-x: visible;
 
                        /* Styring af billederne i slideshowet */
                        .slides2, .slides3, .slides4, .slides5 {
@@ -2088,7 +2075,6 @@ footer {
 
         /* Tekstbokse. */
         .tekstbokse {
-          //height: 480px;
           width: 675px;
           margin: auto;
 
@@ -2327,6 +2313,5 @@ footer {
        font-size: 25px;
       }
      }
-
     }//body slut
   } //media screen 1350 px slut

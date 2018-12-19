@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  /* Burgermenu slut. */
   /* Videobibliotek mobil-version. */
   /* Selve slideshowet */
   /* Forside mobil-version. */
@@ -34,7 +35,7 @@ body {
         text-decoration: none;
         color: #293952; }
     body header .navi {
-      height: 70%;
+      height: 80%;
       width: 0;
       position: fixed;
       z-index: 1;
@@ -65,7 +66,7 @@ body {
         position: absolute;
         right: 3%;
         padding: 0;
-        font-size: 40px;
+        font-size: 50px;
         text-decoration: none;
         color: #293952; }
     body header span {
