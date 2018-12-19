@@ -1406,8 +1406,8 @@ body {
     body main .imgkonsultation button {
       width: 200px;
       font-size: 20px;
-      left: 5.5%;
-      bottom: 3%; }
+      left: 5%;
+      bottom: 10%; }
     body main .konsultationinfo {
       width: 860px; }
       body main .konsultationinfo .infotekst {
