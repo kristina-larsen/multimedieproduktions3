@@ -824,21 +824,27 @@ main{
    }//online konsultation slut her
 
 /* Se video mobilversion. */
-.firstvid, .secondvid, .thirdvid {
+ .secondvid, .thirdvid {
  width: 90%;
  margin-left: 5%;
  margin-top: 2%;
+}
+iframe{
+  width: 90%;
+  margin-left: 4%;
+  margin-top: 2%;
+  height: 200px;
 }
 
    .thirdvid {
      padding-bottom: 3%;
 
-     .firstvid {
-       height: 400px;
-     }
+     // .firstvid {
+     //   height: 400px;
+     // }
    }
 
-     h1 {
+     .sevidhl {
        color: black;
        font-family: 'Raleway', sans-serif;
        margin-left: 5%;
@@ -1514,6 +1520,29 @@ main{
          }
        }
 
+       /* Se video 766px. */
+        .secondvid, .thirdvid {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2%;
+       }
+       iframe{
+         width: 90%;
+         margin-left: 5%;
+         margin-top: 2%;
+         height: 350px;
+       }
+
+          .thirdvid {
+            padding-bottom: 3%;
+
+          }
+
+            .sevidhl {
+              color: black;
+              font-family: 'Raleway', sans-serif;
+              margin-left: 5%;
+            }
 
  }//body slut
 }//media screen 766 width slut
@@ -1912,27 +1941,30 @@ div {
     }
   }//online konsultation slut her
 
-/* Se mere desktop. */
+/* Se video desktop. */
 .videosidese {
 margin-left: 5%;
 
-.firstvid {
-  float: left;
+iframe{
   width: 60%;
-  padding-bottom: 3%;
+  margin-left: 5%;
+  margin-top: 2%;
+  height: 350px;
+  float: left;
+  margin-bottom: 20px;
 }
 
 .secondvid, .thirdvid {
-  float: right;
+  float: left;
   width: 20%;
-  margin-right: 10%;
-  margin-top: 3.4%;
+  margin-right: 2%;
+  margin-top: 3%;
 }
 
 h1 {
-  margin-right: 11.5%;
-  width: 20%;
-  float: right;
+  margin-right: 2%;
+  width: 25%;
+  float: left;
   margin-top: 0;
   font-size: 25px;
  }
@@ -2270,6 +2302,37 @@ footer {
          }
        }
      }//online konsultation slut her
+
+     /* Se video desktop. */
+     .videosidese {
+     width: 1250px;
+     margin: auto;
+     margin-top: 3%;
+
+     iframe{
+       width: 770px;
+       margin-left: 5%;
+       margin-top: 2%;
+       height: 425px;
+       float: left;
+       margin-bottom: 25px;
+     }
+
+     .secondvid, .thirdvid {
+       float: left;
+       width: 20%;
+       margin-right: 2%;
+       margin-top: 3%;
+     }
+
+     h1 {
+       margin-right: 2%;
+       width: 25%;
+       float: left;
+       margin-top: 0;
+       font-size: 25px;
+      }
+     }
 
     }//body slut
   } //media screen 1350 px slut
