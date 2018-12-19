@@ -587,8 +587,12 @@ body {
     margin-top: 2%; }
   body .thirdvid {
     padding-bottom: 3%; }
+    body .thirdvid .firstvid {
+      height: 400px; }
   body h1 {
-    color: black; }
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5%; }
   body footer {
     background-color: #2A2A2A;
     height: 125px;
