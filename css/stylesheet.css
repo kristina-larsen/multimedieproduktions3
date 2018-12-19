@@ -879,7 +879,7 @@ body {
         margin-top: 110px;
         text-decoration: none;
         font-size: 60px;
-        font-family: Roboto;
+        font-family: 'Raleway';
         color: black;
         z-index: 10;
         margin-left: 1%; }
@@ -887,7 +887,7 @@ body {
         margin-top: 110px;
         text-decoration: none;
         font-size: 60px;
-        font-family: Roboto;
+        font-family: 'Raleway';
         color: black;
         z-index: 10; }
       body .mestsete #slider1 {
@@ -914,13 +914,13 @@ body {
           /* Selve billederne */ }
           body .mestsete #slider1 .slide1 .text6 {
             background-color: rgba(255, 255, 255, 0.7);
-            width: 135px;
+            width: 180px;
             height: 70px;
             padding-top: 20px;
             padding-left: 20px;
             padding-right: 10px;
             font-size: 20px;
-            font-family: 'Quattrocento Sans', sans-serif;
+            font-family: 'Raleway';
             position: absolute;
             margin-top: -178px;
             color: #293952; }
@@ -947,12 +947,12 @@ body {
       body .faellesslider .overskriftvideoside {
         position: absolute;
         margin: 15px 4%;
-        font-family: 'Montserrat'; }
+        font-family: 'Raleway'; }
       body .faellesslider .control_prev2, body .faellesslider .control_prev3, body .faellesslider .control_prev4, body .faellesslider .control_prev5 {
         margin-top: 110px;
         text-decoration: none;
         font-size: 60px;
-        font-family: Roboto;
+        font-family: 'Raleway';
         color: black;
         z-index: 10;
         margin-left: 1%; }
@@ -960,7 +960,7 @@ body {
         margin-top: 110px;
         text-decoration: none;
         font-size: 60px;
-        font-family: Roboto;
+        font-family: 'Raleway';
         color: black;
         z-index: 10;
         margin-left: 88%; }
