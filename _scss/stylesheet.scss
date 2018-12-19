@@ -103,10 +103,10 @@ span {
   background-color: #45C2D1;
   font-family: 'Raleway', sans-serif;
 
-  h1 {
-    color: white;
-    font-size: 20px;
-  }
+  // h1 {
+  //   color: white;
+  //   font-size: 20px;
+  // }
 
   .overskriftvideoside{
     position: absolute;
@@ -221,7 +221,7 @@ span {
         margin: 15px 25px;
         color: black;
         font-family: 'Raleway', sans-serif;
-        font-size: 20px;
+        //font-size: 20px;
       }
 
           /* Pilen til venstre */
@@ -253,7 +253,6 @@ span {
                       height: 230px;
                       overflow: hidden;
                       position: absolute;
-                      clip: rect(10px, 1000px);
                       margin: 40px 2.5% 0 2.5%;;
 
                         /* Styring af billederne i slideshowet */
@@ -1456,7 +1455,6 @@ main{
                    //  margin: auto;
                      //margin-top: 4px;
                      position: absolute;
-                     clip: rect(10px, 1000px);
                      margin: 40px 2.5% 0 2.5%;;
                      //overflow-x: visible;
 
@@ -2094,7 +2092,7 @@ footer {
 
         /* Tekstbokse. */
         .tekstbokse {
-          height: 480px;
+          //height: 480px;
           width: 675px;
           margin: auto;
 

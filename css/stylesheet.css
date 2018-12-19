@@ -104,10 +104,6 @@ body .mestsete {
   /* Pilen til højre */
   /* Selve slideshowet */
 }
-body .mestsete h1 {
-  color: white;
-  font-size: 20px;
-}
 body .mestsete .overskriftvideoside {
   position: absolute;
   margin: 15px 25px;
@@ -207,7 +203,6 @@ body .faellesslider .overskriftvideoside {
   margin: 15px 25px;
   color: black;
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
 }
 body .faellesslider .control_prev2, body .faellesslider .control_prev3, body .faellesslider .control_prev4, body .faellesslider .control_prev5 {
   margin-top: 110px;
@@ -233,7 +228,6 @@ body .faellesslider #slider2, body .faellesslider #slider3, body .faellesslider 
   height: 230px;
   overflow: hidden;
   position: absolute;
-  clip: rect(10px, 1000px);
   margin: 40px 2.5% 0 2.5%;
   /* Styring af billederne i slideshowet */
   /* Billederne i slideshowet */
@@ -1189,7 +1183,6 @@ body .footervideo {
     height: 230px;
     overflow: hidden;
     position: absolute;
-    clip: rect(10px, 1000px);
     margin: 40px 2.5% 0 2.5%;
     /* Styring af billederne i slideshowet */
     /* Billederne i slideshowet */
@@ -1631,7 +1624,6 @@ body .footervideo {
     padding: 250px 90px 0px 90px;
   }
   body .tekstbokse {
-    height: 480px;
     width: 675px;
     margin: auto;
   }
